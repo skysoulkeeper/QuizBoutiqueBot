@@ -1,0 +1,76 @@
+# configs/config.yml
+
+# Basic Application Settings
+base_settings:
+  env: "prod"                                       # Environment mode (e.g., "dev" for development, "prod" for production)
+  auto_reload_config_enabled: False                 # Enable automatic reloading of the configuration file on changes
+  questions_count: [5, 15, 30, 50, 60, 70, 80, 100] # Number of questions in the pool for the test
+  success_rate: 80                                  # Percentage of correct answers required to pass the test
+  timer_enabled: True                               # Enable or disable a timer for tests
+  timer_limit: [1, 5, 15, 30, 45, 60, 75, 90, 120]  # Timer limits in minutes for tests
+  questions_random_enabled: True                    # Enable or disable random ordering of questions
+
+# Directories Settings
+directories_to_create:
+  - "data/logs"                                     # Directory for storing log files
+  - "data/db"                                       # Directory for storing database files (if database is enabled)
+  - "data/questions"                                # Directory for storing questions
+  - "data/recognition"                              # Directory for storing recognition files
+
+# Logging Settings
+logging:
+  log_framework: "loguru"                           # Logging framework to use ("loguru" or "default" for Python's built-in logger)
+  log_level: "DEBUG"                                # Logging level (e.g., "DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL")
+  log_to_file: False                                # Enable or disable logging to a file
+  log_file_size: "10MB"                             # Maximum size for each log file
+  log_backup_count: 3                               # Number of backup log files to retain
+  log_date_sdt: "EU"                                # Date format for log entries ("EU" for day/month/year, "US" for year/month/day)
+
+# Proxy Settings
+proxy_settings:
+  proxy_enabled: False                              # Enable or disable proxy usage
+  proxy_host: "YOUR_PROXY_IP"                       # Proxy server IP address or hostname
+  proxy_port: 1080                                  # Proxy server port number
+  proxy_protocol: "socks"                           # Proxy protocol (e.g., "http", "https", "socks")
+  proxy_username: "YOUR_PROXY_USERNAME"             # Username for proxy authentication
+  proxy_password: "YOUR_PROXY_PASSWORD"             # Password for proxy authentication
+
+# Database Settings
+database:
+  db_enabled: False                                 # Enable or disable database storage
+  db_source:                                        # Database source path or connection string (if database is enabled)
+
+# Telegram Settings
+telegram:
+  token: 'YOUR_TELEGRAM_BOT_TOKEN'                           # Telegram Bot API token
+  chat_id: 'YOUR_TELEGRAM_CHAT_ID'                           # Telegram chat ID for sending alerts and messages
+  auth_enabled: False                                        # Enable user authentication based on Telegram ID
+  bot_enabled: False                                         # Allow direct bot interaction (without needing a group)
+  language: "en"                                             # Language for Telegram messages (e.g., "en" for English)
+  log_activity: True                                         # Log all user actions (ID, button presses, responses)
+  parse_mode: "HTML"                                         # MARKDOWN or HTML
+  parse_docs_on_start: True                                  # On bot startup, export all found tests in the questions_directory in Word format to JSON
+
+# Telegram Messages
+emoji:
+  settings: "⚙️"  # Emoji for settings
+  help: "❓"      # Emoji for help
+  time: "🕗"      # Emoji for time or interval
+  timer_limit: "⏳"
+  timer: "⏰"
+  question_number: "📁"
+  test: "📋"      # Emoji for test
+  random: "🎲"    # Emoji for random
+  guides: "⚠️"    # Emoji for guides
+  enabled: "🟢"
+  disabled: "🔴"
+  back_button: "⬅️"
+  next_button: "➡️"
+  restart_button: "🔄"
+  failed: "🙁"
+  language: "🌎"
+  language_flags:
+    ru: "🇷🇺"
+    en: "🇺🇸"
+    ua: "🇺🇦"
+    es: "🇪🇸"

@@ -1,0 +1,3808 @@
+[
+    {
+        "question": "U1. Q1. Under federal law, which type of boat must have a capacity plate?",
+        "answers": [
+            "A. single-hull boats less than 20 feet in length",
+            "B. single-operator personal watercraft (PWC)",
+            "C. canoes more than 20 feet in length",
+            "D. sailboats more than 60 feet in length"
+        ],
+        "correct_answer": "A",
+        "explanation": "Federal law requires single-hull boats less than 20 feet in length to have a capacity plate."
+    },
+    {
+        "question": "Q2. What should be included on a float plan?",
+        "answers": [
+            "A. your plans for the water outing",
+            "B. your e-mail address",
+            "C. your life insurance policy number",
+            "D. the onboard location of PFDs"
+        ],
+        "correct_answer": "A",
+        "explanation": "For extended outings on the water, leave a float plan that states where you are going, the detailed route, your planned departure time, and your expected return time."
+    },
+    {
+        "question": "Q3. How full should you fill the fuel tank on a PWC?",
+        "answers": [
+            "A. Leave a little empty space in the tank.",
+            "B. Fill the tank all the way up.",
+            "C. Tip the PWC to top off the fuel tank.",
+            "D. Overfill slightly to avoid any air pocket."
+        ],
+        "correct_answer": "A",
+        "explanation": "Do not tip the PWC in order to fill it all the way up. The tank is designed to leave space for the fuel to expand."
+    },
+    {
+        "question": "Q4. What is good for cleaning your vessel and does not harm lakes or rivers?",
+        "answers": [
+            "A. industrial-strength detergents",
+            "B. ethylene glycol",
+            "C. phosphate products",
+            "D. non-phosphate products"
+        ],
+        "correct_answer": "D",
+        "explanation": "To protect the environment, use only environmentally safe, non-phosphate detergents to remove oil and algae from fiberglass hulls."
+    },
+    {
+        "question": "Q5. You are getting ready to launch your boat. Where should you park to load your equipment and gear?",
+        "answers": [
+            "A. on the boat ramp with your trailer in the water",
+            "B. on the boat ramp with your trailer still out of the water",
+            "C. in front of another boat that is ready to launch",
+            "D. well away from the boat ramp and approach lane"
+        ],
+        "correct_answer": "D",
+        "explanation": "Prepare your boat for launching or for the drive home well away from the ramp."
+    },
+    {
+        "question": "Q6. What is the best way to avoid overloading your boat?",
+        "answers": [
+            "A. Make sure no one on the boat has more than 10 pounds of gear.",
+            "B. Make sure to leave at least 10 inches of freeboard with the boat fully loaded.",
+            "C. Don't exceed the limits listed on the capacity plate.",
+            "D.  Don't take large ice chests on board."
+        ],
+        "correct_answer": "C",
+        "explanation": "You should not exceed either the maximum weight capacity or the maximum number of people stated on your boat's capacity plate."
+    },
+    {
+        "question": "Q7. What should you leave with a friend or relative before a long outing on the water?",
+        "answers": [
+            "A. float plan",
+            "B. boat registration certificate",
+            "C. operator's license",
+            "D. insurance policy"
+        ],
+        "correct_answer": "A",
+        "explanation": "For extended outings on the water, leave a float plan with a relative or friend, or at least a local marina."
+    },
+    {
+        "question": "Q8. When should you check to see that fuel lines, connections, and fuel vents are in good condition?",
+        "answers": [
+            "A. before fueling",
+            "B. while fueling",
+            "C. after fueling and restarting the engine",
+            "D. after pulling away from the dock in your boat"
+        ],
+        "correct_answer": "A",
+        "explanation": "Before beginning to fuel, check to see that fuel lines, connections, and fuel vents are in good condition."
+    },
+    {
+        "question": "Q9. What is the best way to clean the hull of your vessel to protect the environment?",
+        "answers": [
+            "A. Use a light oil to keep it well lubricated.",
+            "B. Use plain water or non-phosphate detergent.",
+            "C. Use an abrasive detergent to remove harmful organisms.",
+            "D. Do not clean the hull unless absolutely necessary."
+        ],
+        "correct_answer": "B",
+        "explanation": "To protect the environment, use only environmentally safe, non-phosphate detergents to remove oil and algae from fiberglass hulls."
+    },
+    {
+        "question": "Q10. What is the problem with using your boat's engine to drive it onto a trailer?",
+        "answers": [
+            "A. You may break the winch cable.",
+            "B. Use plain water or non-phosphate detergent.",
+            "C. The boat's forward motion can disconnect the trailer lights.",
+            "D. The propeller's wash can create a large hole just beyond the ramp."
+        ],
+        "correct_answer": "D",
+        "explanation": "Do not power load your boat. Propeller wash can erode the sediment just beyond the ramp surface, creating a large hole."
+    },
+    {
+        "question": "Q11. What information is usually found on the capacity plate of a powerboat?",
+        "answers": [
+            "A. You may break the winch cable.",
+            "B. minimum horsepower rating",
+            "C. maximum weight and/or number of people the boat can carry safely",
+            "D. load rating of the boat's trailer"
+        ],
+        "correct_answer": "C",
+        "explanation": "The capacity plate indicates the maximum weight capacity and/or the maximum number of people that the boat can carry safely in good weather."
+    },
+    {
+        "question": "Q12. You are getting ready for a short daytime outing on the water. What is the most important information to tell a responsible person?",
+        "answers": [
+            "A. your phone number and address",
+            "B. where you will be boating and when you plan to return",
+            "C. a description of your boat's equipment",
+            "D. layout of your marina and assigned slip number"
+        ],
+        "correct_answer": "B",
+        "explanation": "For shorter daytime outings on the water, at a minimum you should contact a responsible person before you go out and tell him or her where you will be boating and when you plan to return."
+    },
+    {
+        "question": "Q13. What is a good safety precaution when fueling your boat?",
+        "answers": [
+            "A. Sniff for fumes after fueling and before starting the engine.",
+            "B. Run the ventilation system for at least four minutes before fueling.",
+            "C. Keep all windows and doors open during fueling.",
+            "D. Turn on the ventilation system after you pull away from the fuel dock."
+        ],
+        "correct_answer": "A",
+        "explanation": "After fueling and before starting the engine, sniff the bilge and engine compartment for fuel vapors."
+    },
+    {
+        "question": "Q14. Which statement regarding vessel maintenance is true?",
+        "answers": [
+            "A. When storing a vessel for a long time, it is best to keep it in the sun and uncovered.",
+            "B. When cleaning a vessel, use regular household detergents and cleaners.",
+            "C. When replacing electrical parts on a vessel, never use automotive parts.",
+            "D. When preparing your vessel for cold weather, use antifreeze that contains ethylene glycol."
+        ],
+        "correct_answer": "C",
+        "explanation": "Never use automotive electrical parts. Use marine parts only."
+    },
+    {
+        "question": "Q15. How should a trailer's safety chains be attached to the towing vehicle?",
+        "answers": [
+            "A. crisscrossed under the trailer coupler",
+            "B. crisscrossed over the trailer coupler",
+            "C. under the body of the vehicle and attached to the front bumper",
+            "D. over the trailer coupler and attached to the rear tires"
+        ],
+        "correct_answer": "A",
+        "explanation": "Crisscross the safety chains under the trailer's coupler when attaching them to the towing vehicle."
+    },
+    {
+        "question": "Q16. A boat's capacity plate gives the maximum weight and/or number of people the boat can carry safely in certain weather conditions. What are these conditions?",
+        "answers": [
+            "A. rainy weather",
+            "B. weather with winds up to 76 knots",
+            "C. weather with winds up to 154 knots",
+            "D. good weather"
+        ],
+        "correct_answer": "D",
+        "explanation": "The capacity plate indicates the maximum weight capacity and/or the maximum number of people that the boat can carry safely in good weather."
+    },
+    {
+        "question": "Q17. You file a float plan for a weekend trip. Which of these should be included in the plan?",
+        "answers": [
+            "A. your boat's horsepower rating",
+            "B. onboard location of food and cooking utensils",
+            "C. names and addresses of your passengers",
+            "D. chart showing planing speed vs. fuel use"
+        ],
+        "correct_answer": "C",
+        "explanation": "For extended outings on the water, leave a float plan that gives the number of passengers, their names and addresses, and a contact in case of emergency."
+    },
+    {
+        "question": "Q18. You need to refuel your boat. When should you turn on the power ventilation system?",
+        "answers": [
+            "A. after pulling the boat away from the dock",
+            "B. while the fuel tanks are being filled",
+            "C. after fueling and before starting the engine",
+            "D. after you have fueled and then started the engine"
+        ],
+        "correct_answer": "C",
+        "explanation": "After fueling, if your boat is equipped with a power ventilation system (exhaust blower), turn it on for at least four minutes before starting your engine."
+    },
+    {
+        "question": "Q19. What is one part of a regular vessel and engine maintenance program?",
+        "answers": [
+            "A. checking the oil level before every outing",
+            "B. storing the vessel in the sun to keep it dry",
+            "C. using coarse sandpaper on aluminum hulls",
+            "D. cleaning the hull with a phosphate detergent"
+        ],
+        "correct_answer": "A",
+        "explanation": "Check the oil and fluid levels before every outing."
+    },
+    {
+        "question": "Q20. You are retrieving your boat from the water. As a courtesy to others, when should you pull your boat into a launch lane?",
+        "answers": [
+            "A. as soon as the driver of the towing vehicle is dropped on shore",
+            "B. when the driver of the towing vehicle reaches the vehicle",
+            "C. when the driver of the towing vehicle puts the vehicle in gear",
+            "D. when the towing vehicle and trailer reach the boat ramp"
+        ],
+        "correct_answer": "D",
+        "explanation": "When retrieving, do not pull your boat into a launch lane until the towing vehicle is at the ramp. The line is formed by vehicles with trailers, not by boats in the water."
+    },
+    {
+        "question": "Q21. Suppose you have a 19-foot boat. What information will be shown on your boat's capacity plate?",
+        "answers": [
+            "A. maximum weight and/or number of people the boat can carry safely",
+            "B.  maximum gallons of fuel the boat can carry",
+            "C.  minimum weight of people and/or gear needed for stability",
+            "D.  minimum load capacity of a trailer for this boat"
+        ],
+        "correct_answer": "A",
+        "explanation": "The capacity plate indicates the maximum weight capacity and/or the maximum number of people that the boat can carry safely in good weather."
+    },
+    {
+        "question": "Q22. You file a float plan for a weekend trip. Which of these should be included in the plan?",
+        "answers": [
+            "A. registration number, size, and make of your boat",
+            "B. floor plan of your boat's cabin and number of berths",
+            "C. inventory of onboard provisions",
+            "D. location of built-in flotation"
+        ],
+        "correct_answer": "A",
+        "explanation": "For extended outings on the water, leave a float plan that describes the boat, including its registration number, length, make, horsepower, and engine type."
+    },
+    {
+        "question": "Q23.  What should you do before fueling your boat?",
+        "answers": [
+            "A.  Shut off the engine. Open all windows, ports, doors, and other openings.",
+            "B.  Shut off the engine. Close all windows, ports, doors, and other openings.",
+            "C.  Turn on the engine. Open all windows, ports, doors, and other openings.",
+            "D.  Turn on the engine. Close all windows, ports, doors, and other openings."
+        ],
+        "correct_answer": "B",
+        "explanation": "Before beginning to fuel, turn off anything that might cause a spark, and close all windows, ports, doors, and other openings to prevent fumes from entering the boat."
+    },
+    {
+        "question": "Q24. How often should you check the engine oil level?",
+        "answers": [
+            "A. twice each year",
+            "B. once each month",
+            "C. before each outing",
+            "D. before each boating season"
+        ],
+        "correct_answer": "C",
+        "explanation": "Check the oil and fluid levels before every outing."
+    },
+    {
+        "question": "Q25. Where should portable gasoline fuel tanks be filled?",
+        "answers": [
+            "A. in the boat's cabin",
+            "B. in the boat's cockpit",
+            "C. on the dock",
+            "D. on the gunwale"
+        ],
+        "correct_answer": "C",
+        "explanation": "Before beginning to fuel, remove portable fuel tanks from the boat, and fill them on the dock."
+    },
+    {
+        "question": "Q26. You are retrieving your boat from the water. What should you do to prevent a traffic jam on the boat ramp?",
+        "answers": [
+            "A. Block the boat ramp with an unattended vehicle.",
+            "B. Power load your boat onto its trailer instead of using the trailer's winch.",
+            "C. Pull your boat away from the ramp to prepare it for the drive home.",
+            "D. Attach the rear tie-downs and drain the bilge water before you leave the boat ramp."
+        ],
+        "correct_answer": "C",
+        "explanation": "Prepare for the drive home well away from the boat ramp so that you don't block ramp traffic."
+    },
+    {
+        "question": "Q27. What is the important safety information found on a boat's capacity plate?",
+        "answers": [
+            "A. minimum number of PFDs that must be carried on the boat",
+            "B. minimum number of seats that must be available for people on the boat",
+            "C. maximum capacity of the fuel tanks",
+            "D. maximum weight and/or number of people the boat can carry safely"
+        ],
+        "correct_answer": "D",
+        "explanation": "The capacity plate indicates the maximum weight capacity and/or the maximum number of people that the boat can carry safely in good weather."
+    },
+    {
+        "question": "Q28. What should you do with your float plan for a weekend water outing?",
+        "answers": [
+            "A. Mail it to your home address.",
+            "B. Stow it with the boat's registration papers.",
+            "C. Fax it to the nearest U.S. Coast Guard station.",
+            "D. Leave it with a friend or relative."
+        ],
+        "correct_answer": "D",
+        "explanation": "For extended outings on the water, leave a float plan with a relative or friend, or at least a local marina."
+    },
+    {
+        "question": "Q29.  What is the main function of a boat trailer's safety chains?",
+        "answers": [
+            "A.  to support the trailer if the hitch or coupling breaks",
+            "B.  to keep an outboard motor from falling off the boat",
+            "C.  to minimize fishtailing when the tongue weight is too great",
+            "D.  to provide extra pull when hauling the trailer up a steep grade"
+        ],
+        "correct_answer": "A",
+        "explanation": "Two strong safety chains should be crisscrossed to support the trailer's coupler if it becomes disconnected from the towing vehicle. The chains should be strong enough to hold the combined weight of the boat, engine, and trailer."
+    },
+    {
+        "question": "Q30. What is the best way to check for gas fumes after fueling a PWC?",
+        "answers": [
+            "A. Smell for fumes.",
+            "B. Look for gas vapors.",
+            "C. Listen for a hissing sound.",
+            "D. Strike a match."
+        ],
+        "correct_answer": "A",
+        "explanation": "After fueling, open the door of the engine compartment and sniff to check for any evidence of gas fumes."
+    },
+    {
+        "question": "Q31. You are preparing to tow an outboard boat. What should you do to prevent damage to the engine while on the road?",
+        "answers": [
+            "A. Drain the oil from the gear case.",
+            "B. Increase the air pressure in the rear trailer tires.",
+            "C. Lower the engine and secure it.",
+            "D. Raise the engine and secure it."
+        ],
+        "correct_answer": "D",
+        "explanation": "Before leaving home, put the engine or drive unit in the raised position and secure it."
+    },
+    {
+        "question": "Q32. You need to refuel your PWC. When should you check for gas fumes?",
+        "answers": [
+            "A. before fueling",
+            "B. while fueling",
+            "C. after fueling and before starting the engine",
+            "D. after fueling and restarting the engine"
+        ],
+        "correct_answer": "C",
+        "explanation": "After fueling, open the door of the engine compartment and sniff to check for any evidence of gas fumes. Do this before starting the engine."
+    },
+    {
+        "question": "Q33. How can you prevent static sparks while filling your boat's fuel tank?",
+        "answers": [
+            "A. Fill the tank to the brim.",
+            "B. Keep the engine running at idle speed.",
+            "C. Wrap a rag around the fuel spout.",
+            "D. Keep contact between the tank and the fuel spout."
+        ],
+        "correct_answer": "D",
+        "explanation": "While filling the fuel tank, keep the nozzle of the fuel-pump hose in solid contact with the tank opening to prevent producing a static spark."
+    },
+    {
+        "question": "Q34. Where should your passengers be while the boat is tied to the dock for fueling?",
+        "answers": [
+            "A. on the boat wearing a PFD",
+            "B. on the boat securing the gear",
+            "C. seated in the boat",
+            "D. on the dock and away from the boat"
+        ],
+        "correct_answer": "D",
+        "explanation": "Before beginning to fuel, ask all passengers to leave the boat and go onto the dock."
+    },
+    {
+        "question": "Q35. At what point should you open all windows and hatches when fueling?",
+        "answers": [
+            "A. any time is OK",
+            "B. during fueling",
+            "C. after fueling",
+            "D. either before or after fueling"
+        ],
+        "correct_answer": "D",
+        "explanation": "After fueling, open all windows, ports, doors, and other openings."
+    },
+    {
+        "question": "U2. Q36.  How should you approach a dock when the wind or current is pushing you away from the dock?",
+        "answers": [
+            "A. Shut off the engine. Let momentum carry you in.",
+            "B. Approach at a sharp angle (about 40 degrees). Secure the bow line first.",
+            "C. Approach head-on. Secure the stern line first.",
+            "D. Approach at an increased speed. Secure the stern line first."
+        ],
+        "correct_answer": "B",
+        "explanation": "If the wind or current direction is away from the dock, approach the dock slowly at a sharp angle (about 40 degrees). Use reverse to stop when close to the dock, and secure the bow line."
+    },
+    {
+        "question": "Q37. Which side of a boat has a red light at night?",
+        "answers": [
+            "A. port (left)",
+            "B. gunwale",
+            "C. stern",
+            "D. keel"
+        ],
+        "correct_answer": "A",
+        "explanation": "The red sidelight indicates a vessel's port (left) side."
+    },
+    {
+        "question": "Q38. What should you do if you are operating a motorboat that is being overtaken by a sailboat?",
+        "answers": [
+            "A. Slow down to a no-wake speed.",
+            "B. Slow down and turn around.",
+            "C. Maintain present course and speed.",
+            "D. Speed up to prevent being overtaken."
+        ],
+        "correct_answer": "C",
+        "explanation": "The vessel being overtaken is always the stand-on vessel."
+    },
+    {
+        "question": "Q39. You are approaching another boat. Assume that according to the navigation rules, you are the stand-on boat. Which exception to the rules means you must give way?",
+        "answers": [
+            "A.  The other boat is operating at no-wake speed.",
+            "B.  The other boat has difficulty maneuvering.",
+            "C.  The other boat is being used for recreational fishing.",
+            "D.  The other boat is coming up from behind."
+        ],
+        "correct_answer": "B",
+        "explanation": "You must give way to any vessel restricted in its ability to maneuver."
+    },
+    {
+        "question": "Q40. Which of these causes the most collisions?",
+        "answers": [
+            "A.  carrying alcohol on board a vessel",
+            "B.  failing to keep a proper lookout",
+            "C.  jumping the wake of other vessels",
+            "D.  displaying navigation lights incorrectly"
+        ],
+        "correct_answer": "B",
+        "explanation": "Failing to keep a sharp lookout is the most common cause of collisions."
+    },
+    {
+        "question": "Q41. Which operators are required to maintain a proper lookout?",
+        "answers": [
+            "A. those operating commercial vessels",
+            "B. those operating recreational vessels",
+            "C. those operating any type of vessel",
+            "D. those on board vessels at anchor"
+        ],
+        "correct_answer": "C",
+        "explanation": "Every operator must keep a proper lookout, using both sight and hearing, at all times."
+    },
+    {
+        "question": "Q42. What is every vessel operator required to do?",
+        "answers": [
+            "A. Pass both a written and an operating test.",
+            "B. Buy new PFDs before each outing.",
+            "C. Check the wind speed and the water current.",
+            "D. Take all necessary action to avoid a collision."
+        ],
+        "correct_answer": "D",
+        "explanation": "It is the responsibility of every boat or PWC operator to take all necessary action to avoid a collision."
+    },
+    {
+        "question": "Q43. You are operating during a period of restricted visibility. What should you do?",
+        "answers": [
+            "A. Turn your navigation lights on and off several times.",
+            "B. Operate with caution and slow to \"idle speed.\"",
+            "C. Stop immediately and wait for visibility to improve.",
+            "D. Maintain your course and speed if you are the stand-on vessel."
+        ],
+        "correct_answer": "B",
+        "explanation": "Unless a risk of collision does not exist, an operator who hears the fog signal of another vessel ahead, is in a close-quarters situation with another vessel ahead, or detects the presence of another vessel by radar must reduce speed to the minimum at which the vessel can be kept on course. If necessary, the operator should reduce speed to \"idle speed.\""
+    },
+    {
+        "question": "Q44. What determines if a speed is safe for your boat?",
+        "answers": [
+            "A. type of engine",
+            "B. shoreline conditions",
+            "C. visibility conditions",
+            "D. amount of fuel available"
+        ],
+        "correct_answer": "C",
+        "explanation": "Safe speed will vary depending on conditions such as wind, water conditions, navigational hazards, visibility, surrounding vessel traffic density, and the maneuverability of your boat or PWC."
+    },
+    {
+        "question": "Q45. How do you know when you are operating your vessel at a safe speed?",
+        "answers": [
+            "A. No other vessels are passing you.",
+            "B. You are not overtaking any other vessels.",
+            "C. You are going slower than vessels towing skiers.",
+            "D. You have enough time to avoid a collision."
+        ],
+        "correct_answer": "D",
+        "explanation": "Safe speed is the speed that ensures you will have ample time to avoid a collision and can stop within an appropriate distance."
+    },
+    {
+        "question": "Q46.  You are docking your boat. There is no wind or current. What is the best way to dock?",
+        "answers": [
+            "A.  Shut off the engine. Let momentum carry you in. Use oars to stop.",
+            "B.  Speed up, and approach at a sharp angle (40 to 50 degrees).",
+            "C.  Approach the dock slowly at a narrow angle (about 20 degrees).",
+            "D.  Approach the dock head on. Use the anchor to stop."
+        ],
+        "correct_answer": "C",
+        "explanation": "If there is no wind or current, approach the dock slowly at a narrow angle (about 20 degrees)"
+    },
+    {
+        "question": "Q47. You are operating a powerboat at night. You see red, green, and white lights on another boat. What do these lights tell you?",
+        "answers": [
+            "A. A sailboat under sail is crossing your path, but you have the right-of-way.",
+            "B. A power-driven vessel is approaching head-on. Both vessels must give way.",
+            "C. You are the stand-on vessel.",
+            "D. A power-driven vessel is approaching on your starboard (right) side."
+        ],
+        "correct_answer": "B",
+        "explanation": "When you see a red, a green, and a white light, you are approaching another power-driven vessel head-on and both vessels must give way."
+    },
+    {
+        "question": "Q48. A motorboat and a PWC are meeting head-on. Which one is the stand-on vessel?",
+        "answers": [
+            "A. motorboat",
+            "B. PWC",
+            "C. neither",
+            "D. both"
+        ],
+        "correct_answer": "C",
+        "explanation": "When two power-driven vessels are meeting head-on, neither vessel is the stand-on vessel. Both vessels should turn to starboard (the right)."
+    },
+    {
+        "question": "Q49. You encounter another boat. You assess the situation and determine that you are the give-way vessel. What must you do?",
+        "answers": [
+            "A. Speed up and maintain your present course.",
+            "B. Take early and substantial action to keep well away.",
+            "C. Maintain course if your boat is larger.",
+            "D. Speed up to pass if your boat is smaller."
+        ],
+        "correct_answer": "B",
+        "explanation": "The give-way vessel is the vessel that is required to take early and substantial action to keep well away from other vessels by stopping, slowing down, or changing course."
+    },
+    {
+        "question": "Q50. Why should a vessel operator keep a proper lookout?",
+        "answers": [
+            "A. to locate fuel",
+            "B. to avoid collisions",
+            "C. to stay on course",
+            "D. to appreciate nature"
+        ],
+        "correct_answer": "B",
+        "explanation": "Failing to keep a sharp lookout is the most common cause of collisions. Every operator must keep a proper lookout, using both sight and hearing, at all times."
+    },
+    {
+        "question": "Q51. Two boats are operating in the same general area. Who is responsible for maintaining a sharp lookout?",
+        "answers": [
+            "A. the operators of both boats",
+            "B. the operator of the stand-on vessel",
+            "C. the operator of the give-way vessel",
+            "D. the operator of the smaller boat"
+        ],
+        "correct_answer": "A",
+        "explanation": "Every operator must keep a proper lookout, using both sight and hearing, at all times."
+    },
+    {
+        "question": "Q52. Who may depart from the Navigation Rules?",
+        "answers": [
+            "A. anyone who needs to avoid a collision",
+            "B. anyone who needs to overtake another vessel",
+            "C. anyone who is operating at night",
+            "D. anyone who is consuming alcohol"
+        ],
+        "correct_answer": "A",
+        "explanation": "Every operator is responsible for avoiding a collision. In complying with the navigation rules, operators must consider all dangers of navigation, risk of collisions, and any special conditions. These considerations may make a departure from the navigation rules necessary."
+    },
+    {
+        "question": "Q53. Visibility is restricted due to fog. What should the vessel operator do to avoid the risk of a collision?",
+        "answers": [
+            "A. Speed up as much as possible to go around the other vessels.",
+            "B. Reduce speed to the minimum needed to stay on course.",
+            "C. Sound two long blasts with a sound-producing device.",
+            "D. Maintain the same speed until the other vessel is visible."
+        ],
+        "correct_answer": "B",
+        "explanation": "Unless a risk of collision does not exist, an operator who hears the fog signal of another vessel ahead must reduce speed to the minimum at which the vessel can be kept on course."
+    },
+    {
+        "question": "Q54. What should you check to decide if a speed is safe for your boat?",
+        "answers": [
+            "A. operator's age and experience",
+            "B. wind and water conditions",
+            "C. vessel's capacity plate",
+            "D. speed of other vessels"
+        ],
+        "correct_answer": "B",
+        "explanation": "Safe speed will vary depending on conditions such as wind, water conditions, navigational hazards, visibility, surrounding vessel traffic density, and the maneuverability of your boat or PWC."
+    },
+    {
+        "question": "Q55. Which of these would be considered a safe speed?",
+        "answers": [
+            "A. being able to respond quickly in an emergency",
+            "B. being able to stop within an appropriate distance",
+            "C. being able to swerve at the last moment to avoid a collision",
+            "D. being able to leave a wake in high winds and rough waters"
+        ],
+        "correct_answer": "B",
+        "explanation": "Safe speed is the speed that ensures you will have ample time to avoid a collision and can stop within an appropriate distance."
+    },
+    {
+        "question": "Q56. What is the best way to approach a dock when there is strong wind or current?",
+        "answers": [
+            "A. with the wind or current",
+            "B. at a shallow angle to the wind or current",
+            "C. at a right angle to the wind or current",
+            "D. into the wind or current"
+        ],
+        "correct_answer": "D",
+        "explanation": "If possible, make your approach into the wind or current, whichever is stronger."
+    },
+    {
+        "question": "Q57. A powerboat is operating at night. Which color light must show on the starboard (right) side of this boat?",
+        "answers": [
+            "A. blue",
+            "B. green",
+            "C. white",
+            "D. yellow"
+        ],
+        "correct_answer": "B",
+        "explanation": "The green sidelight indicates a vessel's starboard (right) side."
+    },
+    {
+        "question": "Q58. A sailboat under sail is about to cross paths with a PWC. What action should be taken?",
+        "answers": [
+            "A. No action is required.",
+            "B. The sailboat should change course and speed.",
+            "C. The PWC should change course and speed.",
+            "D. The PWC should speed up."
+        ],
+        "correct_answer": "C",
+        "explanation": "When a power-driven vessel and a sailboat are meeting on paths that cross, the power-driven vessel is the give-way vessel."
+    },
+    {
+        "question": "Q59. Two boats are operating near each other. Which is the boat that must maintain its course and speed?",
+        "answers": [
+            "A. the boat with more passengers",
+            "B. the smaller boat",
+            "C. the stand-on vessel",
+            "D. the slower moving boat"
+        ],
+        "correct_answer": "C",
+        "explanation": "The stand-on vessel is the vessel that must maintain its course and speed unless it becomes apparent that the give-way vessel is not taking appropriate action."
+    },
+    {
+        "question": "Q60. What should you do to avoid colliding with another vessel?",
+        "answers": [
+            "A. Keep a proper lookout for other vessels at all times.",
+            "B. Motor through congested areas as quickly as possible.",
+            "C. Maintain your course and speed when overtaking another vessel.",
+            "D. Do not change direction when approaching a vessel crossing your path."
+        ],
+        "correct_answer": "A",
+        "explanation": "Failing to keep a sharp lookout is the most common cause of collisions. Every operator must keep a proper lookout, using both sight and hearing, at all times."
+    },
+    {
+        "question": "Q61. What should a vessel operator do to keep a proper lookout?",
+        "answers": [
+            "A. Listen to the vessel's engine.",
+            "B. Listen to the passengers talking.",
+            "C. Watch for navigational hazards.",
+            "D. Watch for good fishing locations."
+        ],
+        "correct_answer": "C",
+        "explanation": "Every operator must keep a proper lookout. Watch and listen for other vessels, radio communications, navigational hazards, and others involved in water activities."
+    },
+    {
+        "question": "Q62. You are out on the water in foggy?",
+        "answers": [
+            "A. when operating less than 50 feet away from shore",
+            "B. when necessary to avoid immediate danger",
+            "C. in small lakes that do not have navigational aids",
+            "D. in good visibility during the day"
+        ],
+        "correct_answer": "B",
+        "explanation": "In complying with the navigation rules, operators must consider all dangers of navigation, risk of collisions, and any special conditions. These considerations may make a departure from the navigation rules necessary to avoid immediate danger."
+    },
+    {
+        "question": "Q63. You hear the fog signal of another vessel, and a risk of collision exists. What action must you take?",
+        "answers": [
+            "A. Immediately alter your course to starboard.",
+            "B. Immediately alter your course to port.",
+            "C. Reduce to \"idle speed,\" and proceed with caution.",
+            "D. Fire a flare to show others where you are."
+        ],
+        "correct_answer": "C",
+        "explanation": "Unless a risk of collision does not exist, an operator who hears the fog signal of another vessel ahead must reduce speed to the minimum at which the vessel can be kept on course. If necessary, the operator should reduce speed to \"idle speed.\""
+    },
+    {
+        "question": "Q64. Which of these is a factor that determines if a speed is safe for your boat?",
+        "answers": [
+            "A. number of PFDs on board",
+            "B. number of passengers on board",
+            "C. number of passengers on board",
+            "D. hazards in the water"
+        ],
+        "correct_answer": "D",
+        "explanation": "Safe speed will vary depending on conditions such as wind, water conditions, navigational hazards, visibility, surrounding vessel traffic density, and the maneuverability of your boat or PWC."
+    },
+    {
+        "question": "Q65. Which practice reduces the risk of a dangerous boating emergency?",
+        "answers": [
+            "A. maintaining a safe speed based on the boat traffic",
+            "B. crossing in front of other boats in congested areas",
+            "C. operating recklessly around potential hazards",
+            "D. keeping PFDs stored safely in compartments"
+        ],
+        "correct_answer": "A",
+        "explanation": "Collisions can be prevented easily if every vessel operator maintains a safe speed. Safe speed will vary depending on conditions such as surrounding vessel traffic density."
+    },
+    {
+        "question": "Q66. You are operating a powerboat at night. What does it mean when you see only a red and a green light on another boat?",
+        "answers": [
+            "A. A sailing vessel is approaching head-on. You must give way.",
+            "B. A sailing vessel is approaching from the starboard (right) side.",
+            "C. A power-driven vessel is approaching head-on, but you have the right-of-way.",
+            "D. A power-driven vessel is approaching from the port (left) side."
+        ],
+        "correct_answer": "A",
+        "explanation": "When you see a red and a green light but no white light, you are approaching a sailing vessel head-on and you must give way."
+    },
+    {
+        "question": "Q67. A motorboat is approaching a sailboat head-on. What should the motorboat do?",
+        "answers": [
+            "A. Take early action to keep well away from the sailboat.",
+            "B. Shoot a flare, sound one blast on a horn, and turn to port (left).",
+            "C. Speed up to avoid colliding.",
+            "D. Maintain course and speed."
+        ],
+        "correct_answer": "A",
+        "explanation": "When a power-driven vessel and a sailing vessel are meeting head-on, the power-driven vessel is the give-way vessel."
+    },
+    {
+        "question": "Q68. Two boats are operating near each other. One of these boats must take early and substantial action to keep well away from the other boat. Which is the boat that must take action?",
+        "answers": [
+            "A. the stand-on vessel",
+            "B. the give-way vessel",
+            "C. the larger boat",
+            "D. the boat with fewer passengers"
+        ],
+        "correct_answer": "B",
+        "explanation": "The give-way vessel is the vessel that is required to take early and substantial action to keep well away from other vessels by stopping, slowing down, or changing course."
+    },
+    {
+        "question": "Q69. What is your primary responsibility when other boats are in your area?",
+        "answers": [
+            "A. to operate your vessel close to the nearest shore",
+            "B. to sound a whistle or play the radio at all times",
+            "C. to shoot off a flare at regular intervals",
+            "D. to keep a proper lookout and avoid a collision"
+        ],
+        "correct_answer": "D",
+        "explanation": "Failing to keep a sharp lookout is the most common cause of collisions. Every operator must keep a proper lookout, using both sight and hearing, at all times."
+    },
+    {
+        "question": "Q70. Who is required to keep a proper lookout while boating?",
+        "answers": [
+            "A. operator",
+            "B. passenger",
+            "C. skier",
+            "D. child over 10"
+        ],
+        "correct_answer": "A",
+        "explanation": "Every operator must keep a proper lookout, using both sight and hearing, at all times."
+    },
+    {
+        "question": "Q71. Two boats are operating in the same general area. Who is responsible for avoiding a collision?",
+        "answers": [
+            "A. the operators of both boats",
+            "B. the operator of the stand-on vessel",
+            "C. the operator of the faster boat",
+            "D. the operator of the smaller boat"
+        ],
+        "correct_answer": "A",
+        "explanation": "It is the responsibility of every boat or personal watercraft (PWC) operator to take all necessary action to avoid a collision."
+    },
+    {
+        "question": "Q72. You are out on the water in foggy conditions. You hear one prolonged blast every two minutes. What does this sound signal mean?",
+        "answers": [
+            "A. I am a power-driven vessel at anchor.",
+            "B. I am a power-driven vessel underway.",
+            "C. I am an inflatable raft at anchor.",
+            "D. I am an inflatable raft adrift in the water."
+        ],
+        "correct_answer": "B",
+        "explanation": "Sound signals let other boaters know where you are located during periods of restricted visibility, such as extreme fog. One prolonged blast at intervals of not more than two minutes is the signal used by power-driven vessels when underway."
+    },
+    {
+        "question": "Q73. Which of these is a factor when determining the safe speed for a vessel?",
+        "answers": [
+            "A. size of the vessel",
+            "B. direction of travel",
+            "C. traffic density",
+            "D. information on the capacity plate"
+        ],
+        "correct_answer": "C",
+        "explanation": "Safe speed will vary depending on conditions such as wind, water conditions, navigational hazards, visibility, surrounding vessel traffic density, and the maneuverability of your boat or PWC."
+    },
+    {
+        "question": "Q74. How do you know when you are operating your vessel at a safe speed?",
+        "answers": [
+            "A. You are not exceeding the maximum speed limit for the area where you are operating.",
+            "B. You are able to pass other vessels while remaining on course at a constant speed.",
+            "C. You can stop within an appropriate distance to avoid a collision.",
+            "D. You can see hazards and other vessels clearly."
+        ],
+        "correct_answer": "C",
+        "explanation": "Safe speed is the speed that ensures you will have ample time to avoid a collision and can stop within an appropriate distance."
+    },
+    {
+        "question": "Q75.  If the wind or current is pushing your boat away from the dock as you prepare to dock, which line should you secure first?",
+        "answers": [
+            "A.  towing line",
+            "B.  bow line",
+            "C.  starboard (right) line",
+            "D.  port (left) line"
+        ],
+        "correct_answer": "B",
+        "explanation": "If the wind or current direction is away from the dock, approach the dock slowly, use reverse to stop when close to the dock, and secure the bow line."
+    },
+    {
+        "question": "Q76. You are operating a powerboat at night. Your red sidelight must be visible to boats approaching from which direction(s)?",
+        "answers": [
+            "A. head-on only",
+            "B. head-on and both sides",
+            "C. head-on and behind",
+            "D. head-on and port (left)"
+        ],
+        "correct_answer": "D",
+        "explanation": "The red and green lights are called sidelights because they are visible to another vessel approaching from the side or head-on. The red light indicates a vessel's port (left) side."
+    },
+    {
+        "question": "Q77. A powerboat is about to cross paths with a sailboat under sail. What should the powerboat do?",
+        "answers": [
+            "A. Do whatever is necessary to stay clear of the sailboat.",
+            "B. Slowly turn in the opposite direction of the sailboat.",
+            "C. Maintain present course and speed.",
+            "D. Speed up to pass in front of the sailboat."
+        ],
+        "correct_answer": "A",
+        "explanation": "When a power-driven vessel and a sailing vessel are meeting on paths that cross, the power-driven vessel is the give-way vessel. The sailing vessel is the stand-on vessel."
+    },
+    {
+        "question": "Q78. What should the operator of a stand-on vessel do when encountering a give-way vessel?",
+        "answers": [
+            "A. Turn toward the give-way vessel.",
+            "B. Cross in front of the give-way vessel.",
+            "C. Maintain course and speed even if it means the two vessels will collide.",
+            "D. Maintain course and speed unless the give-way vessel does not take action."
+        ],
+        "correct_answer": "D",
+        "explanation": "The stand-on vessel is the vessel that must maintain its course and speed unless it becomes apparent that the give-way vessel is not taking appropriate action."
+    },
+    {
+        "question": "Q79. How does a vessel operator keep a proper lookout?",
+        "answers": [
+            "A. by trusting an observer",
+            "B. by watching and listening",
+            "C. by having a large rearview mirror",
+            "D. by looking through a telescope"
+        ],
+        "correct_answer": "B",
+        "explanation": "Every operator must keep a proper lookout, using both sight and hearing, at all times."
+    },
+    {
+        "question": "Q80. A powerboat is underway in the fog. What sound signal should you hear?",
+        "answers": [
+            "A. one short blast every thirty minutes",
+            "B. seven short blasts every fifteen minutes",
+            "C. one prolonged blast every two minutes",
+            "D. seven prolonged blasts every minute"
+        ],
+        "correct_answer": "C",
+        "explanation": "Sound signals let other boaters know where you are located during periods of restricted visibility, such as extreme fog. One prolonged blast at intervals of not more than two minutes is the signal used by power-driven vessels when underway."
+    },
+    {
+        "question": "Q81. How should you approach a dock when the wind or current is pushing you toward the dock?",
+        "answers": [
+            "A. Approach parallel to the dock and allow the wind or current to push you in.",
+            "B. Shut off the engine, and let momentum carry you head on toward the dock.",
+            "C. Approach as quickly as you can. Then have someone jump to the dock to secure the bow line.",
+            "D. Back in with your bow pointed into the wind or current. Then secure the stern line."
+        ],
+        "correct_answer": "A",
+        "explanation": "If the wind or current direction is toward the dock, approach slowly, parallel to the dock. Let the wind or current carry your boat to the dock."
+    },
+    {
+        "question": "Q82. A sailboat is operating under sail at night. Which of these lights should be used?",
+        "answers": [
+            "A. orange masthead light",
+            "B. blue sternlight",
+            "C. yellow masthead light",
+            "D. white sternlight"
+        ],
+        "correct_answer": "A",
+        "explanation": ""
+    },
+    {
+        "question": "Q83. A PWC is overtaking another vessel. Which vessel must give way?",
+        "answers": [
+            "A. the vessel creating the least wake",
+            "B. the PWC",
+            "C. the slower vessel",
+            "D. the faster vessel"
+        ],
+        "correct_answer": "B",
+        "explanation": "The vessel that is overtaking another vessel is the give-way vessel."
+    },
+    {
+        "question": "Q84. You encounter another boat. You assess the situation and determine that you are the stand-on vessel. What must you do?",
+        "answers": [
+            "A. Turn toward the give-way vessel.",
+            "B. Cross in front of the give-way vessel.",
+            "C. Maintain course and speed, and yell loudly at the other operator.",
+            "D. Maintain course and speed unless the give-way vessel fails to take action."
+        ],
+        "correct_answer": "D",
+        "explanation": ""
+    },
+    {
+        "question": "Q85. You are out on the water in foggy conditions. You hear one prolonged blast plus two short blasts every two minutes. What does this sound signal mean?",
+        "answers": [
+            "A. I am a sailing vessel underway.",
+            "B. I am a sailing vessel at anchor.",
+            "C. I am a PWC towing a skier.",
+            "D. I am a PWC at anchor."
+        ],
+        "correct_answer": "A",
+        "explanation": "Sound signals let other boaters know where you are located during periods of restricted visibility, such as extreme fog. One prolonged blast plus two short blasts at intervals of not more than two minutes is the signal used by sailing vessels."
+    },
+    {
+        "question": "Q86.  When preparing to dock, what is the safest way to stop the forward motion of your boat?",
+        "answers": [
+            "A.  Shift into reverse gear.",
+            "B.  Use your arms and/or legs",
+            "C.  Use the boat's rear brakes.",
+            "D.  Toss a mooring line around a cleat."
+        ],
+        "correct_answer": "A",
+        "explanation": "Reduce speed to the minimum required to maintain steerage. Use reverse gear to bring the boat to a stop well away from the dock."
+    },
+    {
+        "question": "Q87. You are operating a powerboat at night. You see red and white lights on another boat. What should you do?",
+        "answers": [
+            "A. Stop quickly because you are approaching a sailboat.",
+            "B. Give way to the other vessel.",
+            "C. Speed up and turn to port (left).",
+            "D. Speed up and maintain a head-on course."
+        ],
+        "correct_answer": "B",
+        "explanation": "When you see a red and a white light, you must give way to the other vessel!"
+    },
+    {
+        "question": "Q88. One boat is overtaking another. Which boat should stand on?",
+        "answers": [
+            "A. the boat being overtaken",
+            "B. the boat creating the most wake",
+            "C. the faster boat",
+            "D. the larger boat"
+        ],
+        "correct_answer": "A",
+        "explanation": "The vessel being overtaken is always the stand-on vessel."
+    },
+    {
+        "question": "Q89. What should the operator of a give-way vessel do to avoid colliding with a stand-on vessel?",
+        "answers": [
+            "A. Maintain your present course and speed.",
+            "B. Take early and substantial action to stay well clear.",
+            "C. Maintain the present course if the give-way vessel is larger.",
+            "D. Speed up to pass the other vessel if the give-way vessel is smaller."
+        ],
+        "correct_answer": "B",
+        "explanation": "The give-way vessel is the vessel that is required to take early and substantial action to keep well away from other vessels by stopping, slowing down, or changing course."
+    },
+    {
+        "question": "Q90. A sailboat is underway in the fog. What sound signal should you hear?",
+        "answers": [
+            "A. one prolonged blast plus two short blasts every two minutes",
+            "B. one prolonged blast every thirty minutes",
+            "C. two prolonged blasts plus ten short blasts every forty-five minutes",
+            "D. two prolonged blasts every hour"
+        ],
+        "correct_answer": "A",
+        "explanation": "Sound signals let other boaters know where you are located during periods of restricted visibility, such as extreme fog. One prolonged blast plus two short blasts at intervals of not more than two minutes is the signal used by sailing vessels."
+    },
+    {
+        "question": "Q91.  Which side of a boat has a green light at night?",
+        "answers": [
+            "A.  gunwale",
+            "B.  starboard (right)",
+            "C.  stern",
+            "D.  keel"
+        ],
+        "correct_answer": "B",
+        "explanation": "The green sidelight indicates a vessel's starboard (right) side."
+    },
+    {
+        "question": "Q92. A motorboat and a PWC are approaching head-on. What action should be taken?",
+        "answers": [
+            "A. Both vessels should turn to starboard (right).",
+            "B. Both should maintain course until the last moment.",
+            "C. The motorboat and the PWC should speed up until one of them has to turn the last moment.",
+            "D. The PWC should slow down to a no-wake speed and give way to the motorboat."
+        ],
+        "correct_answer": "B",
+        "explanation": "When two power-driven vessels are meeting head-on, both vessels should turn to starboard (the right)."
+    },
+    {
+        "question": "Q93. You are docking your boat. The current is pushing you toward the dock. What is the best way to dock",
+        "answers": [
+            "A. Shut off the engine. Let your momentum carry you in.",
+            "B. Approach at a sharp angle (about 40 degrees).",
+            "C. Approach at a narrow angle (about 20 degrees).",
+            "D. Approach parallel to the dock. Let the current push you in."
+        ],
+        "correct_answer": "D",
+        "explanation": ""
+    },
+    {
+        "question": "Q94. When must navigation lights be displayed?",
+        "answers": [
+            "A. at night when there is a risk of collision with another boat",
+            "B. from sunset to sunrise and when visibility is restricted",
+            "C. only when your boat is adrift at night",
+            "D. only when you are anchored or in fog"
+        ],
+        "correct_answer": "B",
+        "explanation": "Navigation lights must be displayed from sunset to sunrise and during periods of restricted visibility, such as fog."
+    },
+    {
+        "question": "Q95.  What should a sailboat operator do when approaching a PWC head-on?",
+        "answers": [
+            "A.  Slow down and change course.",
+            "B.  Slowly turn away from the PWC.",
+            "C.  Shoot a flare and sound a danger signal on a horn.",
+            "D.  Maintain present course and speed."
+        ],
+        "correct_answer": "A",
+        "explanation": ""
+    },
+    {
+        "question": "Q96.  When boating at night, what does a single white light on a boat tell you?",
+        "answers": [
+            "A.  A sailboat is approaching on your port (left) side.",
+            "B.  A powerboat is approaching on your port (left) side.",
+            "C.  A powerboat is crossing your path, but you have the right of way.",
+            "D.  You are overtaking another boat or it is anchored."
+        ],
+        "correct_answer": "D",
+        "explanation": "When you see only a white light, you are overtaking another vessel or it is anchored."
+    },
+    {
+        "question": "Q97. You are operating a powerboat at night. You see only a green light on another boat. What does this light tell you?",
+        "answers": [
+            "A. You are the stand-on vessel. Maintain your current speed.",
+            "B. You may be approaching a sailboat. You must give way.",
+            "C. A power-driven vessel is approaching head-on, but you have the right of way.",
+            "D. A power-driven vessel is overtaking you."
+        ],
+        "correct_answer": "B",
+        "explanation": "When you see only a green light or only a red light, you may be approaching a sailing vessel and you must give way."
+    },
+    {
+        "question": "Q98. When a sailboat is approaching a powerboat, which one is the give-way vessel?",
+        "answers": [
+            "A. the boat that is slower",
+            "B. powerboat",
+            "C. both boats",
+            "D. neither boat"
+        ],
+        "correct_answer": "B",
+        "explanation": "When a power-driven vessel and a sailboat are meeting on paths that cross, the power-driven vessel is the give-way vessel."
+    },
+    {
+        "question": "Q99.  What color is a boat's sternlight?",
+        "answers": [
+            "A.  orange",
+            "B.  green",
+            "C.  white",
+            "D.  yellow"
+        ],
+        "correct_answer": "C",
+        "explanation": "The sternlight is a white light seen only from behind or nearly behind the vessel."
+    },
+    {
+        "question": "Q100. A motorboat is crossing paths with a PWC. What action should be taken?",
+        "answers": [
+            "A. The motorboat should slow down and let the PWC pass because the PWC is smaller.",
+            "B. The PWC should speed up and attempt to cross in front of the motorboat.",
+            "C. The vessel on the port (left) should give way.",
+            "D. The slower moving vessel should give way."
+        ],
+        "correct_answer": "D",
+        "explanation": ""
+    },
+    {
+        "question": "Q101.  You are operating a powerboat at night. You see green and white lights on another boat. What do these lights tell you?",
+        "answers": [
+            "A.  You are the stand-on vessel but be prepared to give way if necessary.",
+            "B.  A sailboat is approaching head-on, but you have the right of way.",
+            "C.  A power-driven vessel is approaching head-on, but you have the right of way.",
+            "D.  You are the give-way vessel in a head-on situation."
+        ],
+        "correct_answer": "A",
+        "explanation": ""
+    },
+    {
+        "question": "U3. Q102.  Which of these anchors is a good choice for most recreational boats?",
+        "answers": [
+            "A.  fluke-style",
+            "B. clamp-style",
+            "C. galvanized chain",
+            "D. concrete block"
+        ],
+        "correct_answer": "A",
+        "explanation": "The fluke-style anchor (commonly referred to as Danforth) is good for most boats and gets its holding power from its pointed flukes digging into bottom sediments."
+    },
+    {
+        "question": "Q103. What does a red, cone-shaped buoy mark?",
+        "answers": [
+            "A. a safe nighttime mooring area for recreational boats",
+            "B. the edge of a channel on your right side when heading upstream",
+            "C. an obstruction in the center of a channel",
+            "D. shards of broken glass under the water"
+        ],
+        "correct_answer": "B",
+        "explanation": "Nun buoys are cone-shaped buoys that are always marked with red markings and even numbers. They mark the edge of the channel on your starboard (right) side when entering from the open sea or heading upstream."
+    },
+    {
+        "question": "Q104. What colors appear on a mooring buoy?",
+        "answers": [
+            "A. white with a blue band",
+            "B. white with black diagonal stripes",
+            "C. gray with red stripes and a black square",
+            "D. gray with navy blue dots"
+        ],
+        "correct_answer": "A",
+        "explanation": "Mooring buoys are white with a blue horizontal band."
+    },
+    {
+        "question": "Q105. You see a white marker with an orange circle and black lettering. What does this marker tell you?",
+        "answers": [
+            "A. time of day",
+            "B. controlled area",
+            "C. wind speed",
+            "D. polluted water"
+        ],
+        "correct_answer": "B",
+        "explanation": "Controlled area markers (with orange circles) indicate a controlled area such as no wake, idle speed, speed limit, or ski zone."
+    },
+    {
+        "question": "Q106. Which symbol on a regulatory marker is used to mark a swimming area?",
+        "answers": [
+            "A. green square",
+            "B. yellow circle",
+            "C. orange crossed diamond",
+            "D. aqua diamond"
+        ],
+        "correct_answer": "B",
+        "explanation": "Exclusion area markers (with orange crossed diamonds) indicate areas off-limits to all boats such as swimming areas, dams, and spillways."
+    },
+    {
+        "question": "Q107. What is the best way to avoid being run over by your own PWC or motorboat?",
+        "answers": [
+            "A. Wear a USCG-approved PFD.",
+            "B. Use the PWC's self-circling feature.",
+            "C. Swim away from the boat or PWC if you fall overboard.",
+            "D. Wear an engine cut-off switch lanyard."
+        ],
+        "correct_answer": "D",
+        "explanation": "Wearing an engine cut-off switch lanyard prevents you from being run over by your own boat."
+    },
+    {
+        "question": "Q108. What determines the direction a PWC will travel?",
+        "answers": [
+            "A. the direction of the wind",
+            "B. the location of the sun",
+            "C. the stream of water from the jet nozzle",
+            "D. the speed at which the PWC is moving"
+        ],
+        "correct_answer": "C",
+        "explanation": "PWC are propelled by a jet drive where water is drawn into a pump and then forced out under pressure through a steering nozzle at the back of the unit. When the steering control is turned, the steering nozzle turns in the same direction."
+    },
+    {
+        "question": "Q109. What should a PWC operator do to minimize the risk of accident or injury?",
+        "answers": [
+            "A. Be aware of all traffic in the boating area.",
+            "B. Focus only on boats directly ahead.",
+            "C. Focus only on the rearview mirror to check for traffic behind.",
+            "D. Make turns quickly to get away from larger boats."
+        ],
+        "correct_answer": "A",
+        "explanation": "When operating a PWC, be aware of all traffic in your boating area. Don't focus just on the short distance ahead."
+    },
+    {
+        "question": "Q110. A PWC is very responsive to slight turns of the steering control. As a result, what dangerous situation can occur when a quick turn is made at high speed?",
+        "answers": [
+            "A. The passengers can hold on too tightly.",
+            "B. A very sudden stop can be achieved.",
+            "C. The motor can stall, leaving the PWC without power.",
+            "D. The operator and passengers can fall off."
+        ],
+        "correct_answer": "D",
+        "explanation": "At high speeds, a quick turn can make the PWC unstable, causing the operator and passengers to fall off."
+    },
+    {
+        "question": "Q111. Which navigation instrument is useful for steering when land is out of sight?",
+        "answers": [
+            "A. compass",
+            "B. tachometer",
+            "C. marine radio",
+            "D. depth finder"
+        ],
+        "correct_answer": "A",
+        "explanation": "The ability to steer a boat by a compass is useful if land is out of sight, visibility is reduced, or the boat operator is disoriented."
+    },
+    {
+        "question": "Q112.  How does a fluke-style anchor hold a recreational boat in place?",
+        "answers": [
+            "A. by burying into bottom sediments",
+            "B.  by clamping onto rocks",
+            "C. by catching on coral reefs",
+            "D. by wrapping around a post in the water"
+        ],
+        "correct_answer": "A",
+        "explanation": "The fluke-style anchor (commonly referred to as Danforth) is good for most boats and gets its holding power from its pointed flukes digging into bottom sediments."
+    },
+    {
+        "question": "Q113. You return from the open sea. You see a red lighted buoy with the number 6. What should you do?",
+        "answers": [
+            "A. Prepare for a thunderstorm.",
+            "B. Keep the buoy on your starboard (right) side.",
+            "C. Go around the buoy on either side.",
+            "D. Watch for large rocks ahead."
+        ],
+        "correct_answer": "B",
+        "explanation": "Buoys with red colors, red lights, and even numbers mark the edge of the channel on your starboard (right) side as you enter from the open sea or head upstream."
+    },
+    {
+        "question": "Q114. You enter a harbor. You see a buoy with red and white vertical stripes. What should you do?",
+        "answers": [
+            "A. Watch for water-skiers.",
+            "B. Put your engine in reverse.",
+            "C. Go around the buoy on either side.",
+            "D. Stop for gas."
+        ],
+        "correct_answer": "C",
+        "explanation": "Safe water markers are white with red vertical stripes and indicate unobstructed water on all sides. They may be passed on either side."
+    },
+    {
+        "question": "Q115. You see a white marker with an orange diamond and black lettering. What does this marker tell you?",
+        "answers": [
+            "A. no PWC allowed",
+            "B. good fishing area",
+            "C. information or directions",
+            "D. danger or hazard"
+        ],
+        "correct_answer": "C",
+        "explanation": ""
+    },
+    {
+        "question": "Q116. You see a white buoy with an orange crossed diamond and black lettering. What does this marker tell you?",
+        "answers": [
+            "A. keep out",
+            "B. sailboats only",
+            "C. information or directions",
+            "D. wind speed"
+        ],
+        "correct_answer": "A",
+        "explanation": "Exclusion area markers (with orange crossed diamonds) indicate areas off-limits to all boats such as swimming areas, dams, and spillways."
+    },
+    {
+        "question": "Q117. If an operator falls overboard, what can keep him or her from being the victim of a propeller strike?",
+        "answers": [
+            "A. a safety harness",
+            "B. a loud whistle",
+            "C. a bulletproof PFD",
+            "D. an engine cut-off switch lanyard"
+        ],
+        "correct_answer": "D",
+        "explanation": "Wearing an engine cut-off switch lanyard reduces the risk of a propeller injury."
+    },
+    {
+        "question": "Q118. What is the main function of an engine cut-off switch?",
+        "answers": [
+            "A. to shut off the engine if the operator is thrown overboard",
+            "B. to shut off the engine when the boat or PWC is beached",
+            "C. to prevent use of the boat or PWC without the owner's permission",
+            "D. to prevent theft of the boat or PWC"
+        ],
+        "correct_answer": "A",
+        "explanation": "An emergency engine cut-off switch can shut off the engine if the operator falls off the PWC or out of the powerboat, or is otherwise thrown from the proper operating position."
+    },
+    {
+        "question": "Q119. What is the most important thing to remember about steering a PWC?",
+        "answers": [
+            "A. You must stand up to turn a PWC.",
+            "B. You use both hands and both feet to turn a PWC.",
+            "C. You must exert considerable effort to turn a PWC around.",
+            "D. You lose all steering control when the engine is idling or shut off."
+        ],
+        "correct_answer": "D",
+        "explanation": "If you allow the engine on a PWC or other jet-propelled vessel to return to idle or shut off during operation, you may lose all steering control."
+    },
+    {
+        "question": "Q120. Which action is safe for a PWC?",
+        "answers": [
+            "A. riding closely behind another PWC",
+            "B. seating two people behind the operator on a PWC rated for three",
+            "C. cleaning debris from the pump intake with the engine running",
+            "D. towing a skier behind a PWC rated for two, with two people on board"
+        ],
+        "correct_answer": "B",
+        "explanation": "Any passenger on a PWC should be able to securely hold on to the person in front of them or to the handholds, while keeping both feet firmly on the footrests. Never exceed the manufacturer's recommended capacity for your PWC."
+    },
+    {
+        "question": "Q121. When boating on coastal waters, it is important to be aware of the tides. What can tides cause?",
+        "answers": [
+            "A. hurricanes",
+            "B. tsunamis",
+            "C. strong currents",
+            "D. falling barometer"
+        ],
+        "correct_answer": "C",
+        "explanation": "The rise and fall of tides can cause water levels to fluctuate by several feet and also can generate strong currents."
+    },
+    {
+        "question": "Q122.  Where should you avoid anchoring?",
+        "answers": [
+            "A.  in calm water",
+            "B. in a lake",
+            "C. near a launching ramp",
+            "D. within 200 feet of shore"
+        ],
+        "correct_answer": "C",
+        "explanation": "You should never anchor in, or otherwise obstruct passage through, channels or areas such as launching ramps or any other high-traffic areas."
+    },
+    {
+        "question": "Q123. You are traveling upstream on a river at dusk. You see a buoy with the number 5 and a flashing green light. What should you do?",
+        "answers": [
+            "A. Keep the buoy on your port (left) side.",
+            "B. Head for shore immediately.",
+            "C. Go around the buoy on either side.",
+            "D. Wave an orange distress flag."
+        ],
+        "correct_answer": "A",
+        "explanation": "Buoys with green colors, green lights, and odd numbers mark the edge of the channel on your port (left) side as you enter from the open sea or head upstream."
+    },
+    {
+        "question": "Q124. What color is a marker that indicates safe water on all sides?",
+        "answers": [
+            "A. black with white dots",
+            "B. blue with yellow triangles",
+            "C. white with red vertical stripes",
+            "D. gray with black diagonal stripes"
+        ],
+        "correct_answer": "C",
+        "explanation": ""
+    },
+    {
+        "question": "Q125. Which symbol on a regulatory marker is used to warn of a rock or other underwater hazard?",
+        "answers": [
+            "A. green square",
+            "B. orange diamond",
+            "C. aqua circle",
+            "D. yellow crossed diamond"
+        ],
+        "correct_answer": "B",
+        "explanation": "Danger area markers (with orange diamonds) warn of dangers such as rocks, shoals, construction, dams, or stumps."
+    },
+    {
+        "question": "Q126. You see a white buoy with an orange crossed diamond. What should you do?",
+        "answers": [
+            "A. Use the marker as a mooring buoy if you wish to tie up.",
+            "B. Prepare for bad weather.",
+            "C. Follow directions to food or other services.",
+            "D. Keep out of the marked area."
+        ],
+        "correct_answer": "D",
+        "explanation": "Exclusion area markers (with orange crossed diamonds) indicate areas off-limits to all boats such as swimming areas, dams, and spillways."
+    },
+    {
+        "question": "Q127. What piece of equipment on a boat is most important in preventing propeller strike injuries?",
+        "answers": [
+            "A. steering wheel",
+            "B. engine cut-off switch lanyard",
+            "C. auto-pilot device",
+            "D. USCG-approved PFD"
+        ],
+        "correct_answer": "B",
+        "explanation": "Wearing an engine cut-off switch lanyard prevents you from being run over by your own boat and reduces the risk of a propeller injury."
+    },
+    {
+        "question": "Q128. What is the best way to reboard a PWC in the water?",
+        "answers": [
+            "A. from the front of the PWC over the bow",
+            "B. pull it to shore with a rope and then jump on board",
+            "C. climb onto a larger boat and then jump on board",
+            "D. from the rear of the PWC over the stern"
+        ],
+        "correct_answer": "D",
+        "explanation": "After a fall, you should reboard your PWC from the rear of the craft."
+    },
+    {
+        "question": "Q129. Which operation on a PWC requires more than idle speed?",
+        "answers": [
+            "A. refueling",
+            "B. avoiding erosion",
+            "C. stopping",
+            "D. steering control"
+        ],
+        "correct_answer": "D",
+        "explanation": "The most important thing to remember about steering most PWC (and other jet-drive vessels) is that you always must have power in order to maintain control. If you allow the engine on a PWC or other jet-propelled vessel to return to idle or shut off during operation, you may lose all steering control."
+    },
+    {
+        "question": "Q130. The motor on a PWC is running. Which part of the PWC can cause severe internal injuries?",
+        "answers": [
+            "A. safety lanyard",
+            "B. fuel tank",
+            "C. steering nozzle",
+            "D. engine cut-off switch"
+        ],
+        "correct_answer": "C",
+        "explanation": "The jet of water exiting the steering nozzle at the rear of the PWC can cause severe internal injuries."
+    },
+    {
+        "question": "Q131. What information would be included on a nautical chart of a harbor?",
+        "answers": [
+            "A. channel locations",
+            "B. street names",
+            "C. harbor businesses",
+            "D. current velocity"
+        ],
+        "correct_answer": "A",
+        "explanation": "Charts contain important information, such as water depths and the locations of channels, sand bars, rocks, and vegetation."
+    },
+    {
+        "question": "Q132.  Which type of anchor has little holding power?",
+        "answers": [
+            "A. fluke-style",
+            "B. mushroom-style",
+            "C. plow-style",
+            "D. permanent mooring"
+        ],
+        "correct_answer": "B",
+        "explanation": "The mushroom anchor should not be used to anchor boats larger than a small canoe, rowboat, small sailboat, or inflatable boat because the holding power is weak."
+    },
+    {
+        "question": "Q133. What do lateral markers indicate?",
+        "answers": [
+            "A. good fishing areas",
+            "B. areas where anchors are required",
+            "C. the edges of safe water areas",
+            "D. areas closed to PWC"
+        ],
+        "correct_answer": "C",
+        "explanation": "Lateral marker navigation aids mark the edges of safe water areas."
+    },
+    {
+        "question": "Q134. You see a white marker with red vertical stripes. What type of marker is this?",
+        "answers": [
+            "A. polluted water marker",
+            "B. safe water marker",
+            "C. low bridge marker",
+            "D. information marker"
+        ],
+        "correct_answer": "B",
+        "explanation": "Safe water markers are white with red vertical stripes and indicate unobstructed water on all sides."
+    },
+    {
+        "question": "Q135. Which symbol on a regulatory marker indicates hazards such as rocks or stumps?",
+        "answers": [
+            "A. green square",
+            "B. yellow crossed diamond",
+            "C. aqua circle",
+            "D. orange diamond"
+        ],
+        "correct_answer": "D",
+        "explanation": "Danger area markers (with orange diamonds) warn of dangers such as rocks, shoals, construction, dams, or stumps."
+    },
+    {
+        "question": "Q136. You see a white marker with an orange crossed diamond and black lettering. What does this marker tell you?",
+        "answers": [
+            "A. mooring area",
+            "B. keep out",
+            "C. PWC only",
+            "D. good fishing area"
+        ],
+        "correct_answer": "B",
+        "explanation": "Exclusion area markers (with orange crossed diamonds) indicate areas off-limits to all boats such as swimming areas, dams, and spillways."
+    },
+    {
+        "question": "Q137. How can propeller strike accidents be avoided?",
+        "answers": [
+            "A. Put the engine in gear while passengers are swimming.",
+            "B. Turn on the engine when passengers are boarding.",
+            "C. Turn off the engine when passengers are boarding.",
+            "D. Have children watch out for each other."
+        ],
+        "correct_answer": "C",
+        "explanation": "To prevent propeller strikes, turn off the engine when passengers are boarding or disembarking."
+    },
+    {
+        "question": "Q138. You are operating a PWC. Which boating laws and regulations must you obey?",
+        "answers": [
+            "A. laws that apply to all boats, plus those specific to a PWC",
+            "B. laws that apply to sailboats, canoes, kayaks, and rafts",
+            "C. state and local laws only",
+            "D. federal laws only"
+        ],
+        "correct_answer": "A",
+        "explanation": "Do not forget that in addition to obeying all boating laws, the PWC operator must adhere to laws specific to personal watercraft."
+    },
+    {
+        "question": "Q139. You are operating a PWC. What will happen if you shut off the engine?",
+        "answers": [
+            "A. The PWC will not stop until it runs out of gas.",
+            "B. The PWC will lose all buoyancy and turn over.",
+            "C. You will go in reverse.",
+            "D. You will keep going in the same direction with no steering control."
+        ],
+        "correct_answer": "D",
+        "explanation": "Many PWC will continue in the direction they were headed before the throttle was released or the engine was shut off, no matter which way the steering control is turned."
+    },
+    {
+        "question": "Q140. What is the risk when a PWC passes too closely behind another boat?",
+        "answers": [
+            "A. The PWC may be sucked into the other boat's engine.",
+            "B. The wake from the PWC can make a larger boat capsize.",
+            "C. The PWC may catch fire.",
+            "D. The other boat may create a blind spot for the PWC operator."
+        ],
+        "correct_answer": "D",
+        "explanation": "PWC operators need to beware of passing too closely behind another boat. The boat will block your view of oncoming boats, as well as the oncoming boat's view of the PWC."
+    },
+    {
+        "question": "Q141. What information would you find on a nautical chart of a harbor?",
+        "answers": [
+            "A. restaurant locations",
+            "B. street names",
+            "C. property tax rate",
+            "D. water depth"
+        ],
+        "correct_answer": "D",
+        "explanation": "Charts contain important information, such as water depths and the locations of channels, sand bars, rocks, and vegetation."
+    },
+    {
+        "question": "Q142.  Which type of anchor should be used only for small, lightweight boats?",
+        "answers": [
+            "A. mushroom-style",
+            "B. plow-style",
+            "C. block-style",
+            "D. clamp-style"
+        ],
+        "correct_answer": "A",
+        "explanation": "The mushroom anchor should not be used to anchor boats larger than a small canoe, rowboat, small sailboat, or inflatable boat because the holding power is weak."
+    },
+    {
+        "question": "Q143. You see a buoy with both red and green bands. What does this buoy mark?",
+        "answers": [
+            "A. the junction of two channels",
+            "B. a low-water dam",
+            "C. the edge of a no-fishing area",
+            "D. the edge of a safe mooring area"
+        ],
+        "correct_answer": "A",
+        "explanation": "Buoys with red and green colors and/or lights are placed at the junction of two channels to indicate the preferred (primary) channel when a channel splits."
+    },
+    {
+        "question": "Q144. You see a white buoy with an orange square and black lettering. What does this buoy tell you?",
+        "answers": [
+            "A. keep out",
+            "B. which fish are biting",
+            "C. information or directions",
+            "D. time of day"
+        ],
+        "correct_answer": "C",
+        "explanation": ""
+    },
+    {
+        "question": "Q145. What symbol on a regulatory marker is used to mark a no-wake or idle speed area?",
+        "answers": [
+            "A. yellow crossed diamond",
+            "B. aqua diamond",
+            "C. orange circle",
+            "D. green square"
+        ],
+        "correct_answer": "C",
+        "explanation": ""
+    },
+    {
+        "question": "Q146. When is it difficult to reboard a PWC?",
+        "answers": [
+            "A. when you are very tired",
+            "B. when the water is calm",
+            "C. when the wind is light",
+            "D. when others are watching"
+        ],
+        "correct_answer": "A",
+        "explanation": ""
+    },
+    {
+        "question": "Q147. What happens when a PWC's steering control is turned to the right?",
+        "answers": [
+            "A. The back of the PWC is pushed to the right, and the PWC turns left.",
+            "B. The back of the PWC is pushed to the left, and the PWC turns right.",
+            "C. The stern of the PWC is pushed down.",
+            "D. The bow of the PWC is pushed up."
+        ],
+        "correct_answer": "B",
+        "explanation": ""
+    },
+    {
+        "question": "Q148. Which part of a PWC is dangerous to your hands, feet, and hair?",
+        "answers": [
+            "A. drive shaft",
+            "B. engine cut-off switch",
+            "C. pump intake area",
+            "D. rudder control"
+        ],
+        "correct_answer": "C",
+        "explanation": ""
+    },
+    {
+        "question": "Q149. What is the best way to find out about hazards on a local waterway?",
+        "answers": [
+            "A. Consult a topographical map.",
+            "B. Consult a nautical chart.",
+            "C. Ask someone who when there last year.",
+            "D. Ask your insurance agent for accident statistics."
+        ],
+        "correct_answer": "B",
+        "explanation": ""
+    },
+    {
+        "question": "Q150.  From which part of the boat should you lower the anchor line?",
+        "answers": [
+            "A. stern",
+            "B. side",
+            "C. bow",
+            "D. transom"
+        ],
+        "correct_answer": "C",
+        "explanation": "Lower the anchor over the bow to the bottom. Never anchor from the stern as this can cause the boat to swamp."
+    },
+    {
+        "question": "Q151. You return from the open sea. You see a green lighted buoy with the number 3. What should you do?",
+        "answers": [
+            "A. Watch for thunderstorms.",
+            "B. Go around the buoy on either side.",
+            "C. Contact a marina security guard.",
+            "D. Keep the buoy on your port (left) side."
+        ],
+        "correct_answer": "D",
+        "explanation": "Buoys with green colors, green lights, and odd numbers mark the edge of the channel on your port (left) side as you enter from the open sea or head upstream."
+    },
+    {
+        "question": "Q152. You see a white buoy with a blue band. What type of buoy is this?",
+        "answers": [
+            "A. fishing area buoy",
+            "B. mooring buoy",
+            "C. lateral marker",
+            "D. regulatory marker"
+        ],
+        "correct_answer": "B",
+        "explanation": "Mooring buoys are white with a blue horizontal band."
+    },
+    {
+        "question": "Q153. You see a white buoy with orange bands and an orange diamond. What should you do?",
+        "answers": [
+            "A. Use the marker as a mooring buoy if you wish to tie up.",
+            "B. Watch out for dangers such as rocks or stumps.",
+            "C. Follow directions to food or other services.",
+            "D. Stay at least 700 feet away from it."
+        ],
+        "correct_answer": "B",
+        "explanation": "Danger area markers (with orange diamonds) warn of dangers such as rocks, shoals, construction, dams, or stumps."
+    },
+    {
+        "question": "Q154. Where is the steering nozzle located on a PWC?",
+        "answers": [
+            "A. below the draft",
+            "B. inside the gas tank",
+            "C. at the bow",
+            "D. at the back of the unit"
+        ],
+        "correct_answer": "D",
+        "explanation": "PWC are propelled by a jet drive where water is drawn into a pump and then forced out under pressure through a steering nozzle at the back of the unit."
+    },
+    {
+        "question": "Q155. What is needed for steering control on a PWC?",
+        "answers": [
+            "A. an outboard motor",
+            "B. an adjustable propeller",
+            "C. a passenger in front of the operator",
+            "D. power to the jet drive"
+        ],
+        "correct_answer": "D",
+        "explanation": "The most important thing to remember about steering most PWC (and other jet-drive vessels) is that you always must have power in order to maintain control."
+    },
+    {
+        "question": "Q156. You are operating a PWC. What is most likely to create a blind spot that blocks other boats from seeing you?",
+        "answers": [
+            "A. operating well offshore",
+            "B. having a passenger on a PWC rated for two people",
+            "C. passing too closely behind another boat",
+            "D. operating at slow speed near shore"
+        ],
+        "correct_answer": "C",
+        "explanation": "PWC operators need to beware of passing too closely behind another boat. The boat will block your view of oncoming boats, as well as the oncoming boat's view of the PWC."
+    },
+    {
+        "question": "Q157. When boating on coastal waters, it is important to be aware of the tides. Why?",
+        "answers": [
+            "A. High tide is a warning sign that your boat could capsize.",
+            "B. Low tide is a warning sign of bad weather.",
+            "C. Tides cause electrical storms and hurricanes.",
+            "D. Tides cause water levels to rise and fall."
+        ],
+        "correct_answer": "D",
+        "explanation": "The rise and fall of tides can cause water levels to fluctuate by several feet and also can generate strong currents."
+    },
+    {
+        "question": "Q158.  How do most anchors hold a recreational boat in place?",
+        "answers": [
+            "A. by being heavy enough not to drag in a normal wind",
+            "B. by the weight of the anchor and chain",
+            "C. by digging into the bottom when pulled horizontally",
+            "D. by clamping onto a rock or other object"
+        ],
+        "correct_answer": "C",
+        "explanation": "Most anchors grip by digging into the bottom when the line is pulled horizontally. Any upward pull may break the anchor loose."
+    },
+    {
+        "question": "Q159. You are traveling upstream on a river at dusk. You see a buoy with the number 4 and a flashing red light. What should you do?",
+        "answers": [
+            "A. Call the U.S. Coast Guard.",
+            "B. Keep the buoy on your starboard (right) side.",
+            "C. Go around the buoy on either side.",
+            "D. Stop for dinner."
+        ],
+        "correct_answer": "B",
+        "explanation": "Buoys with red colors, red lights, and even numbers mark the edge of the channel on your starboard (right) side as you enter from the open sea or head upstream."
+    },
+    {
+        "question": "Q160. One type of marker is used to warn boaters not to pass between the marker and the shore. What color is this marker?",
+        "answers": [
+            "A. white with black vertical stripes",
+            "B. white with blue vertical stripes",
+            "C. black, gray, and white diagonal stripes",
+            "D. green, orange, and yellow diagonal stripes"
+        ],
+        "correct_answer": "A",
+        "explanation": "Inland waters obstruction markers are white with black vertical stripes and indicate an obstruction to navigation. You should not pass between these buoys and the nearest shore."
+    },
+    {
+        "question": "Q161. A PWC capsizes. What is the best way to roll the PWC to turn it upright?",
+        "answers": [
+            "A. Roll the PWC in direction of the sun.",
+            "B. Roll the PWC to head north.",
+            "C. Roll the PWC to head south.",
+            "D. Roll the PWC according to the decal on the craft."
+        ],
+        "correct_answer": "D",
+        "explanation": "Most manufacturers have placed a decal at the rear or bottom of the craft that indicates the direction to roll your PWC to return it to an upright position."
+    },
+    {
+        "question": "Q162. You are operating a PWC. You are heading straight toward a dock. You turn the engine off and then turn the steering control hard right. Which way will the PWC go?",
+        "answers": [
+            "A. It will continue straight toward the dock.",
+            "B. It will turn sharply to the left.",
+            "C. It will turn sharply to the right.",
+            "D. It will go backward."
+        ],
+        "correct_answer": "A",
+        "explanation": "Many PWC will continue in the direction they were headed before the throttle was released or the engine was shut off, no matter which way the steering control is turned."
+    },
+    {
+        "question": "Q163. What is true about changing water levels?",
+        "answers": [
+            "A. Water levels always change drastically with the phases of the moon.",
+            "B. Tides and storms are the only two things that cause water levels to change.",
+            "C. Changing water levels are not a concern for boaters.",
+            "D. Changing water levels can cause special hazards for boaters."
+        ],
+        "correct_answer": "D",
+        "explanation": "Fluctuating water levels can cause special hazards for boaters."
+    },
+    {
+        "question": "Q164.  You are getting ready to retrieve your anchor. Where should you position your boat?",
+        "answers": [
+            "A. as far away from the anchor as possible",
+            "B. directly over the anchor",
+            "C. within 10 feet of shore",
+            "D. within 50 feet of shore"
+        ],
+        "correct_answer": "B",
+        "explanation": "Move the boat directly over the anchor while pulling in the line. Pulling the anchor straight up should break it free."
+    },
+    {
+        "question": "Q165. How are nun buoys marked?",
+        "answers": [
+            "A. yellow with prime numbers",
+            "B. red with even numbers",
+            "C. gray with Roman numerals",
+            "D. green without any numbers"
+        ],
+        "correct_answer": "B",
+        "explanation": "Nun buoys are cone-shaped buoys that are always marked with red markings and even numbers."
+    },
+    {
+        "question": "Q166. You see a white buoy with orange markings and black lettering. What type of buoy is this?",
+        "answers": [
+            "A. mooring buoy",
+            "B. weather warning marker",
+            "C. wind speed indicator",
+            "D. regulatory marker"
+        ],
+        "correct_answer": "D",
+        "explanation": "The most common non-lateral markers are regulatory markers that are white and use orange markings and black lettering."
+    },
+    {
+        "question": "Q167. What is the purpose of a lanyard attached to an engine cut-off switch?",
+        "answers": [
+            "A. to activate the boat's self-circling feature if the operator falls overboard",
+            "B. to prevent the boat from starting for at least five minutes after fueling",
+            "C. to shut off the engine if there is a spark in the compartment",
+            "D. to shut off the engine if the operator falls overboard"
+        ],
+        "correct_answer": "D",
+        "explanation": "A lanyard connects the engine cut-off switch to the operator's wrist or PFD. When the lanyard is pulled from the switch, the engine shuts off."
+    },
+    {
+        "question": "Q168. Which of these is most likely to create a boating hazard around river bridges?",
+        "answers": [
+            "A. boats slowing as they approach the bridge",
+            "B. cars crossing the bridge",
+            "C. debris collecting around pilings",
+            "D. bridges remaining stationary through wind and waves"
+        ],
+        "correct_answer": "C",
+        "explanation": "Debris can collect around pilings of bridges and create dangerous obstructions."
+    },
+    {
+        "question": "Q169.  What is the major danger of anchoring a fishing boat from the stern?",
+        "answers": [
+            "A. The boat will float with the current.",
+            "B. The boat may swamp.",
+            "C. The anchor will not hold.",
+            "D. The anchor will be difficult to retrieve."
+        ],
+        "correct_answer": "B",
+        "explanation": ""
+    },
+    {
+        "question": "Q170. How are can buoys marked?",
+        "answers": [
+            "A. green with odd numbers",
+            "B. beige with brown numbers",
+            "C. gray with Roman numerals",
+            "D. green without any numbers"
+        ],
+        "correct_answer": "A",
+        "explanation": ""
+    },
+    {
+        "question": "Q171. What color are safe water markers?",
+        "answers": [
+            "A. red with green dots",
+            "B. blue and white checkerboard",
+            "C. white with red vertical stripes",
+            "D. white with black diagonal stripes"
+        ],
+        "correct_answer": "C",
+        "explanation": "Safe water markers are white with red vertical stripes and indicate unobstructed water on all sides."
+    },
+    {
+        "question": "Q172.  How long should your anchor line be?",
+        "answers": [
+            "A. 3 inches less than the length of the boat",
+            "B. 3 inches more than the length of the boat",
+            "C. 10 to 20 times the depth of the water",
+            "D. 7 to 10 times the depth of the water"
+        ],
+        "correct_answer": "D",
+        "explanation": "A good rule of thumb is that the length of the line should be at least 7 to 10 times the depth of the water where you are setting anchor."
+    },
+    {
+        "question": "Q173. You are traveling upstream on a river. You see a green square daymark. What should you do?",
+        "answers": [
+            "A. Slow down to no-wake speed.",
+            "B. Keep the marker on your port (left) side.",
+            "C. Wave a skier-down flag.",
+            "D. Go around the marker on either side."
+        ],
+        "correct_answer": "B",
+        "explanation": "Common daymarks are red triangles (equivalent to nuns) and green squares (equivalent to cans). Green colors, green lights, and odd numbers mark the edge of the channel on your port (left) side when entering from the open sea or heading upstream."
+    },
+    {
+        "question": "Q174. You see a white marker with black vertical stripes. What should you do?",
+        "answers": [
+            "A. Do not pass between the marker and the shore.",
+            "B. Keep the marker on your port (left) side.",
+            "C. Use the marker as a mooring buoy if you wish to tie up.",
+            "D. Prepare for bad weather."
+        ],
+        "correct_answer": "A",
+        "explanation": "Inland waters obstruction markers are white with black vertical stripes and indicate an obstruction to navigation. You should not pass between these buoys and the nearest shore."
+    },
+    {
+        "question": "Q175.  What is the best way to retrieve an anchor?",
+        "answers": [
+            "A. Pull the anchor straight up.",
+            "B. Pull the rope from the stern.",
+            "C. Drive the boat quickly toward shore, and pull on the anchor line as you go.",
+            "D. Drive the boat quickly away from shore, and pull on the anchor line as you go."
+        ],
+        "correct_answer": "A",
+        "explanation": "Move the boat directly over the anchor while pulling in the line. Pulling the anchor straight up should break it free."
+    },
+    {
+        "question": "Q176. What does a green, can-shaped buoy mark?",
+        "answers": [
+            "A. a dangerous mooring area for recreational boats",
+            "B. the best waterfront restaurant in the area",
+            "C. the edge of a channel on your left side when heading upstream",
+            "D. the center of an unobstructed channel"
+        ],
+        "correct_answer": "C",
+        "explanation": "Can buoys are cylindrical-shaped buoys that are always marked with green markings and odd numbers. They mark the edge of the channel on your port (left) side when entering from the open sea or heading upstream."
+    },
+    {
+        "question": "Q177.  You see a red buoy. What should you do?",
+        "answers": [
+            "A. Keep it on your right when heading upstream.",
+            "B. Keep it in sight as long as possible.",
+            "C. Watch for large rocks ahead.",
+            "D. Ignore it."
+        ],
+        "correct_answer": "A",
+        "explanation": "Red markers with even numbers mark the edge of the channel on your starboard (right) side as you enter from the open sea or head upstream."
+    },
+    {
+        "question": "Q178.  You see a green buoy. What should you do?",
+        "answers": [
+            "A.  Prepare for a thunderstorm.",
+            "B.  Wave an orange distress flag.",
+            "C.  Keep it on your left when heading upstream.",
+            "D.  Stay at least 500 feet away from it."
+        ],
+        "correct_answer": "C",
+        "explanation": "Green markers with odd numbers mark the edge of the channel on your port (left) side as you enter from the open sea or head upstream."
+    },
+    {
+        "question": "Q179.  You return from the open sea. You see a red nun buoy. What should you do?",
+        "answers": [
+            "A.  Keep the buoy on your starboard (right) side.",
+            "B. Go around the buoy on either side.",
+            "C. Wave an orange distress flag.",
+            "D. Prepare for a thunderstorm."
+        ],
+        "correct_answer": "A",
+        "explanation": "Nun buoys are cone-shaped buoys that are always marked with red markings and even numbers. They mark the edge of the channel on your starboard (right) side when entering from the open sea or heading upstream."
+    },
+    {
+        "question": "Q180.  You are traveling upstream on a river. You see a red triangular daymark. What should you do?",
+        "answers": [
+            "A. Keep the marker on your starboard (right) side.",
+            "B. Stop and write your name on the marker.",
+            "C. Go around the marker on either side.",
+            "D. Ignore the marker."
+        ],
+        "correct_answer": "A",
+        "explanation": "Common daymarks are red triangles (equivalent to nuns) and green squares (equivalent to cans). Red colors, red lights, and even numbers mark the edge of the channel on your starboard (right) side when entering from the open sea or heading upstream."
+    },
+    {
+        "question": "Q181. You return from the open sea. You see a green can buoy. What should you do?",
+        "answers": [
+            "A. Keep the buoy on your port (left) side.",
+            "B. Go around the buoy on either side.",
+            "C. Call the U.S. Coast Guard.",
+            "D. Slow down to no-wake speed."
+        ],
+        "correct_answer": "A",
+        "explanation": "Can buoys are cylindrical-shaped buoys that are always marked with green markings and odd numbers. They mark the edge of the channel on your port (left) side when entering from the open sea or heading upstream."
+    },
+    {
+        "question": "U4. Q182. Where is the best place to store a fire extinguisher on a boat?",
+        "answers": [
+            "A. in a readily accessible location",
+            "B. in a box near the engine",
+            "C. in a locked storage compartment",
+            "D. in a locker with the dock lines and other gear"
+        ],
+        "correct_answer": "A",
+        "explanation": "When required by the USCG, fire extinguishers must be on board a vessel and readily accessible, where they can be easily reached"
+    },
+    {
+        "question": "Q183. What minimum distance must be maintained from a U.S. Naval vessel?",
+        "answers": [
+            "A. 100 yards",
+            "B. 500 yards",
+            "C. 2,000 yards",
+            "D. 5,000 yards"
+        ],
+        "correct_answer": "A",
+        "explanation": "Do not approach within 100 yards of any U.S. Naval vessel"
+    },
+    {
+        "question": "Q184. Which PFDs would be considered readily accessible?",
+        "answers": [
+            "A. PFDs located within easy reach of everyone on board",
+            "B. PFDs kept in locked cabinets",
+            "C. PFDs sealed in their original plastic bags",
+            "D. PFDs stored under the anchor"
+        ],
+        "correct_answer": "A",
+        "explanation": "Readily accessible means you must be able to put the PFD on in a reasonable amount of time in an emergency. PFDs should not be stowed in plastic bags or in locked or closed compartments, and they should not have other gear stowed on top of them"
+    },
+    {
+        "question": "Q185. Which U.S. Coast Guard-approved equipment is required for all vessels?",
+        "answers": [
+            "A. skier-down flags",
+            "B. personal flotation devices",
+            "C. flashlight with a white light",
+            "D. emergency paddle"
+        ],
+        "correct_answer": "B",
+        "explanation": "All vessels must be equipped with U.S. Coast Guard-approved personal flotation devices (PFDs)."
+    },
+    {
+        "question": "Q186. When is the best time to wear a PFD?",
+        "answers": [
+            "A. between sunset and sunrise",
+            "B. after you fall overboard",
+            "C. in rough water",
+            "D. at all times"
+        ],
+        "correct_answer": "D",
+        "explanation": "Be a smart boater, and have everyone on board your vessel wear their PFDs at all times"
+    },
+    {
+        "question": "Q187. To meet the requirement for the number of VDSs on board, what must be true about pyrotechnic VDSs?",
+        "answers": [
+            "A. must be non-combustible",
+            "B. must be visible in bright sunlight",
+            "C. must be unexpired",
+            "D. must be pistol-launched"
+        ],
+        "correct_answer": "C",
+        "explanation": "Expired VDSs may be carried on board, but a minimum of three unexpired VDSs must be carried in the vessel."
+    },
+    {
+        "question": "Q188. What is the first action required of a boat operator who is involved in a boating accident?",
+        "answers": [
+            "A. to provide assistance",
+            "B. to keep out of the way",
+            "C. to write an incident report",
+            "D. to wait for rescue personnel"
+        ],
+        "correct_answer": "A",
+        "explanation": "An operator involved in a boating accident must stop his or her vessel immediately at the scene of the accident and assist anyone injured or in danger from the accident, unless doing so would seriously endanger his or her own vessel or passengers"
+    },
+    {
+        "question": "Q189. What must be displayed on both sides of the bow of a registered vessel?",
+        "answers": [
+            "A. vessel capacity plate",
+            "B. boating safety course certificate",
+            "C. registration number",
+            "D. proof of insurance"
+        ],
+        "correct_answer": "C",
+        "explanation": "The registration number must be painted, applied as a decal, or otherwise affixed to both sides of the bow."
+    },
+    {
+        "question": "Q190. Which statement about the non-tidal boat license is true?",
+        "answers": [
+            "A. A non-tidal boat license is required for vessels powered by a motor less than 1 horsepower.",
+            "B. A non-tidal boat license is required only if you are boating on waters where the tide does not change.",
+            "C. A non-tidal boat license is a substitute for the New Jersey Boat Safety Certificate.",
+            "D. A non-tidal boat license is obtained through the New Jersey State Police."
+        ],
+        "correct_answer": "B",
+        "explanation": "A non-tidal boat license is required only if you are boating on waters where the tide does not change"
+    },
+    {
+        "question": "Q191. Which of the following best describes \"slow speed/no wake\" on New Jersey waters?",
+        "answers": [
+            "A. a speed that is too slow to maintain headway",
+            "B. a speed that still creates a large wake",
+            "C. the speed at which a power vessel does not damage other vessels while maintaining maximum headway and produces the largest wake possible",
+            "D. the speed at which a power vessel moves through the water maintaining minimum headway and produces the minimum wake possible"
+        ],
+        "correct_answer": "D",
+        "explanation": "\"Slow speed/no wake\" is the speed at which a power vessel moves through the water maintaining minimum headway and produces the minimum wake possible."
+    },
+    {
+        "question": "Q192. In New Jersey, at what blood or breath alcohol concentration is a person considered operating under the influence?",
+        "answers": [
+            "A. 0.08% or more",
+            "B. 0.04% or more",
+            "C. 0.02% or more",
+            "D. 0.01% or more"
+        ],
+        "correct_answer": "A",
+        "explanation": "New Jersey law states that a person is considered to be operating a vessel under the influence of alcohol or drugs if he or she has a blood or breath alcohol concentration (BAC) of 0.08% or more"
+    },
+    {
+        "question": "Q193. In addition to the required wearable PFDs, what other equipment must be on board all vessels 16 feet or longer (except for canoes and kayaks)?",
+        "answers": [
+            "A. Red Cross-approved first-aid kit",
+            "B. USCG-approved throwable Type IV device",
+            "C. kitchen facilities",
+            "D. flashing blue light"
+        ],
+        "correct_answer": "B",
+        "explanation": "In addition to the requirement for wearable PFDs, all vessels 16 feet or longer, except canoes and kayaks, must carry one USCG-approved throwable Type IV device"
+    },
+    {
+        "question": "Q194. You are operating a PWC above \"minimum headway speed.\" What is the minimum distance that must be maintained from a person in the water?",
+        "answers": [
+            "A. 100 feet",
+            "B. 75 feet",
+            "C. 50 feet",
+            "D. 10 feet"
+        ],
+        "correct_answer": "A",
+        "explanation": "A PWC may not be operated above \"minimum headway speed\" within 100 feet of a person in the water."
+    },
+    {
+        "question": "Q195. Which action is legal when towing a person on water skis?",
+        "answers": [
+            "A. colliding with a person in the water",
+            "B. using proper lighting after sunset",
+            "C. being towed behind a PWC with an observer on shore watching the skier",
+            "D. being towed behind a PWC with an operator and an observer on board"
+        ],
+        "correct_answer": "D",
+        "explanation": "When a vessel is towing a person on water skis, a surfboard, or similar device, the operator must have a competent person on board to act as an observer"
+    },
+    {
+        "question": "Q196. When are you required to report an accident immediately to the New Jersey State Police, Marine Services Bureau?",
+        "answers": [
+            "A. A person has a small scratch.",
+            "B. A person disappears or dies.",
+            "C. Property damage is $1,000.",
+            "D. Property damage is $500."
+        ],
+        "correct_answer": "B",
+        "explanation": "Both operators are required to file a full description of the accident with the New Jersey State Police, Marine Services Bureau station in the area where the accident occurred if the accident involves (a) death or disappearance of a person, (b) injury to a person, or (c) property damage of more than $2,000. A boating accident that results in the death or disappearance of a person must be reported immediately"
+    },
+    {
+        "question": "Q197.  What do the symbols on a fire extinguisher indicate?",
+        "answers": [
+            "A.  minimum charge level",
+            "B.  recommended frequency of inspections",
+            "C.  number of times the extinguisher can be used",
+            "D.  size and type of fire the extinguisher can put out"
+        ],
+        "correct_answer": "D",
+        "explanation": "Extinguishers are classified by a number and letter symbol. The number tells you how much of a fire the extinguisher can put out, and the letter tells you the type of fire it will extinguish."
+    },
+    {
+        "question": "Q198. Whom should you contact if you see suspicious activities on the waterways?",
+        "answers": [
+            "A. your parents",
+            "B. your boat dealer",
+            "C. NASA",
+            "D. U.S. Coast Guard"
+        ],
+        "correct_answer": "D",
+        "explanation": "Report all activities that seem suspicious to the local authorities, the U.S. Coast Guard, or the port or marina security."
+    },
+    {
+        "question": "Q199. Where is the best place to put PFDs while you are out on your boat?",
+        "answers": [
+            "A. in a locked, watertight compartment",
+            "B. in their original plastic bags",
+            "C. in a locker under the dock lines and other gear",
+            "D. in an open bin near the passenger seats"
+        ],
+        "correct_answer": "D",
+        "explanation": "Each PFD must be readily accessible. PFDs should not be stowed in plastic bags or in locked or closed compartments, and they should not have other gear stowed on top of them."
+    },
+    {
+        "question": "Q200. What is the main advantage of a Type IV PFD?",
+        "answers": [
+            "A. It is designed to be thrown to someone in trouble.",
+            "B. It is very comfortable to wear.",
+            "C. It has a lot of pockets.",
+            "D. It provides good protection from cold water."
+        ],
+        "correct_answer": "A",
+        "explanation": "Type IV PFDs are throwable devices. These cushions and ring buoys are designed to be thrown to someone in trouble."
+    },
+    {
+        "question": "Q201. What is the best way to minimize the risk of drowning while boating?",
+        "answers": [
+            "A. Put on your PFD after you fall into the water.",
+            "B. Have everyone wear an appropriate PFD at all times",
+            "C. Allow on board only those persons who pass a swim test.",
+            "D. Make sure you have a lifeguard on board your vessel."
+        ],
+        "correct_answer": "B",
+        "explanation": "Vessel operators should ask everyone on their vessel to wear a PFD whenever on the water. PFDs can save lives, but only if they are worn!"
+    },
+    {
+        "question": "Q202. If you use pyrotechnic visual distress signals, how many unexpired VDSs must you carry on board your vessel?",
+        "answers": [
+            "A. none",
+            "B. one",
+            "C. two",
+            "D. three"
+        ],
+        "correct_answer": "D",
+        "explanation": "A minimum of three unexpired VDSs must be carried in the vessel."
+    },
+    {
+        "question": "Q203. If you are involved in a boating accident, what is the first thing you must do?",
+        "answers": [
+            "A. Look for a law enforcement officer or other help.",
+            "B. Stop and make a thorough assessment of all property damage.",
+            "C. Stop and render aid to other persons affected by the accident.",
+            "D. Set off flares or other visual distress signals."
+        ],
+        "correct_answer": "C",
+        "explanation": "An operator involved in a boating accident must stop his or her vessel immediately at the scene of the accident and assist anyone injured or in danger from the accident, unless doing so would seriously endanger his or her own vessel or passengers."
+    },
+    {
+        "question": "Q204. Which vessel is required to be registered to operate on New Jersey waters?",
+        "answers": [
+            "A. 12-foot fishing boat with no motor",
+            "B. 14-foot sailboat with an outboard motor",
+            "C. racing shell",
+            "D. non-powered kayak"
+        ],
+        "correct_answer": "B",
+        "explanation": "In New Jersey, all titled vessels must be registered. In addition, any vessel that is mechanically propelled, regardless of length, must be registered. Recreational vessels that are exempt from registration include (a) non-powered vessels 12 feet or less in length; (b) a non-powered, inflatable vessel; a surfboard; a racing shell; or a tender used for no other purpose than direct transportation between a vessel and the shore; (c) a non-powered kayak or canoe; (d) a non-powered sailboat or vessel used exclusively on small lakes and ponds wholly within private lands; and (e) vessels properly registered in another state or documented vessels from another state that operate on New Jersey waters on a transient basis."
+    },
+    {
+        "question": "Q205. What is the minimum age for a person to operate a PWC legally on New Jersey waters?",
+        "answers": [
+            "A. 12 years old",
+            "B. 13 years old",
+            "C. 16 years old",
+            "D. 18 years old"
+        ],
+        "correct_answer": "C",
+        "explanation": "To operate a personal watercraft (PWC) on New Jersey waters, the following requirements apply: (a) If under the age of 16, you may not operate a PWC. (b) If 16 years old or older, you must have successfully completed an approved boating safety course and must carry your New Jersey Boat Safety Certificate on board."
+    },
+    {
+        "question": "Q206. Which is legal operation of a vessel on New Jersey waters?",
+        "answers": [
+            "A. allowing passengers to ride on the seat backs of a vessel while underway",
+            "B. loading the vessel beyond the recommended limit on the capacity plate",
+            "C. operating your boat outside of prohibited areas",
+            "D. jumping the wake of a boat towing a skier"
+        ],
+        "correct_answer": "C",
+        "explanation": "In New Jersey, it is illegal to operate a vessel within any area marked off or set aside as a prohibited area."
+    },
+    {
+        "question": "Q207. If convicted of operating under the influence (OUI) with a BAC of 0.08% but less than 0.10%, for how long can you lose your vehicle driver's license?",
+        "answers": [
+            "A. 3 months",
+            "B. 7 months",
+            "C. 12 months",
+            "D. 18 months"
+        ],
+        "correct_answer": "A",
+        "explanation": "If the person had a BAC of 0.08% or more but less than 0.10%, the person may receive a fine of up to $400, loss of boating privileges for a year, and loss of their vehicle driver's license for three months."
+    },
+    {
+        "question": "Q208. By law, a person of what age must wear a USCG-approved PFD at all times on the open deck of a vessel that is underway?",
+        "answers": [
+            "A. 12 years of age or younger",
+            "B. 17 years of age or younger",
+            "C. 22 years of age or younger",
+            "D. 27 years of age or younger"
+        ],
+        "correct_answer": "A",
+        "explanation": "All children 12 years of age or younger must wear a PFD whenever they are on a vessel that is underway unless they are in a fully enclosed, non-removable cabin."
+    },
+    {
+        "question": "Q209. Which action would be legal for PWC?",
+        "answers": [
+            "A. operating during periods of restricted visibility",
+            "B. becoming airborne within 100 feet of another vessel",
+            "C. attaching the lanyard of an engine cut-off safety switch to the operator",
+            "D. jumping the wake of another vessel within 100 feet of that vessel"
+        ],
+        "correct_answer": "C",
+        "explanation": "If the PWC is equipped with a lanyard-type engine cut-off switch, the lanyard must be attached to the person, clothing, or PFD of the operator."
+    },
+    {
+        "question": "Q210. You are towing a person on water skis with a PWC and have an observer on board. How many people must the PWC be designed to carry?",
+        "answers": [
+            "A. one",
+            "B. two",
+            "C. three",
+            "D. four"
+        ],
+        "correct_answer": "C",
+        "explanation": "A PWC operator may not tow a person on water skis or other devices unless the PWC is designed and recommended by the manufacturer to accommodate at least three people."
+    },
+    {
+        "question": "Q211. Which accident involving property damage requires the operator to file a full description of the accident with the New Jersey State Police, Marine Services Bureau station in the area?",
+        "answers": [
+            "A. Total damage is in excess of $2,000.",
+            "B. Total damage is in excess of $1,000.",
+            "C. Total damage is in excess of $500.",
+            "D. Total damage is in excess of $250."
+        ],
+        "correct_answer": "A",
+        "explanation": "Both operators are required to file a full description of the accident with the New Jersey State Police, Marine Services Bureau station in the area where the accident occurred if the accident involves (a) death or disappearance of a person, (b) injury to a person, or (c) property damage of more than $2,000. A boating accident that results in the death or disappearance of a person must be reported immediately. All other boating accidents that result in personal injury or more than $2,000 in property damage must be reported within 10 days."
+    },
+    {
+        "question": "Q212.  All fire extinguishers are labeled with a letter and a number. What does the number indicate?",
+        "answers": [
+            "A.  how much of a fire the extinguisher can put out",
+            "B.  how often a person should inspect the extinguisher before each use",
+            "C.  the minimum age of the person allowed to use the extinguisher",
+            "D.  the number of times the extinguisher can be used"
+        ],
+        "correct_answer": "A",
+        "explanation": "The number tells you how much of a fire the extinguisher can put out, and the letter tells you the type of fire it will extinguish."
+    },
+    {
+        "question": "Q213. Which of these boating activities violates homeland security restrictions?",
+        "answers": [
+            "A. avoiding commercial port areas with military facilities",
+            "B. anchoring beneath a bridge or in a channel",
+            "C. operating your vessel without an approved fire extinguisher",
+            "D. operating at minimum speed when 500 yards from a U.S. Naval vessel"
+        ],
+        "correct_answer": "B",
+        "explanation": "Do not stop or anchor beneath bridges or in the channel."
+    },
+    {
+        "question": "Q214. Which of the following should be considered when selecting the right PFD for a passenger?",
+        "answers": [
+            "A. location of the passenger in the vessel",
+            "B. location of the PFD in the vessel",
+            "C. size of the passenger",
+            "D. experience of the passenger"
+        ],
+        "correct_answer": "C",
+        "explanation": "Each PFD must be the proper size for the intended wearer."
+    },
+    {
+        "question": "Q215. You are boating in rough waters. If you have an emergency, rescue may take a while. Which type of PFD is recommended?",
+        "answers": [
+            "A. inflatable raft",
+            "B. water wings",
+            "C. ring buoy",
+            "D. offshore life jacket"
+        ],
+        "correct_answer": "D",
+        "explanation": "The offshore life jacket is a Type I PFD. These vests are geared for rough or remote waters where rescue may take a while."
+    },
+    {
+        "question": "Q216.  What determines how many wearable PFDs are required on board a vessel?",
+        "answers": [
+            "A.   number of people on board",
+            "B.  number of seats on the vessel",
+            "C.  ages of the people on board",
+            "D.  width of the vessel"
+        ],
+        "correct_answer": "A",
+        "explanation": "All vessels must be equipped with U.S. Coast Guard-approved personal flotation devices (PFDs). The quantity and type depend on the length of your vessel and the number of people on board and/or being towed."
+    },
+    {
+        "question": "Q217.  Which practice is legal when towing a person on water skis or any similar device?",
+        "answers": [
+            "A.  towing a skier with a PWC that accommodates only two people",
+            "B.  towing a skier with a tow rope that is less than 35 feet in length",
+            "C.  towing a skier 100 feet from a person in the water",
+            "D.  towing a skier from sunrise to sunset"
+        ],
+        "correct_answer": "D",
+        "explanation": "Vessel operators may tow a person between sunrise and sunset."
+    },
+    {
+        "question": "Q218. Which of the following is a non-pyrotechnic VDS that is approved for use during the day?",
+        "answers": [
+            "A. orange smoke",
+            "B. distress flag",
+            "C. parachute flare",
+            "D. electric light"
+        ],
+        "correct_answer": "B",
+        "explanation": "The distress flag is a non-pyrotechnic VDS. It is a day signal only."
+    },
+    {
+        "question": "Q219. When is a boat operator required to assist anyone injured in an accident?",
+        "answers": [
+            "A. if it is safe to do so",
+            "B. when they ask for help",
+            "C. at night only",
+            "D. in all circumstances"
+        ],
+        "correct_answer": "A",
+        "explanation": "An operator involved in a boating accident must assist anyone injured or in danger from the accident, unless doing so would seriously endanger his or her own vessel or passengers."
+    },
+    {
+        "question": "Q220. What must be on board and available for inspection by enforcement officers whenever a registered vessel is operated?",
+        "answers": [
+            "A. vessel capacity plate",
+            "B. proof of liability insurance",
+            "C. New Jersey trailer license",
+            "D. Certificate of Number"
+        ],
+        "correct_answer": "D",
+        "explanation": "The Certificate of Number (registration card) must be on board and available for inspection by an enforcement officer whenever the vessel is operated."
+    },
+    {
+        "question": "Q221. What must persons 13 to less than 16 years old have on board to legally operate a motorized vessel powered by less than 10 horsepower?",
+        "answers": [
+            "A. USCG-approved throwable Type IV device",
+            "B. proof of boating safety course completion",
+            "C. vessel capacity plate",
+            "D. CPR certification"
+        ],
+        "correct_answer": "B",
+        "explanation": "If 13 to less than 16 years old, you may operate only the following motorized vessels on New Jersey waters and only if you have successfully completed an approved boating safety course and carry your New Jersey Boat Safety Certificate on board (a) vessels powered by an electric motor and (b) vessels 12 feet long or longer with less than 10 horsepower."
+    },
+    {
+        "question": "Q222. In New Jersey, when may passengers legally ride on the bow or gunwale?",
+        "answers": [
+            "A. Passenger are allowed to ride on the bow or gunwale before putting on PFDs.",
+            "B. Passenger are allowed to ride on the bow or gunwale after the vessel is moving.",
+            "C. Passengers are never allowed to ride on the bow or gunwale",
+            "D. Passengers are always allowed to ride on the bow or gunwale."
+        ],
+        "correct_answer": "C",
+        "explanation": "In New Jersey, it is illegal to allow passengers to ride in any position that would unduly endanger life or limb (for example, on the bow, gunwales, tops of seat backs, or any other position where the person may be in grave danger of falling overboard)."
+    },
+    {
+        "question": "Q223. By operating a vessel on New Jersey waters, to which of the following have you consented?",
+        "answers": [
+            "A. alcohol and/or drug test",
+            "B. PFD examination",
+            "C. boating navigation quiz",
+            "D. fire extinguisher testing"
+        ],
+        "correct_answer": "A",
+        "explanation": "By boating on New Jersey waters, vessel operators have given consent (\"implied consent\") to an alcohol and/or drug test."
+    },
+    {
+        "question": "Q224. Which safety practice is required for children under 12 years of age or younger on the open deck of any vessel that is underway?",
+        "answers": [
+            "A. They must be able to perform CPR.",
+            "B. They must be securely tethered to the railing.",
+            "C. They must know how to swim well.",
+            "D. They must wear a USCG-approved PFD."
+        ],
+        "correct_answer": "D",
+        "explanation": "All children 12 years of age or younger must wear a PFD whenever they are on a vessel that is underway unless they are in a fully enclosed, non-removable cabin."
+    },
+    {
+        "question": "Q225. What is the maximum speed a PWC may be operated while within 100 feet of a shoreline?",
+        "answers": [
+            "A. \"slow speed\"",
+            "B. \"minimum headway speed\"",
+            "C. 10 mph",
+            "D. 15 mph"
+        ],
+        "correct_answer": "B",
+        "explanation": "A PWC may not be operated above \"minimum headway speed\" within 100 feet of a shoreline."
+    },
+    {
+        "question": "Q226.  Which of these actions is a homeland security violation?",
+        "answers": [
+            "A.  avoiding restricted areas such as dams",
+            "B.  avoiding port areas with cruise line facilities",
+            "C.  operating your boat in the main area of a lake",
+            "D.  approaching within 100 yards of a U.S. Naval vessel"
+        ],
+        "correct_answer": "D",
+        "explanation": ""
+    },
+    {
+        "question": "Q227. What is most important when selecting the right type of PFD for a passenger?",
+        "answers": [
+            "A. number of people on board",
+            "B. color of the PFD",
+            "C. passenger's experience",
+            "D. passenger's size"
+        ],
+        "correct_answer": "D",
+        "explanation": ""
+    },
+    {
+        "question": "Q228. Which PFD is designed to be thrown to someone in the water?",
+        "answers": [
+            "A. air mattress",
+            "B. near-shore vest",
+            "C. ski belt",
+            "D. ring buoy"
+        ],
+        "correct_answer": "D",
+        "explanation": ""
+    },
+    {
+        "question": "Q229. Which of the following visual distress signals is approved for use at night",
+        "answers": [
+            "A. orange smoke",
+            "B. red flare",
+            "C. distress flag",
+            "D. signaling mirror"
+        ],
+        "correct_answer": "B",
+        "explanation": ""
+    },
+    {
+        "question": "Q230. What is the minimum age to legally operate any motorized vessel other than PWC on New Jersey waters?",
+        "answers": [
+            "A. 12 years old",
+            "B. 13 years old",
+            "C. 16 years old",
+            "D. 18 years old"
+        ],
+        "correct_answer": "B",
+        "explanation": "Persons under the age of 13 may not operate any motorized vessel (other than PWC) on New Jersey waters. If 13 to less than 16 years old, you may operate only the following motorized vessels on New Jersey waters and only if you have successfully completed an approved boating safety course and carry your New Jersey Boat Safety Certificate on board (a) vessels powered by an electric motor and (b) vessels 12 feet long or longer with less than 10 horsepower."
+    },
+    {
+        "question": "Q231. What is the fastest legal speed you may operate your vessel when passing within 200 feet of a dock or marina?",
+        "answers": [
+            "A. \"slow speed/no wake\"",
+            "B. \"moderate wake speed\"",
+            "C. 10 mph",
+            "D. 15 mph"
+        ],
+        "correct_answer": "A",
+        "explanation": "It is illegal to operate at more than \"slow speed/no wake\" when within 200 feet of a marina, pier, dock or wharf."
+    },
+    {
+        "question": "Q232.  PFDs on a boat must be readily accessible. Which storage method best meets this requirement?",
+        "answers": [
+            "A.  PFDs are stored in a locked, watertight compartment at the bow.",
+            "B.  PFDs are sealed in their original plastic bags.",
+            "C.  PFDs are kept where they can be grabbed quickly by anyone on board.",
+            "D.  PFDs are secured in a locker with the dock lines and other gear."
+        ],
+        "correct_answer": "C",
+        "explanation": "Readily accessible means you must be able to put the PFD on in a reasonable amount of time in an emergency. PFDs should not be stowed in plastic bags or in locked or closed compartments, and they should not have other gear stowed on top of them."
+    },
+    {
+        "question": "Q233. Which type of PFD will turn most unconscious people face up in the water?",
+        "answers": [
+            "A. Type I",
+            "B. Type XII",
+            "C. Type G",
+            "D. Type S"
+        ],
+        "correct_answer": "A",
+        "explanation": "Type I PFDs will turn most unconscious persons face up in the water."
+    },
+    {
+        "question": "Q234. U5.  What is one of the first symptoms of hypothermia?",
+        "answers": [
+            "A.  sweating",
+            "B. shivering",
+            "C.  increased sensitivity in fingertips",
+            "D. dryness in the mouth"
+        ],
+        "correct_answer": "B",
+        "explanation": "The symptoms of hypothermia begin with shivering, slurred speech, and blurred vision."
+    },
+    {
+        "question": "Q235. To minimize the risk of an accident, what should you do if your group plans to consume alcohol?",
+        "answers": [
+            "A. Make sure the alcohol is readily available.",
+            "B. Have a non-drinker operate the vessel.",
+            "C. Limit the vessel operator to one drink.",
+            "D. Limit everyone on board to two drinks"
+        ],
+        "correct_answer": "B",
+        "explanation": "Always designate non-drinking boaters to operate the vessel and to act as an observer if your group plans to consume alcohol."
+    },
+    {
+        "question": "Q236. How does the effect of alcohol while boating compare to its effect while on land?",
+        "answers": [
+            "A. The effect is increased while boating.",
+            "B. The effect is increased while on land.",
+            "C. The effect is slightly greater while on land.",
+            "D. Alcohol does not affect you while boating or on land."
+        ],
+        "correct_answer": "A",
+        "explanation": "The effect of alcohol is increased by the natural stressors placed on your body while boating. It takes less alcohol, combined with stressors, to impair an operator's ability to operate safely."
+    },
+    {
+        "question": "Q237. What is most likely to cause someone to fall overboard?",
+        "answers": [
+            "A. balancing the weight of people and gear",
+            "B. sitting on a pedestal chair while anchored",
+            "C. fishing from a boat",
+            "D. standing up in a boat"
+        ],
+        "correct_answer": "D",
+        "explanation": "To help prevent someone falling overboard, keep your center of gravity low by not allowing people to stand up or move around while underway, especially in smaller, less-stable boats."
+    },
+    {
+        "question": "Q238. Exhaust outlets are often located in the area under a boat's swim platform. This area should be strictly off limits. What is the danger if a swimmer enters this area?",
+        "answers": [
+            "A. hypothermia",
+            "B. hyperventilation",
+            "C. fatal hydrogen sulfide poisoning",
+            "D. fatal carbon monoxide poisoning"
+        ],
+        "correct_answer": "D",
+        "explanation": "Never enter areas under swim platforms where exhaust outlets are located, even for a second. Inhaling carbon monoxide present in this area could be fatal."
+    },
+    {
+        "question": "Q239. What is the primary danger during the first 3–5 minutes if you are suddenly immersed in cold water?",
+        "answers": [
+            "A. being run over by another boat and drowning",
+            "B. icing of your clothes and PFD, reducing your buoyancy",
+            "C. involuntary gasping, leading to water inhalation and drowning",
+            "D. losing consciousness due to shock and hyperventilation"
+        ],
+        "correct_answer": "C",
+        "explanation": "Initial cold shock occurs in the first 3–5 minutes of immersion in cold water and can cause immediate and involuntary gasping, hyperventilation, panic, and vertigo (all of which can result in water inhalation and drowning)."
+    },
+    {
+        "question": "Q240. What should you do to avoid colliding with another boat?",
+        "answers": [
+            "A. Maintain a constant course and speed.",
+            "B. Stay in the middle of any marked channel.",
+            "C. Pass other boats as quickly as possible.",
+            "D. Keep a sharp watch, and appoint a lookout."
+        ],
+        "correct_answer": "D",
+        "explanation": "To prevent a collision, keep a sharp watch, and appoint one person to be the lookout."
+    },
+    {
+        "question": "Q241. What type of fire can be put out safely with water?",
+        "answers": [
+            "A. wood",
+            "B. grease",
+            "C. electrical",
+            "D. gasoline"
+        ],
+        "correct_answer": "A",
+        "explanation": "Never use water on a gasoline, oil, grease, or electrical fire."
+    },
+    {
+        "question": "Q242. What causes a PFD to wear out over time?",
+        "answers": [
+            "A. washing it with soap and water",
+            "B. storing it upside down",
+            "C. exposure to cold air and rain",
+            "D. exposure to ultraviolet rays from the sun"
+        ],
+        "correct_answer": "D",
+        "explanation": "Over time, the ultraviolet radiation from the sun will break down the synthetic materials of your PFD."
+    },
+    {
+        "question": "Q243. Which statement about PFDs is true?",
+        "answers": [
+            "A. A child's PFD should fit loosely.",
+            "B. PFDs are easy to put on in the water.",
+            "C. Wearable PFDs are unnecessary when boating in cold water.",
+            "D. Drownings are rare when boaters are wearing an appropriate PFD."
+        ],
+        "correct_answer": "D",
+        "explanation": "Ninety percent of drowning victims are not wearing a PFD. Drownings are rare when boaters are wearing an appropriate PFD."
+    },
+    {
+        "question": "Q244. What should you do after your boat runs aground and you determine that there are no leaks?",
+        "answers": [
+            "A. Put the engine in reverse, and gun it.",
+            "B. Shift the weight to the back of the boat, and rock it.",
+            "C. Try to shove off with a paddle or boathook.",
+            "D. Make a MAYDAY call with a megaphone"
+        ],
+        "correct_answer": "C",
+        "explanation": "If the impact did not cause a leak, try to shove off from the rock, bottom, or reef with a paddle or boathook."
+    },
+    {
+        "question": "Q245. When should you expect dangerous weather?",
+        "answers": [
+            "A. when there is a drop in wind speed and a glassy sheen on the water",
+            "B. when there is a buildup of dark clouds and shifting winds",
+            "C. when you have clear, sunny skies and no wind",
+            "D. when you see high, scattered clouds"
+        ],
+        "correct_answer": "B",
+        "explanation": "Be alert to weather conditions. Accumulating dark clouds, shifting winds, and graying skies all may be indications of danger."
+    },
+    {
+        "question": "Q246. You are caught in severe weather while boating. Where should you seat your passengers?",
+        "answers": [
+            "A. on the bow or near the transom",
+            "B. on the floor close to the centerline",
+            "C. on a ladder hanging over the side of the boat",
+            "D. wherever the passengers feel secure"
+        ],
+        "correct_answer": "B",
+        "explanation": "If caught in severe weather, have your passengers sit on the floor close to the centerline."
+    },
+    {
+        "question": "Q247. Your boat capsizes but remains afloat. What should you do?",
+        "answers": [
+            "A. Swim up under the boat to stay out of the wind.",
+            "B. Swim away from the boat, and tread water.",
+            "C. Hang onto the boat or climb onto it.",
+            "D. Remove your PFD, and wave it to signal for help."
+        ],
+        "correct_answer": "C",
+        "explanation": "If you should capsize or swamp your boat, stay with the boat if possible. If your boat remains afloat, try to reboard or climb onto it."
+    },
+    {
+        "question": "Q248. A passenger on your boat falls overboard. What should you do FIRST?",
+        "answers": [
+            "A. Reduce speed, and throw the victim a PFD.",
+            "B. Jump into the water with a spare PFD.",
+            "C. Speed up, and drive in circles around the victim.",
+            "D. Tow a line behind the boat to encircle the victim."
+        ],
+        "correct_answer": "A",
+        "explanation": "If someone on your boat falls overboard, reduce speed, and toss the victim a PFD (preferably a throwable type) unless you know he or she is already wearing a PFD."
+    },
+    {
+        "question": "Q249.  How do you assume the HELP position to reduce heat loss in cold water?",
+        "answers": [
+            "A.  Float face down in the water with your arms and legs extended.",
+            "B.  Bring your knees to your chest and your arms to your sides.",
+            "C.  Swim on your back using just your legs.",
+            "D. Swim on your side using a slow scissor kick."
+        ],
+        "correct_answer": "B",
+        "explanation": "The Heat Escape Lessening Posture (HELP) position protects the body's three major areas of heat loss. Wearing a PFD allows you to draw your knees to your chest and your arms to your sides."
+    },
+    {
+        "question": "Q250. What amount of alcohol consumed while boating is equivalent to the amount of alcohol required to make a person legally intoxicated on land?",
+        "answers": [
+            "A. one-third",
+            "B. two-thirds",
+            "C. two times",
+            "D. three times"
+        ],
+        "correct_answer": "A",
+        "explanation": "Research has proven that one-third of the amount of alcohol that it takes to make a person legally intoxicated on land can make a boater equally intoxicated on the water."
+    },
+    {
+        "question": "Q251. How does alcohol affect you when you are operating a boat?",
+        "answers": [
+            "A. improves your reaction time",
+            "B. helps you avoid dehydration",
+            "C. increases your ability to keep track of two other boats in your area",
+            "D. makes it more likely that you will have an accident"
+        ],
+        "correct_answer": "D",
+        "explanation": "Alcohol impairment increases the likelihood of accidents: for both passengers and boat operators."
+    },
+    {
+        "question": "Q252. Falling overboard is a major risk on small boats. How can you reduce this risk?",
+        "answers": [
+            "A. Balance the weight of people and gear.",
+            "B. Have passengers sit on the gunwale.",
+            "C. Lean over the side of the boat during turns.",
+            "D. Stand up and walk around while underway."
+        ],
+        "correct_answer": "A",
+        "explanation": "To prevent falling overboard from a small boat, evenly distribute and balance the weight of persons and gear within the boat."
+    },
+    {
+        "question": "Q253. A passenger on your boat has irritated eyes, headache, nausea, weakness, and dizziness. These are early symptoms of what injury?",
+        "answers": [
+            "A. hyperventilation",
+            "B. shock",
+            "C. carbon monoxide poisoning",
+            "D. head, neck, or spinal injury"
+        ],
+        "correct_answer": "C",
+        "explanation": "Early symptoms of CO poisoning include irritated eyes, headache, nausea, weakness, and dizziness."
+    },
+    {
+        "question": "Q254. What is the first stage of cold water immersion?",
+        "answers": [
+            "A. swim failure",
+            "B. cold shock",
+            "C. hyperventilation",
+            "D. collapse"
+        ],
+        "correct_answer": "B",
+        "explanation": "Stage 1 is the initial cold shock, which occurs in the first 3-5 minutes of immersion in cold water."
+    },
+    {
+        "question": "Q255. Who is responsible for keeping a sharp watch to avoid a collision between two boats?",
+        "answers": [
+            "A. the operator of the larger boat",
+            "B. the operators of both boats",
+            "C. the local law enforcement agency",
+            "D. the writers of the navigation rules"
+        ],
+        "correct_answer": "B",
+        "explanation": "It is every boat operator's responsibility to avoid a collision."
+    },
+    {
+        "question": "Q256. What three ingredients are required to ignite a fire?",
+        "answers": [
+            "A. oxygen, fuel, and heat",
+            "B. heat, fuel, and carbon monoxide",
+            "C. fuel, hydrogen, and oxygen",
+            "D. gasoline, carbon dioxide, and heat"
+        ],
+        "correct_answer": "A",
+        "explanation": "To prevent a fire, don't mix the three ingredients required to ignite a fire: fuel, oxygen, and heat."
+    },
+    {
+        "question": "Q257. Which of the following is a legal requirement for PFDs?",
+        "answers": [
+            "A. PFDs must be in good and serviceable condition.",
+            "B. PFDs must be orange with a red triangle on the back",
+            "C. PFDs should be kept sealed in plastic to prevent dry rot.",
+            "D. PFD straps should be replaced annually."
+        ],
+        "correct_answer": "A",
+        "explanation": "It is the law that PFDs must be in good and serviceable condition."
+    },
+    {
+        "question": "Q258. When you are boating on a lake and the weather turns bad, what should you do first?",
+        "answers": [
+            "A. Have all passengers hold onto a rope.",
+            "B. Seat passengers in the bow so that they are easier to see.",
+            "C. Be sure all on board are wearing USCG-approved PFDs.",
+            "D. Have everyone put on PFDs and then swim for shore."
+        ],
+        "correct_answer": "C",
+        "explanation": "To prepare your passengers for severe weather, have everyone put on a USCG-approved PFD."
+    },
+    {
+        "question": "Q259. If your boat runs aground, what action should you take in addition to shifting the weight away from the point of impact?",
+        "answers": [
+            "A. Stop the engine, and lift the outdrive.",
+            "B. Put the boat in reverse, and gun the engine.",
+            "C. Put the boat in forward, and gun the engine.",
+            "D. Keep the engine running, and drop the anchor."
+        ],
+        "correct_answer": "A",
+        "explanation": "If the impact did not cause a leak, stop the engine and lift the outdrive."
+    },
+    {
+        "question": "Q260. When does fog usually form in inlets and bays?",
+        "answers": [
+            "A. at noon when the water heats up",
+            "B. during the late afternoon",
+            "C. during full moons or meteor showers",
+            "D. in the morning or evening when the temperature changes"
+        ],
+        "correct_answer": "D",
+        "explanation": "Watch for fog that creates problems in inlets and bays. Typically, fog will form during the temperature changes of the early morning or evening hours and can persist for lengthy periods."
+    },
+    {
+        "question": "Q261. You are caught in severe weather while boating. What should you do?",
+        "answers": [
+            "A. Throw all unnecessary gear overboard.",
+            "B. Head for the closest low-head dam or rapids.",
+            "C. Turn your navigation lights off to save the battery.",
+            "D. Slow down but maintain headway and steering."
+        ],
+        "correct_answer": "D",
+        "explanation": "Prepare the boat to handle severe weather. Slow down, but keep enough power to maintain headway and steering."
+    },
+    {
+        "question": "Q262. Your boat capsizes but remains floating upside down. What should you do?",
+        "answers": [
+            "A. Push the boat until it floats away.",
+            "B. Climb onto the bottom of the overturned boat.",
+            "C. Swim away from the boat, and remove your PFD",
+            "D. Swim up under the boat to stay out of the wind"
+        ],
+        "correct_answer": "B",
+        "explanation": "If you should capsize or swamp your boat, stay with the boat if possible. If your boat remains afloat, try to climb onto it in order to get as much of your body out of the cold water as possible."
+    },
+    {
+        "question": "Q263. A passenger on a small boat falls overboard. How should this person be pulled back onto the boat?",
+        "answers": [
+            "A. over the side into the operator's lap",
+            "B. over the side just forward of the steering station",
+            "C. over the stern with the engine turned off",
+            "D. over the stern with the engine idling in neutral"
+        ],
+        "correct_answer": "B",
+        "explanation": "If someone on your boat falls overboard, stop the engine. Pull the victim on board over the stern, keeping the weight in the boat balanced."
+    },
+    {
+        "question": "Q264. What should you do if you fall overboard into cold water?",
+        "answers": [
+            "A. Try to reboard your boat, even if it is swamped.",
+            "B. Remove your pants and shoes.",
+            "C. Swim in circles, and yell for help.",
+            "D. Float face down, with your legs extended."
+        ],
+        "correct_answer": "A",
+        "explanation": "Try to reboard your boat, even if it is swamped or capsized, or anything else that is floating."
+    },
+    {
+        "question": "Q265.  Alcohol can reduce your ability to distinguish between two colors. What are these colors?",
+        "answers": [
+            "A.  red and yellow",
+            "B.  red and green",
+            "C. green and blue",
+            "D. white and yellow"
+        ],
+        "correct_answer": "B",
+        "explanation": "Alcohol can reduce your ability to distinguish colors, especially red and green."
+    },
+    {
+        "question": "Q266. What is the best way to prevent carbon monoxide poisoning while boating?",
+        "answers": [
+            "A. Operate generators only at night.",
+            "B. Use a breathing tube when swimming near the boat.",
+            "C. Keep fresh air flowing through the boat.",
+            "D. Keep doors and windows closed while using a cabin heater."
+        ],
+        "correct_answer": "C",
+        "explanation": "To protect yourself and others against CO poisoning while boating, allow fresh air to circulate throughout the boat at all times, even during bad weather."
+    },
+    {
+        "question": "Q267. Stage 4 (post-immersion collapse) of cold water immersion can occur even after being rescued. What happens during Stage 4 of cold water immersion?",
+        "answers": [
+            "A. You lose manual dexterity, strength, and you convulse involuntarily.",
+            "B. You lose vision and speech is slurred.",
+            "C. You can experience permanent brain damage.",
+            "D. You can experience collapse of arterial blood pressure, leading to cardiac arrest."
+        ],
+        "correct_answer": "A",
+        "explanation": ""
+    },
+    {
+        "question": "Q268. What should you do to avoid colliding with another boat?",
+        "answers": [
+            "A. Motor through crowded areas as quickly as possible.",
+            "B. Stay in the middle of any marked channel.",
+            "C. Look in all directions before making any turn.",
+            "D. Pass other boats as quickly as possible."
+        ],
+        "correct_answer": "C",
+        "explanation": "To prevent a collision, look in all directions before making any turn."
+    },
+    {
+        "question": "Q269. What should you do if a fire breaks out in the back of your boat?",
+        "answers": [
+            "A. Turn off the motor, and abandon the boat.",
+            "B. Head the boat into the wind.",
+            "C. Douse the fire with any liquids you have on board.",
+            "D. Summon help with your cellular telephone."
+        ],
+        "correct_answer": "B",
+        "explanation": "If fire erupts on your boat while you are underway and the fire is at the back of the boat, head into the wind."
+    },
+    {
+        "question": "Q270. When should you discard a PFD?",
+        "answers": [
+            "A. when it has a torn strap",
+            "B. when it fits snugly",
+            "C. after it has been used one month",
+            "D. after someone borrows it"
+        ],
+        "correct_answer": "A",
+        "explanation": "Frequently inspect PFDs for rips or tears, discolored or weakened material, insecure straps or zippers, or labels that are no longer readable. Discard and replace any PFD that has a problem."
+    },
+    {
+        "question": "Q271. What should you do FIRST if your boat runs aground?",
+        "answers": [
+            "A. Shift the weight to the point of impact",
+            "B. Make sure no one is injured, and then check for leaks.",
+            "C. Put the engine in reverse, and gun it.",
+            "D. Put the engine in forward, and gun it."
+        ],
+        "correct_answer": "B",
+        "explanation": "If you run aground, make sure no one is injured, and then check for leaks."
+    },
+    {
+        "question": "Q272. From which direction does most bad weather arrive?",
+        "answers": [
+            "A. east",
+            "B. west",
+            "C. magnetic north",
+            "D. South Pole"
+        ],
+        "correct_answer": "B",
+        "explanation": "Be observant of weather from all directions; however, closely watch the weather to the west, the direction from which most bad weather arrives."
+    },
+    {
+        "question": "Q273. You are caught in a severe storm in your boat. What should you do?",
+        "answers": [
+            "A. Pour water into the bilge to increase stability.",
+            "B. Move heavy gear and spare tanks to the stern.",
+            "C. Seat passengers on the floor close to the centerline.",
+            "D. Dump all garbage, plastics, and oil into the water."
+        ],
+        "correct_answer": "C",
+        "explanation": "If caught in foul weather, have your passengers sit on the floor close to the centerline."
+    },
+    {
+        "question": "Q274. Your boat gets swamped far from shore. What should you do?",
+        "answers": [
+            "A. Stay with the boat, and signal for help.",
+            "B. Push the boat down until it sinks.",
+            "C. Take off your clothes, and swim underwater.",
+            "D. Remove your PFD, and swim for the nearest shore."
+        ],
+        "correct_answer": "A",
+        "explanation": "If you should capsize or swamp your boat, stay with the boat if possible. Also signal for help using other devices available."
+    },
+    {
+        "question": "Q275. A passenger on your boat falls overboard. What should you do while this person is being pulled back into the boat?",
+        "answers": [
+            "A. Put the engine in forward gear.",
+            "B. Put the engine in reverse gear.",
+            "C. Keep the engine idling.",
+            "D. Stop the engine."
+        ],
+        "correct_answer": "D",
+        "explanation": "If someone on your boat falls overboard, stop the engine."
+    },
+    {
+        "question": "Q276.  What is the main reason for assuming the HELP position when you are stranded in the water?",
+        "answers": [
+            "A.  reduces heat loss",
+            "B. helps you float better after removing your PFD",
+            "C. helps you float back to shore with the current",
+            "D. prevents injuries from underwater obstructions"
+        ],
+        "correct_answer": "A",
+        "explanation": "If you cannot get out of cold water quickly, adopt a position to reduce heat loss. If alone, use the Heat Escape Lessening Posture (HELP) position; or if there are others in the water with you, huddle together."
+    },
+    {
+        "question": "Q277. How does alcohol use affect boat operators and passengers?",
+        "answers": [
+            "A. Balance and sense of direction improve.",
+            "B. Depth perception becomes sharper.",
+            "C. Reasoning ability becomes quicker.",
+            "D. Reaction time becomes slower."
+        ],
+        "correct_answer": "D",
+        "explanation": "Alcohol depresses the central nervous system, affects judgment, and slows physical reaction time."
+    },
+    {
+        "question": "Q278. What should you do to reduce the risk of capsizing or swamping your boat in rough water?",
+        "answers": [
+            "A. Anchor from the stern.",
+            "B. Keep most of the weight close to the motor.",
+            "C. Turn at controlled speeds.",
+            "D. Sit on the gunwale."
+        ],
+        "correct_answer": "C",
+        "explanation": "To help prevent capsizing, swamping, or someone falling overboard, slow your boat appropriately when turning."
+    },
+    {
+        "question": "Q279. What colorless, odorless, poisonous gas is a by-product of gasoline engines?",
+        "answers": [
+            "A. carbon disulfide",
+            "B. carbon monoxide",
+            "C. hydrogen oxide",
+            "D. hydrogen sulfide"
+        ],
+        "correct_answer": "B",
+        "explanation": "Carbon monoxide (CO) is an invisible, odorless, tasteless gas that is produced when a carbon-based fuel burns. Sources of CO on your boat may include gasoline engines, gas generators, cooking ranges, and heaters."
+    },
+    {
+        "question": "Q280. Stage 3 (long-term immersion hypothermia) sets in after about 30 minutes following immersion in cold water. What happens during Stage 3 of cold water immersion?",
+        "answers": [
+            "A. The organs in the core of your body are cooled, eventually leading to loss of consciousness and death",
+            "B. The organs in the core of your body begin to bleed, leading to internal hemorrhaging.",
+            "C. Your extremities turn blue, and your heart rate nearly stops.",
+            "D. You lose vision, and speech is slurred."
+        ],
+        "correct_answer": "A",
+        "explanation": "Hypothermia occurs when your body loses heat faster than it produces it, cooling the organs in the core of your body. Hypothermia eventually leads to loss of consciousness and death, with or without drowning."
+    },
+    {
+        "question": "Q281. Who is responsible for avoiding a collision between two boats?",
+        "answers": [
+            "A. the operators of both boats",
+            "B. the operator of the stand-on boat",
+            "C. the operator of the smaller boat",
+            "D. the operator of the larger boat"
+        ],
+        "correct_answer": "A",
+        "explanation": "It is every boat operator's responsibility to avoid a collision."
+    },
+    {
+        "question": "Q282. What should you do if the motor on your boat catches fire?",
+        "answers": [
+            "A. Flood the engine compartment.",
+            "B. Open the engine cover.",
+            "C. Turn on the ventilation fan.",
+            "D. Shut off the fuel supply if possible."
+        ],
+        "correct_answer": "D",
+        "explanation": "If the fire is in an engine space, shut off the fuel supply."
+    },
+    {
+        "question": "Q283. What is the best way to check the buoyancy of your PFD?",
+        "answers": [
+            "A. Wear it in an emergency and hope for the best.",
+            "B. Check whether the PFD floats throughout a washing machine cycle.",
+            "C. Squeeze the PFD against your body.",
+            "D. Wear the PFD in shallow water or a swimming pool."
+        ],
+        "correct_answer": "D",
+        "explanation": "Regularly test a PFD's buoyancy in shallow water or a swimming pool."
+    },
+    {
+        "question": "Q284. Your boat runs aground at high speed. What should you do first?",
+        "answers": [
+            "A. Make sure no one is injured.",
+            "B. Shove off with a paddle.",
+            "C. Put the engine in reverse, and gun it.",
+            "D. Make a MAYDAY call on your VHF radio."
+        ],
+        "correct_answer": "A",
+        "explanation": "If you run aground, make sure no one is injured, and then check for leaks."
+    },
+    {
+        "question": "Q285. You notice a buildup of dark clouds and shifting winds. What is likely?",
+        "answers": [
+            "A. A storm is moving away from you.",
+            "B. The barometer is likely to rise.",
+            "C. You can expect smooth waters tomorrow.",
+            "D. Dangerous weather is approaching."
+        ],
+        "correct_answer": "D",
+        "explanation": "Be alert to weather conditions. Accumulating dark clouds, shifting winds, and graying skies all may be indications of danger."
+    },
+    {
+        "question": "Q286. You are caught in a storm in your boat. Your engine stops. What should you do?",
+        "answers": [
+            "A. Swim for shore.",
+            "B. Tread water until hypothermia occurs.",
+            "C. Drop a sea anchor off the bow.",
+            "D. Use all of the PFDs to build a raft."
+        ],
+        "correct_answer": "C",
+        "explanation": "If you are caught out in a storm and the engine stops, drop a sea anchor on a line off the bow to keep the bow headed into the wind and reduce drifting while you ride out the storm."
+    },
+    {
+        "question": "Q287. Your boat capsizes and floats away. What should you do?",
+        "answers": [
+            "A. Securely fasten your PFD, and wait for help.",
+            "B. Tie all the PFDs together to make a buoyant raft.",
+            "C. Swim after the boat, and try to catch it.",
+            "D. Remove your PFD, and wave it to signal for help."
+        ],
+        "correct_answer": "A",
+        "explanation": "If you should capsize or swamp your boat and your boat sinks or floats away, don't panic. If you are wearing a PFD, make sure that it is securely fastened, remain calm, and wait for help."
+    },
+    {
+        "question": "Q288. How do you treat a victim of cold water immersion?",
+        "answers": [
+            "A. Provide lots of hot coffee.",
+            "B. Make the victim run laps.",
+            "C. Put the victim in a tub of hot water.",
+            "D. Seek medical help immediately."
+        ],
+        "correct_answer": "D",
+        "explanation": "When treating victims of cold water immersion, you should seek medical help immediately."
+    },
+    {
+        "question": "Q289. Where would a boat produce the highest concentration of carbon monoxide?",
+        "answers": [
+            "A. on the starboard side of the boat",
+            "B. in a restroom with a Type III marine sanitation device",
+            "C. near the engine and generator exhaust outlets",
+            "D. near the helm of an open motorboat"
+        ],
+        "correct_answer": "C",
+        "explanation": "To protect against CO poisoning while boating, know where your engine and generator exhaust outlets are located, and keep everyone away from these areas."
+    },
+    {
+        "question": "Q290. Stage 2 (short-term swim failure) occurs 3–30 minutes following immersion in cold water. What happens during Stage 2 of cold water immersion?",
+        "answers": [
+            "A. Your blood pressure drops, and your heart rate nearly stops.",
+            "B. You suddenly have trouble breathing, floating, and speaking.",
+            "C. You lose manual dexterity, strength, and speed of movement.",
+            "D. You lose manual dexterity, vision, and speech."
+        ],
+        "correct_answer": "B",
+        "explanation": "The muscles and nerves in the arms and legs cool quickly. Manual dexterity, hand grip strength, and speed of movement can all drop by 60%–80%"
+    },
+    {
+        "question": "Q291. What should you do if a fire breaks out in the front of your boat?",
+        "answers": [
+            "A. Abandon the boat, and head for shore.",
+            "B. Put the stern into the wind.",
+            "C. Douse the fire with any liquids you have on board.",
+            "D. Turn on the ventilation fan."
+        ],
+        "correct_answer": "B",
+        "explanation": "If fire erupts on your boat while you are underway and the fire is at the front of the boat, put the stern into the wind."
+    },
+    {
+        "question": "Q292. What should you do if a PFD has a tear in the outer fabric?",
+        "answers": [
+            "A. Iron on a patch.",
+            "B. Replace the PFD.",
+            "C. Repair the tear with duct tape.",
+            "D. Don't worry about it."
+        ],
+        "correct_answer": "B",
+        "explanation": "Frequently inspect PFDs for rips or tears, discolored or weakened material, insecure straps or zippers, or labels that are no longer readable. Discard and replace any PFD that has a problem."
+    },
+    {
+        "question": "Q293. Which statement about PFDs is true?",
+        "answers": [
+            "A. PFDs do not float well in shallow water.",
+            "B. PFDs are difficult to put on in the water.",
+            "C. Children's PFDs should fit loosely to allow for growth.",
+            "D. You should use gasoline to clean a PFD coated with oil or grease."
+        ],
+        "correct_answer": "B",
+        "explanation": "PFDs are very difficult to put on once you are in the water."
+    },
+    {
+        "question": "Q294. You are planning to go boating in cold water conditions. How should you equip your boat in order to be prepared for cold water immersion?",
+        "answers": [
+            "A. Have a towel warming device installed on the stern.",
+            "B. Have plenty of thick blankets that are easily accessible.",
+            "C. Have a ladder or sling in position so that you can re-enter the boat if you fall overboard.",
+            "D. Have a megaphone on board so that you can call for rescue if you fall overboard."
+        ],
+        "correct_answer": "C",
+        "explanation": "Equip your boat with a means for re-entry (ladder, sling, etc.) to use if you should fall into the water."
+    },
+    {
+        "question": "Q295. What condition is often confused with the early stages of carbon monoxide poisoning?",
+        "answers": [
+            "A. hypothermia",
+            "B. sunstroke",
+            "C. shock",
+            "D. seasickness"
+        ],
+        "correct_answer": "A",
+        "explanation": ""
+    },
+    {
+        "question": "Q296. Stage 1 (initial cold shock) occurs in the first 3–5 minutes of immersion in cold water. What can happen during Stage 1 of cold water immersion?",
+        "answers": [
+            "A. You can experience hyperventilation and hallucinations.",
+            "B. You can experience involuntary gasping, hyperventilation, panic, and vertigo.",
+            "C. You can lose strength and convulse involuntarily.",
+            "D. You can lose manual dexterity, vision, and speech."
+        ],
+        "correct_answer": "B",
+        "explanation": "Sudden immersion into cold water can cause immediate and involuntary gasping, hyperventilation, panic, and vertigo, all of which can result in water inhalation and drowning."
+    },
+    {
+        "question": "Q297. What should you do immediately if a boat motor catches fire?",
+        "answers": [
+            "A. Signal for help.",
+            "B. Shut off the fuel supply.",
+            "C. Abandon the boat.",
+            "D. Grab a fire extinguisher."
+        ],
+        "correct_answer": "B",
+        "explanation": "If fire erupts on your boat and the fire is in an engine space, shut off the fuel supply."
+    },
+    {
+        "question": "Q298. When should you replace the CO2 cylinder in an inflatable PFD?",
+        "answers": [
+            "A. each time the PFD is inflated",
+            "B. the third time a PFD is inflated",
+            "C. monthly",
+            "D. annually"
+        ],
+        "correct_answer": "A",
+        "explanation": "After an inflatable PFD has been inflated using a CO2 cylinder, replace the spent cylinder and re-arm it."
+    },
+    {
+        "question": "Q299.  If you fall into cold water, what is the first thing you should do until the cold shock response lessens?",
+        "answers": [
+            "A.  Submerge yourself until your body temperature equalizes and your breathing settles down.",
+            "B.  Get control of your breathing, and stay as still as possible until your breathing settles down.",
+            "C.  Stretch your muscles to keep them flexible.",
+            "D.  Yawn to help keep your body relaxed."
+        ],
+        "correct_answer": "B",
+        "explanation": "Don't panic. Try to get control of your breathing. Hold onto something, or stay as still as possible until your breathing settles down."
+    },
+    {
+        "question": "Q300.  What is most likely to cause someone to fall overboard?",
+        "answers": [
+            "A.  fishing from a boat",
+            "B.  moving around the boat while underway",
+            "C.  slowing down while turning",
+            "D.  sitting on a pedestal chair when anchored"
+        ],
+        "correct_answer": "B",
+        "explanation": "Keep your center of gravity low by not allowing people to stand up or move around while underway, especially in smaller, less-stable boats."
+    },
+    {
+        "question": "Q301. What is the correct way to use a fire extinguisher?",
+        "answers": [
+            "A. Aim at the top of the fire. Do not move",
+            "B. Aim at the top of the fire. Sweep in circles.",
+            "C. Aim at the base of the fire. Sweep side to side.",
+            "D. Aim at the base of the fire. Sweep up and down."
+        ],
+        "correct_answer": "C",
+        "explanation": "Aim the fire extinguisher at the base of the fire, and sweep side to side."
+    },
+    {
+        "question": "Q302.  What causes hypothermia?",
+        "answers": [
+            "A.  long-term overexposure to the sun",
+            "B.  losing body heat faster than it can be produced",
+            "C.  not drinking enough water when exhausted",
+            "D.  fatigue from body stressors, such as vibration and noise"
+        ],
+        "correct_answer": "B",
+        "explanation": "Hypothermia occurs when your body loses heat faster than it produces it, cooling the organs in the core of your body."
+    },
+    {
+        "question": "Q303. What type of fire can be put out safely with water?",
+        "answers": [
+            "A. oil",
+            "B. engine",
+            "C. gasoline",
+            "D. paper"
+        ],
+        "correct_answer": "D",
+        "explanation": "Never use water on a gasoline, oil, grease, or electrical fire."
+    },
+    {
+        "question": "Q304.  You have prepared for boating in cold water conditions by wearing layered clothing. You have fallen overboard. What is the best action to take with respect to your clothing?",
+        "answers": [
+            "A.  Keep on your layered clothes to help insulate you.",
+            "B.  Take off your pants, and use them to float.",
+            "C.  Keep on only your underwear and socks.",
+            "D.  Take off only your coat or heavy sweater."
+        ],
+        "correct_answer": "A",
+        "explanation": "Don't take your clothes off unless absolutely necessary. A layer of water trapped inside your clothing will help insulate you."
+    },
+    {
+        "question": "Q305. U6. How does having a pre-departure checklist help you?",
+        "answers": [
+            "A.  You have proof of ownership for the boat.",
+            "B.  You have what you need for a safe trip.",
+            "C.  You know the steps for starting the boat.",
+            "D.  You know where you are going."
+        ],
+        "correct_answer": "B",
+        "explanation": "Use a pre-departure checklist to make sure you've taken the necessary safety precautions."
+    },
+    {
+        "question": "Q306. While boating, you see a red flag with a white diagonal stripe. What does this flag mean?",
+        "answers": [
+            "A. diver underwater in the immediate area",
+            "B. area designated for one boat at a time",
+            "C. outer limits of a pump-out station zone",
+            "D. center of an environmental survey area"
+        ],
+        "correct_answer": "A",
+        "explanation": "As a boat operator, you should be able to recognize a diver-down flag, a red flag with a white diagonal stripe, floating in the area of the divers."
+    },
+    {
+        "question": "Q307. What are small, flat-bottom boats, such as duck hunting boats, prone to do?",
+        "answers": [
+            "A. maneuver well with only a few inches of freeboard",
+            "B. ride well in rough, choppy water",
+            "C. capsize or swamp",
+            "D. remain stable"
+        ],
+        "correct_answer": "C",
+        "explanation": "Be aware that small, flat-bottom vessels are prone to capsizing or swamping."
+    },
+    {
+        "question": "Q308. Responsible boaters use cleaning products that won't harm lakes or rivers. Which product is a responsible choice for cleaning your boat?",
+        "answers": [
+            "A. industrial-strength detergent",
+            "B. toxic cleaner",
+            "C. ethylene glycol",
+            "D. non-phosphate detergent"
+        ],
+        "correct_answer": "D",
+        "explanation": "Use non-phosphate products, such as hydrogen peroxide, on your vessel. Don't use toxic cleaners."
+    },
+    {
+        "question": "Q309. How should you pass a fishing boat?",
+        "answers": [
+            "A. at normal cruising speed",
+            "B. slowly on the upwind side of the fishing boat",
+            "C. with minimum wake and well away from fishing lines",
+            "D. as quickly as possible to avoid making a large wake"
+        ],
+        "correct_answer": "C",
+        "explanation": "Slow down when approaching fishing boats, or give them a wide berth. Never run over anglers' lines. Never disturb fishing boats by making a large wake."
+    },
+    {
+        "question": "Q310. What should you do before letting someone else operate your PWC?",
+        "answers": [
+            "A. Explain how to seat a passenger in front of the operator.",
+            "B. Explain how to increase the noise level.",
+            "C. Explain how to spray a wake at another PWC.",
+            "D. Explain how to steer and control the PWC."
+        ],
+        "correct_answer": "D",
+        "explanation": "Before allowing others to drive your PWC, be sure to explain how to steer and control the PWC."
+    },
+    {
+        "question": "Q311. Who is responsible for reviewing a pre-departure checklist before a boat outing?",
+        "answers": [
+            "A. manufacturer",
+            "B. selling dealer",
+            "C. boat operator",
+            "D. no one"
+        ],
+        "correct_answer": "C",
+        "explanation": "As the operator of a boat, you are responsible for using a pre-departure checklist to make sure you've taken the necessary safety precautions before a boat outing."
+    },
+    {
+        "question": "Q312. What is the likelihood of drowning for paddlers in small boats (such as canoes, kayaks, and rafts)? (Compare paddlers to other boaters.)",
+        "answers": [
+            "A. Paddlers never drown.",
+            "B. Paddlers are less than half as likely to drown.",
+            "C. Paddlers are more than twice as likely to drown.",
+            "D. Paddlers are 22 times more likely to drown."
+        ],
+        "correct_answer": "C",
+        "explanation": "According to statistics, people in small boats, such as canoes, kayaks, and rafts, are more than twice as likely to drown as individuals operating larger vessels."
+    },
+    {
+        "question": "Q313. Two people are on a boat towing a skier. One person is the operator. What is the role of the second person?",
+        "answers": [
+            "A. Give signals to the skier.",
+            "B. Watch the skier.",
+            "C. Entertain the operator.",
+            "D. Help the skier get back in the boat"
+        ],
+        "correct_answer": "B",
+        "explanation": "Before towing a skier, the operator should have a second person on board to act as an observer."
+    },
+    {
+        "question": "Q314. You fall when skiing behind a boat. What should you do to help the boat operator spot you more quickly?",
+        "answers": [
+            "A. Hold a ski up out of the water.",
+            "B. Launch a red meteor distress signal.",
+            "C. Remove your PFD and wave it in the air.",
+            "D. Swim away from the tow line."
+        ],
+        "correct_answer": "A",
+        "explanation": "When in the water, the skier should always hold a ski up out of the water after falling or after dropping the rope so that the boat operator and other vessels can see him or her."
+    },
+    {
+        "question": "Q315.  What can a vessel operator use to make sure he or she has everything needed for a safe trip?",
+        "answers": [
+            "A.  nautical chart",
+            "B.  vessel warranty",
+            "C.  pre-departure checklist",
+            "D.  cruise schedule"
+        ],
+        "correct_answer": "C",
+        "explanation": "Use a pre-departure checklist to make sure you've taken the necessary safety precautions."
+    },
+    {
+        "question": "Q316. What does a diver-down flag look like?",
+        "answers": [
+            "A. red flag with white diagonal stripe",
+            "B. white flag with blue diagonal stripe",
+            "C. black flag with white circle",
+            "D. blue flag with white square"
+        ],
+        "correct_answer": "A",
+        "explanation": "Be able to recognize a diver-down flag, a red flag with a white diagonal stripe, floating in the area of the divers."
+    },
+    {
+        "question": "Q317. What precaution should anglers and hunters take when fishing or hunting on cold water?",
+        "answers": [
+            "A. Take extra blankets in the boat.",
+            "B. Wear several layers under their PFDs.",
+            "C. Replace their PFDs with heavy coats.",
+            "D. Drink alcoholic beverages to warm themselves."
+        ],
+        "correct_answer": "B",
+        "explanation": "When fishing or hunting on cold water, dress in several layers under your PFD."
+    },
+    {
+        "question": "Q318. How does a responsible boater protect the shoreline?",
+        "answers": [
+            "A. by stirring up sediments",
+            "B. by preventing erosion",
+            "C. by transferring plants from one area to another",
+            "D. by disposing of waste while close to shore"
+        ],
+        "correct_answer": "B",
+        "explanation": "Reduce throttle to no wake speed when close to a shoreline or in small rivers to help prevent erosion."
+    },
+    {
+        "question": "Q319. What should you do if you encounter a fishing boat while out in your vessel?",
+        "answers": [
+            "A. Make a large wake nearby.",
+            "B. Avoid making a large wake.",
+            "C. Pass on the side with the fishing lines.",
+            "D. Pass by close to the anglers."
+        ],
+        "correct_answer": "B",
+        "explanation": "Never disturb fishing boats by making a large wake. An angler at anchor could be swamped by another vessel's cruising wake."
+    },
+    {
+        "question": "Q320. What should you do before letting someone else operate your boat?",
+        "answers": [
+            "A. Test the person's swimming skills.",
+            "B. Make sure the person meets the minimum age and boater education requirements.",
+            "C. Check that the person is wearing sunscreen.",
+            "D. Ask the person to complete a float plan and file it with the Coast Guard."
+        ],
+        "correct_answer": "B",
+        "explanation": "Before allowing others to operate your vessel, check that they meet the minimum age and boater education requirements for operation in your state."
+    },
+    {
+        "question": "Q321. Who is responsible for explaining fire safety procedures to passengers on a boat?",
+        "answers": [
+            "A. fire marshal",
+            "B. U.S. Attorney General",
+            "C. boat operator",
+            "D. dock attendant"
+        ],
+        "correct_answer": "C",
+        "explanation": "As the operator of a boat, you are responsible for ensuring that your passengers understand basic safety practices and laws, such as safety procedures for responding to a fire."
+    },
+    {
+        "question": "Q322. What is a leading cause of death for paddlers in small crafts, such as canoes, kayaks, and rafts?",
+        "answers": [
+            "A. capsizing",
+            "B. improper clothing",
+            "C. boat leaks",
+            "D. starvation"
+        ],
+        "correct_answer": "A",
+        "explanation": "Standing up or moving around in a small craft can cause it to capsize, which is a leading cause of fatalities among paddlers."
+    },
+    {
+        "question": "Q323. A skier signals that he or she is ready to go. When should the boat operator take off in a straight line?",
+        "answers": [
+            "A. right away",
+            "B. when all passengers are watching",
+            "C. when the skier stops paying attention",
+            "D. when there is no traffic ahead"
+        ],
+        "correct_answer": "D",
+        "explanation": "When the skier is ready and there is no traffic ahead, take off in a straight line with enough power to raise the skier out of the water."
+    },
+    {
+        "question": "Q324. Which is the safest area for towing a skier?",
+        "answers": [
+            "A. near the shoreline where others can watch",
+            "B. near other skiers or swimmers in the water",
+            "C. in the middle of the lake away from other boaters",
+            "D. in the heavy-traffic area of the waterway"
+        ],
+        "correct_answer": "C",
+        "explanation": "While towing a skier, the operator should keep the skier at a safe distance from the shoreline, docks, hazards, and people in the water. Avoid congested areas, beaches, docks, and swimming areas."
+    },
+    {
+        "question": "Q325.  It is a good idea for all boaters to use a pre-departure checklist. Why?",
+        "answers": [
+            "A.  to keep passengers calm",
+            "B.  to delay departure",
+            "C.  to follow the law",
+            "D.  to ensure safety"
+        ],
+        "correct_answer": "D",
+        "explanation": "Use a pre-departure checklist to make sure you've taken the necessary safety precautions."
+    },
+    {
+        "question": "Q326. What should divers do for their own safety?",
+        "answers": [
+            "A. dive alone to avoid other boaters",
+            "B. tie two boats together",
+            "C. remain close to the diver-down flag",
+            "D. avoid displaying the diver-down flag"
+        ],
+        "correct_answer": "C",
+        "explanation": "For their own safety, divers should always display the diver-down flag and stay close to the flag."
+    },
+    {
+        "question": "Q327. What should anglers and hunters do when they are fishing or hunting from a boat?",
+        "answers": [
+            "A. Wear a PFD at all times.",
+            "B. Anchor in the middle of the waterway.",
+            "C. Keep clothing to a minimum.",
+            "D. Take along extra food and gear."
+        ],
+        "correct_answer": "A",
+        "explanation": "There are special clothing considerations for those fishing or hunting from boats. Wear a PFD at all times while on the water."
+    },
+    {
+        "question": "Q328. Which action shows responsibility toward the aquatic environment?",
+        "answers": [
+            "A. tossing used fishing line in the water",
+            "B. tossing plastic six-pack holders in the water",
+            "C. operating a powerboat in shallow water",
+            "D. retrieving trash that blows overboard"
+        ],
+        "correct_answer": "D",
+        "explanation": "To keep waterways clean, be sure to retrieve anything that blows overboard."
+    },
+    {
+        "question": "Q329. What should you do when you are sharing public waterways with others?",
+        "answers": [
+            "A. Control the noise from your boat.",
+            "B. Ignore the other boats around you.",
+            "C. Meet as many people as you can.",
+            "D. Make a large wake near small boats."
+        ],
+        "correct_answer": "A",
+        "explanation": "Remember that being a responsible operator includes controlling the noise of your boat or PWC."
+    },
+    {
+        "question": "Q330.  What should you require from others who operate your vessel?",
+        "answers": [
+            "A.  They operate the vessel responsibly.",
+            "B.  They buy their own boat insurance.",
+            "C.  They take you out to dinner afterward.",
+            "D.  They fill the gas tank after the outing."
+        ],
+        "correct_answer": "A",
+        "explanation": "You always should make sure that anyone operating your vessel understands his or her responsibilities as a driver and knows how to operate safely and responsibly."
+    },
+    {
+        "question": "Q331. If you carry passengers in your boat, you should have a safety discussion before departing. Which of these topics should be included in the discussion?",
+        "answers": [
+            "A. the proper use of navigation lights",
+            "B. what to do if someone falls overboard",
+            "C. where the food and drink are located",
+            "D. type of soap to use when washing the hull"
+        ],
+        "correct_answer": "B",
+        "explanation": "Before departing, have a safety discussion with everyone on board, including safety procedures for responding to someone falling overboard."
+    },
+    {
+        "question": "Q332. What is the safest way to float if your small craft capsizes?",
+        "answers": [
+            "A. Let go of the craft and swim crosswise to the current.",
+            "B. Float on your stomach with your head pointing downstream.",
+            "C. Float on your back on the upstream side of the craft.",
+            "D. Float on your back with your head under the water."
+        ],
+        "correct_answer": "C",
+        "explanation": "If you capsize in swift water, float on the upstream side of your craft. Float on your back with your feet and arms extended."
+    },
+    {
+        "question": "Q333. A skier is being towed behind a boat. Who has responsibility for avoiding other boats and hazards?",
+        "answers": [
+            "A. skier",
+            "B. boat operator",
+            "C. boat owner",
+            "D. no one"
+        ],
+        "correct_answer": "B",
+        "explanation": "While towing a skier, the operator should maintain a sharp lookout for other vessels and obstructions in the water. Let the observer watch the skier."
+    },
+    {
+        "question": "Q334. A boat is towing two skiers at the same time. How long should the tow lines be?",
+        "answers": [
+            "A. Both lines should be the same length.",
+            "B. The oldest skier's line should be longer.",
+            "C. The skier with the most colorful skis should have a longer line.",
+            "D. The skier not wearing a PFD must have the shorter line."
+        ],
+        "correct_answer": "A",
+        "explanation": "The operator should make sure the tow lines are of the same length if towing multiple skiers."
+    },
+    {
+        "question": "Q335.  Which of these should be part of a pre-departure checklist?",
+        "answers": [
+            "A.  making sure you have enough PFDs",
+            "B.  making sure everyone has a towel",
+            "C.  giving everyone a map of the area",
+            "D.  giving each person a bottle of water"
+        ],
+        "correct_answer": "A",
+        "explanation": "Another way you can assure a good time while operating your vessel is to perform a pre-departure check. Make sure that you have the required number of PFDs."
+    },
+    {
+        "question": "Q336. What should you do before firing a shot from a small boat?",
+        "answers": [
+            "A. Stand up.",
+            "B. Move to the bow.",
+            "C. Move your dog and gear behind you.",
+            "D. Stop the boat and turn off the motor. Anchor or secure the boat."
+        ],
+        "correct_answer": "D",
+        "explanation": "If you are using your boat to hunt, you should not fire shots or release arrows until the boat is stopped, the motor is turned off, and the boat is secured or properly anchored."
+    },
+    {
+        "question": "Q337. Boaters have a responsibility to the environment. What is one of the three Rs?",
+        "answers": [
+            "A. Recycle old fire extinguishers and marine batteries.",
+            "B. Race through cleanup by throwing litter overboard.",
+            "C. Replace old equipment with the latest technology.",
+            "D. Release oil, aluminum, and glass into the water to dispose of it."
+        ],
+        "correct_answer": "A",
+        "explanation": "Practice the three Rs: Reduce, Reuse, and Recycle. Recycle old fire extinguishers and marine batteries."
+    },
+    {
+        "question": "Q338. Who is responsible for explaining proper waste disposal procedures to passengers on a boat?",
+        "answers": [
+            "A. boat operator",
+            "B. U.S. Attorney General",
+            "C. selling dealer",
+            "D. dock attendant"
+        ],
+        "correct_answer": "A",
+        "explanation": "As the operator of a boat, you are responsible for ensuring that your passengers understand basic safety practices and laws, including proper waste disposal procedures."
+    },
+    {
+        "question": "Q339. What should those in small boats do to protect against capsizing their craft?",
+        "answers": [
+            "A. Keep a low center of gravity and three points of contact.",
+            "B. Stand up in the craft while getting ready to dock.",
+            "C. Lean one shoulder over the side while paddling.",
+            "D. Move to the side of the craft closest to the shoreline."
+        ],
+        "correct_answer": "A",
+        "explanation": "Maintain a low center of gravity and three points of contact. Standing up or moving around in a small craft can cause it to capsize. Leaning a shoulder over the edge of the craft also can destabilize it enough to capsize."
+    },
+    {
+        "question": "Q340. You are towing a skier behind your boat. Which of these is a safety precaution you should take?",
+        "answers": [
+            "A. Tow the skier at maximum speed to stay clear of other boats.",
+            "B. Tow the skier close to the beach.",
+            "C. Make sharp turns to weave through congested traffic.",
+            "D. Avoid crowded areas near beaches, docks, and swimming areas."
+        ],
+        "correct_answer": "D",
+        "explanation": "While towing a skier, the operator should avoid congested areas, beaches, docks, and swimming areas."
+    },
+    {
+        "question": "Q341.  How should firearms be transported in a boat?",
+        "answers": [
+            "A.  unloaded and lying flat on a seat or the boat's bottom",
+            "B.  unloaded with the safety on and in a gun case",
+            "C.  loaded and lying across a hunter's lap",
+            "D.  loaded with the safety on and upright in the stern"
+        ],
+        "correct_answer": "B",
+        "explanation": "You should ensure that all firearms are always unloaded with the safety on and are secured in a gun case when they are being transported in a boat."
+    },
+    {
+        "question": "Q342. You are operating your powerboat near a shoreline. What should you do to help prevent erosion?",
+        "answers": [
+            "A. Run at no wake speed.",
+            "B. Operate at high speed to stay in planing mode.",
+            "C. Avoid swerving your boat.",
+            "D. Operate in a clockwise direction."
+        ],
+        "correct_answer": "A",
+        "explanation": "Reduce throttle to no wake speed when close to a shoreline or in small rivers to help prevent erosion."
+    },
+    {
+        "question": "Q343. Who is responsible for performing the pre-departure check of a recreational boat?",
+        "answers": [
+            "A. dock attendant",
+            "B. boat operator",
+            "C. selling dealer",
+            "D. U.S. Attorney General"
+        ],
+        "correct_answer": "B",
+        "explanation": "As the operator of a boat, you are responsible for using a pre-departure checklist to make sure you've taken the necessary safety precautions before departing."
+    },
+    {
+        "question": "Q344. What should you do if your small craft capsizes in swift water?",
+        "answers": [
+            "A. Walk in the water until you can get back in the craft.",
+            "B. Swim on your stomach, heading downstream.",
+            "C. Float on your back, with your feet pointed downstream.",
+            "D. Remove your PFD and use it as a cushion against rocks."
+        ],
+        "correct_answer": "C",
+        "explanation": "If you capsize, float on the upstream side of your craft. Float on your back with your feet and arms extended. Float with your feet pointed downstream to act as a buffer against rocks."
+    },
+    {
+        "question": "Q345. Two people are on a boat towing a skier. One person is the operator. What is the role of the second person?",
+        "answers": [
+            "A. Give signals to the skier.",
+            "B. Watch the skier.",
+            "C. Entertain the operator.",
+            "D. Help the skier get back in the boat."
+        ],
+        "correct_answer": "B",
+        "explanation": "Before towing a skier, the operator should have a second person on board to act as an observer."
+    },
+    {
+        "question": "Q346.  What safety precaution should you take when hunting from a boat?",
+        "answers": [
+            "A.  Always remain seated while shooting.",
+            "B.  Have your dog stand on the bow for faster retrieval.",
+            "C.  Lower the anchor slowly from the side of the boat.",
+            "D.  Wear two layers of warm clothing over your PFD."
+        ],
+        "correct_answer": "A",
+        "explanation": "If you are using your vessel to hunt, always remain seated when shooting."
+    }
+]

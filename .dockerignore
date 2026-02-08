@@ -1,0 +1,63 @@
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info
+dist
+build
+.eggs
+.pytest_cache
+.coverage
+htmlcov
+.tox
+.mypy_cache
+.dmypy.json
+dmypy.json
+venv
+.venv
+env
+ENV
+
+# Docker
+.dockerignore
+Dockerfile*
+docker-compose*.yml
+.docker
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Documentation
+*.md
+!README.md
+LICENSE
+img/
+Docs/
+
+# Logs and databases (will be mounted as volumes)
+data/logs/*
+data/db/*
+data/user_data/*
+
+# Temporary files
+*.log
+*.tmp
+*.temp
+.cache
+
+# Environment files
+.env
+.env.*
+!.env.example

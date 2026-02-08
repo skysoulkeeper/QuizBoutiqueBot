@@ -1,0 +1,542 @@
+[
+    {
+        "question": "The primary role of a security officer is to:",
+        "answers": [
+            "A. Enforce the law",
+            "B. Protect people and property",
+            "C. Act like a peace officer",
+            "D. Arrest law breakers"
+        ],
+        "correct_answer": "B",
+        "explanation": "Security officers primarily protect people and property, not enforce laws like peace officers."
+    },
+    {
+        "question": "What is the responsibility of security personnel before an incident or offense has occurred?",
+        "answers": [
+            "A. Detain and punish",
+            "B. Stay out of sight",
+            "C. Prevent",
+            "D. Search and seize"
+        ],
+        "correct_answer": "C",
+        "explanation": "Prevention is the key responsibility before incidents occur."
+    },
+    {
+        "question": "It is against the law for security personnel to:",
+        "answers": [
+            "A. Arrest someone",
+            "B. Protect property",
+            "C. Observe and report",
+            "D. Make someone think they are a police officer"
+        ],
+        "correct_answer": "D",
+        "explanation": "Impersonating a police officer is illegal. Security personnel must not mislead people about their authority."
+    },
+    {
+        "question": "During an emergency on the employer's property, a peace officer instructs security personnel to stand out of the way behind a police line. The security personnel must:",
+        "answers": [
+            "A. Refuse, as the security employee's duties are different from those of the peace officer",
+            "B. Cooperate and follow the lawful orders of the police officer",
+            "C. Apprehend the persons violating the law on the employer's property, since the security employee's duty is to protect the property of the employer"
+        ],
+        "correct_answer": "B",
+        "explanation": "Security personnel must cooperate with and follow lawful orders from peace officers."
+    },
+    {
+        "question": "The general public judges a security employee by:",
+        "answers": [
+            "A. Appearance",
+            "B. Speech",
+            "C. Attitude",
+            "D. All of the above"
+        ],
+        "correct_answer": "D",
+        "explanation": "Professional appearance, speech, and attitude all contribute to public perception of security personnel."
+    },
+    {
+        "question": "According to the law, which of the following conditions must exist before you can make a misdemeanor arrest?",
+        "answers": [
+            "A. The suspect must admit to the crime",
+            "B. The crime must have been committed or attempted in your presence",
+            "C. Someone told you the suspect did it"
+        ],
+        "correct_answer": "B",
+        "explanation": "For misdemeanor arrests, the crime must be committed or attempted in your presence."
+    },
+    {
+        "question": "What should you say to a person you are arresting for burglary?",
+        "answers": [
+            "A. State your intent to arrest",
+            "B. State the charge, which is suspicion of burglary",
+            "C. State your authority to make the arrest",
+            "D. All of the above"
+        ],
+        "correct_answer": "D",
+        "explanation": "When making an arrest, you must state your intent, the charge, and your authority."
+    },
+    {
+        "question": "f you are struggling to get a suspect under control and there are a number of bystanders, what does the law say you can do?",
+        "answers": [
+            "A. Ask the bystanders to help you",
+            "B. Demand that the bystanders help you",
+            "C. Demand the bystanders call the police",
+            "D. None of the above"
+        ],
+        "correct_answer": "D",
+        "explanation": "The law does not authorize security personnel to demand assistance from bystanders."
+    },
+    {
+        "question": "According to the text, you should:",
+        "answers": [
+            "A. Search all suspects immediately",
+            "B. Not search a suspect unless you have reason to believe they have a weapons",
+            "C. Only search persons suspected of major crimes",
+            "D. Only search persons with a police record"
+        ],
+        "correct_answer": "B",
+        "explanation": "Searches should only be conducted when there is reasonable belief the suspect has weapons."
+    },
+    {
+        "question": "It would be lawful to hold a suspect for two hours so your supervisor could question them before you called the police.",
+        "answers": [
+            "A. True",
+            "B. False"
+        ],
+        "correct_answer": "B",
+        "explanation": "It is unlawful to delay unnecessarily in turning suspects over to law enforcement."
+    },
+    {
+        "question": "If a security guard is charged with making a false arrest, what type of liability is incurred?",
+        "answers": [
+            "A. Civil liability",
+            "B. Criminal Liability",
+            "C. Both"
+        ],
+        "correct_answer": "C",
+        "explanation": "False arrest can result in both civil and criminal liability."
+    },
+    {
+        "question": "What type of liability refers to the right a party has to initiate a lawsuit for financial damages?",
+        "answers": [
+            "A. Civil liability",
+            "B. Criminal liability"
+        ],
+        "correct_answer": "A",
+        "explanation": "Civil liability involves lawsuits for financial damages."
+    },
+    {
+        "question": "The standard to determine 'reasonable force' is based on:",
+        "answers": [
+            "A. How many people at the scene agree with your version of events.",
+            "B. All facts confronting the individual at the time the incident occurred.",
+            "C. Video footage captured on surveillance cameras.",
+            "D. The threat of something happening in the future."
+        ],
+        "correct_answer": "B",
+        "explanation": "Reasonable force is determined by all facts present at the time of the incident."
+    },
+    {
+        "question": "An imminent threat is defined as:",
+        "answers": [
+            "A. The suspicion that an individual is capable of harm.",
+            "B. Fear that something dangerous may happen tomorrow if you do not contain the threat.",
+            "C. Fear that dangerous actions may occur at any instant.",
+            "D. The assumption that the subject will continue to escalate violence."
+        ],
+        "correct_answer": "C",
+        "explanation": "An imminent threat means danger could occur at any instant, not just a suspicion or future possibility."
+    },
+    {
+        "question": "Which circumstances should be taken into consideration when determining whether to use force?",
+        "answers": [
+            "A. The size and physical strength of the subject.",
+            "B. The availability of support or back-up from other security personnel.",
+            "C. The number of subjects.",
+            "D. Whether the subject is intoxicated or showing symptoms of mental illness.",
+            "E. All of the above."
+        ],
+        "correct_answer": "E",
+        "explanation": "All listed factors must be considered when determining whether to use force."
+    },
+    {
+        "question": "The professional presence, appearance, and verbal commands used by uniformed security personnel are considered a force option.",
+        "answers": [
+            "A. True",
+            "B. False"
+        ],
+        "correct_answer": "A",
+        "explanation": "Professional presence and verbal commands are the lowest level of force options."
+    },
+    {
+        "question": "What would be an appropriate force option for a subject who is passive but non-compliant (does not listen to verbal commands but is not physically resistant)?",
+        "answers": [
+            "A. Use of a taser or pepper spray.",
+            "B. Use of additional commands and communication techniques.",
+            "C. Utilization of control holds, takedowns, and/or movement directing techniques.",
+            "D. Use of a firearm.",
+            "E. All of the above."
+        ],
+        "correct_answer": "B",
+        "explanation": "Passive non-compliance should be addressed with additional verbal commands and communication, not physical force."
+    },
+    {
+        "question": "Use of force is always justified to protect property and persons.",
+        "answers": [
+            "A. True",
+            "B. False"
+        ],
+        "correct_answer": "B",
+        "explanation": "Use of force must be reasonable and appropriate; it is not always justified."
+    },
+    {
+        "question": "A security guard must break up a fight if it occurs across the street from a property that they are guarding.",
+        "answers": [
+            "A. True",
+            "B. False"
+        ],
+        "correct_answer": "B",
+        "explanation": "Security guards are only responsible for incidents on the property they are assigned to guard."
+    },
+    {
+        "question": "If you cannot prevent an incident, you should:",
+        "answers": [
+            "A. Observe it carefully.",
+            "B. Pretend you do not see it.",
+            "C. Report it immediately to law enforcement and/or your supervisor.",
+            "D. Both A and C."
+        ],
+        "correct_answer": "D",
+        "explanation": "Security personnel should observe incidents carefully and report them to proper authorities."
+    },
+    {
+        "question": "Actions based on poor judgment will have zero consequences for you and your employer.",
+        "answers": [
+            "A. True",
+            "B. False"
+        ],
+        "correct_answer": "B",
+        "explanation": "Poor judgment can result in serious consequences for both the security guard and employer."
+    },
+    {
+        "question": "Security personnel may be held liable for failure to intercede.",
+        "answers": [
+            "A. True",
+            "B. False"
+        ],
+        "correct_answer": "A",
+        "explanation": "Security personnel have a duty to intercede when appropriate and can be liable if they fail to do so."
+    },
+    {
+        "question": "A security guard is involved in an incident that results in physical contact with a subject, but no injury occurs, they do not need to report the incident to their supervisor.",
+        "answers": [
+            "A. True",
+            "B. False"
+        ],
+        "correct_answer": "B",
+        "explanation": "All incidents involving physical contact must be reported, regardless of whether injury occurred."
+    },
+    {
+        "question": "What is a possible penalty for failing to report a physical altercation to the Bureau in a timely fashion?",
+        "answers": [
+            "A. License suspension",
+            "B. License revocation",
+            "C. A fine up to $5000",
+            "D. All of the above"
+        ],
+        "correct_answer": "D",
+        "explanation": "Failure to report can result in suspension, revocation, or fines up to $5000."
+    },
+    {
+        "question": "How many days does a security service have to submit a written report to the Bureau after a physical altercation?",
+        "answers": [
+            "A. 7",
+            "B. 14",
+            "C. 21",
+            "D. 30"
+        ],
+        "correct_answer": "A",
+        "explanation": "Written reports must be submitted to the Bureau within 7 days of a physical altercation."
+    },
+    {
+        "question": "The written report to the Bureau after a physical altercation must include the following:",
+        "answers": [
+            "A. A description of any injuries or damages.",
+            "B. The identity of all participants.",
+            "C. Whether a police report was filed.",
+            "D. All of the above."
+        ],
+        "correct_answer": "D",
+        "explanation": "All listed information must be included in the written report to the Bureau."
+    },
+    {
+        "question": "When considering an appropriate force option, what must you consider?",
+        "answers": [
+            "A. Just the size of the individual.",
+            "B. Whether or not there are witnesses present.",
+            "C. The totality of the circumstances involved.",
+            "D. How far away the individual is from you."
+        ],
+        "correct_answer": "C",
+        "explanation": "Force decisions must be based on the totality of circumstances, not just one factor."
+    },
+    {
+        "question": "Reasonable force is what?",
+        "answers": [
+            "A. The amount of force necessary to get the job done.",
+            "B. Not excessive and appropriate in protecting oneself or one's property.",
+            "C. Whatever your boss and client authorize.",
+            "D. None of the above."
+        ],
+        "correct_answer": "B",
+        "explanation": "Reasonable force is force that is not excessive and appropriate to the situation."
+    },
+    {
+        "question": "All of the following are benefits of practicing de-escalation except:",
+        "answers": [
+            "A. Positive impact on public trust.",
+            "B. Reduced danger to security personnel.",
+            "C. Positive impact on individual wellness.",
+            "D. Is used by those who lack courage."
+        ],
+        "correct_answer": "D",
+        "explanation": "De-escalation is a professional skill, not a sign of lacking courage."
+    },
+    {
+        "question": "What is not part of assessing a situation?",
+        "answers": [
+            "A. Determining if the situation poses a threat or risk to others.",
+            "B. Determining if the company is going to lose money.",
+            "C. Determining if the threat requires an immediate response.",
+            "D. Determining if there is an imminent threat that requires action."
+        ],
+        "correct_answer": "B",
+        "explanation": "Financial considerations are not part of threat assessment; focus is on safety."
+    },
+    {
+        "question": "De-escalation techniques attempted or utilized should be documented in appropriate incident reports.",
+        "answers": [
+            "A. True",
+            "B. False"
+        ],
+        "correct_answer": "A",
+        "explanation": "All de-escalation efforts must be documented in incident reports."
+    },
+    {
+        "question": "The four concepts of de-escalation are self-control, effective communication, scene assessment and management, and force options.",
+        "answers": [
+            "A. True",
+            "B. False"
+        ],
+        "correct_answer": "A",
+        "explanation": "These are the four core concepts of effective de-escalation."
+    },
+    {
+        "question": "Unconscious thoughts and feelings are an example of:",
+        "answers": [
+            "A. Perceptions",
+            "B. Implicit bias",
+            "C. Explicit bias",
+            "D. Discrimination"
+        ],
+        "correct_answer": "B",
+        "explanation": "Implicit bias refers to unconscious thoughts and feelings that affect behavior."
+    },
+    {
+        "question": "When communicating with an individual who speaks limited English, a good technique is to:",
+        "answers": [
+            "A. Allow enough time for a response",
+            "B. Speak loudly",
+            "C. Use technical terms",
+            "D. Address the translator only"
+        ],
+        "correct_answer": "A",
+        "explanation": "Allowing time for response shows respect and improves communication with limited English speakers."
+    },
+    {
+        "question": "Which nonverbal actions may impact communication between people of different cultures?",
+        "answers": [
+            "A. Facial expressions",
+            "B. Eye contact",
+            "C. Gestures",
+            "D. All of the above"
+        ],
+        "correct_answer": "D",
+        "explanation": "All forms of nonverbal communication can have different meanings across cultures."
+    },
+    {
+        "question": "Which of the following is not an aspect of active listening?",
+        "answers": [
+            "A. Considering context",
+            "B. Assuming you heard everything right the first time",
+            "C. Rephrasing what was said",
+            "D. Open-mindedness"
+        ],
+        "correct_answer": "B",
+        "explanation": "Active listening requires verification, not assumptions about understanding."
+    },
+    {
+        "question": "It is up to security personnel to determine whether an individual is protected under the Americans with Disabilities Act (ADA).",
+        "answers": [
+            "A. True",
+            "B. False"
+        ],
+        "correct_answer": "B",
+        "explanation": "Security personnel should treat all individuals respectfully; ADA determination is not their role."
+    },
+    {
+        "question": "When interacting with a person using a mobility device, security personnel should:",
+        "answers": [
+            "A. Forcefully remove the device out of the way.",
+            "B. Consider the device an extension of the person when establishing a safety zone or conducting a frisk.",
+            "C. Determine whether the device is absolutely necessary to accommodate the individual's disability.",
+            "D. None of the above."
+        ],
+        "correct_answer": "B",
+        "explanation": "Mobility devices are extensions of the person and should be treated with respect."
+    },
+    {
+        "question": "When communicating with a person who is deaf or hard of hearing, security personnel can help the process by:",
+        "answers": [
+            "A. Providing pen and paper",
+            "B. Assuming the individual can read lips.",
+            "C. Speaking loudly into their ear.",
+            "D. All of the above."
+        ],
+        "correct_answer": "A",
+        "explanation": "Providing pen and paper facilitates communication; don't assume lip reading or that volume helps."
+    },
+    {
+        "question": "Hallucinations can be a symptom of which of the following?",
+        "answers": [
+            "A. Mental illness",
+            "B. Substance abuse",
+            "C. Both A and B"
+        ],
+        "correct_answer": "C",
+        "explanation": "Hallucinations can result from both mental illness and substance abuse."
+    },
+    {
+        "question": "Self-control is one of a security personnel's greatest _____ in dealing with a person or a situation.",
+        "answers": [
+            "A. Weaknesses",
+            "B. Assets",
+            "C. Protection",
+            "D. Awareness level"
+        ],
+        "correct_answer": "B",
+        "explanation": "Self-control is a critical asset for professional security personnel."
+    },
+    {
+        "question": "Two major emotional factors that security personnel need to focus on to maintain self-control are:",
+        "answers": [
+            "A. Fear and Anger",
+            "B. Fear and Self-Control",
+            "C. Anger and Anxiety",
+            "D. Distress and Excitement"
+        ],
+        "correct_answer": "A",
+        "explanation": "Fear and anger are the two primary emotions that can compromise self-control."
+    },
+    {
+        "question": "Whenever possible, security personnel should attempt to generate voluntary compliance without resorting to _____.",
+        "answers": [
+            "A. Anger",
+            "B. Arrest",
+            "C. Physical Force",
+            "D. Confrontation"
+        ],
+        "correct_answer": "C",
+        "explanation": "The goal is to achieve compliance through communication rather than physical force."
+    },
+    {
+        "question": "A key principle in maintaining public trust and respect is ensuring that any use of force is _____.",
+        "answers": [
+            "A. Reasonable",
+            "B. Unreasonable",
+            "C. Accurate",
+            "D. Justifiable"
+        ],
+        "correct_answer": "A",
+        "explanation": "Force must be reasonable to maintain public trust and legal standing."
+    },
+    {
+        "question": "The basic philosophy of any security officer should be to respond in a manner that is humane, compassionate, and _____.",
+        "answers": [
+            "A. Aggressive",
+            "B. Supportive",
+            "C. Kind",
+            "D. Admirable"
+        ],
+        "correct_answer": "B",
+        "explanation": "Security officers should respond with support while maintaining professionalism."
+    },
+    {
+        "question": "Persons managing a mental illness can have a substantially diminished capacity for coping with the ordinary demands of life.",
+        "answers": [
+            "A. True",
+            "B. False"
+        ],
+        "correct_answer": "A",
+        "explanation": "Mental illness can significantly affect a person's ability to cope with daily situations."
+    },
+    {
+        "question": "Security personnel should attempt to diagnose mental illness.",
+        "answers": [
+            "A. True",
+            "B. False"
+        ],
+        "correct_answer": "B",
+        "explanation": "Security personnel are not qualified to diagnose mental illness; that's for medical professionals."
+    },
+    {
+        "question": "Some individuals with a mental illness may be capable of going very quickly from a state of calm to being extremely _____.",
+        "answers": [
+            "A. Excited",
+            "B. Quiet",
+            "C. Anxious",
+            "D. Agitated"
+        ],
+        "correct_answer": "D",
+        "explanation": "Rapid escalation from calm to agitated is a common pattern in some mental health conditions."
+    },
+    {
+        "question": "The first action you should take in an active shooter situation is to attempt to disarm the shooter.",
+        "answers": [
+            "A. True",
+            "B. False"
+        ],
+        "correct_answer": "B",
+        "explanation": "Your first priority is your own safety - run, hide, fight (in that order)."
+    },
+    {
+        "question": "If you are able to call 911, what information should you provide?",
+        "answers": [
+            "A. The shooter's location",
+            "B. Driving directions to your location",
+            "C. A physical description of the shooter",
+            "D. Both A and C"
+        ],
+        "correct_answer": "D",
+        "explanation": "Provide location and description of the shooter; 911 operators know how to find addresses."
+    },
+    {
+        "question": "Security personnel are responsible for which of the following?",
+        "answers": [
+            "A. Evacuating all members of the public.",
+            "B. Taking down the active shooter.",
+            "C. Protecting their own lives."
+        ],
+        "correct_answer": "C",
+        "explanation": "Security personnel's first responsibility in an active shooter situation is their own safety."
+    },
+    {
+        "question": "The appropriate order to consider your safety options are:",
+        "answers": [
+            "A. Confront, Fight, Run",
+            "B. Run, Hide, Fight",
+            "C. Hide, Attack, Run"
+        ],
+        "correct_answer": "B",
+        "explanation": "Run, Hide, Fight is the recommended active shooter response sequence."
+    }
+]

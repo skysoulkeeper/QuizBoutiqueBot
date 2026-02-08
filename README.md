@@ -2,39 +2,44 @@
 # QuizBoutiqueBot
 [![Buy Me a Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/skysoulkeeper)
 
-## Overview
+## 1. Overview
 QuizBoutiqueBot is a versatile Telegram bot designed for conducting quizzes with various settings and customizations. It offers a comprehensive user experience with features like timer support, question randomization, and localization in multiple languages.
 
 - **Latest Stable Version:** [Main Branch](https://github.com/skysoulkeeper/QuizBoutiqueBot/tree/main)
 - **Latest Changes:** [Develop Branch](https://github.com/skysoulkeeper/QuizBoutiqueBot/tree/develop)
 - **Test Question Pools:**
-  - [Boating License EN(NJ)](data/questions/Boat%20Exams/NJ%20Boat%20Exam%20Answers%20EN.json)
-  - [CDL RU(FL)](data/questions/CDL/General%20Knowledge%20RU.json)
+  - [Boating License EN (NJ)](data/questions/Boat%20Exams/NJ%20Boat%20Exam%20Answers%20EN.json)
+  - [Boating License RU+EN (NJ)](data/questions/Boat%20Exams/NJ%20Boat%20Exam%20Answers%20RU+EN.json)
+  - [BSIS EN (CA Powers to Arrest)](data/questions/BSIS/CA%20Powers%20to%20Arrest%20EN.json)
+  - [CDL RU (General Knowledge)](data/questions/CDL/General%20Knowledge%20RU.json)
+
 
 ## Table of Contents
-1. [Overview](#overview)
-2. [Visual Demo](#visual-demo)
-3. [Features](#features)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [How It Works](#how-it-works)
-7. [Adding Your Own Quizzes](#adding-your-own-quizzes)
-8. [Customization](#customization)
-9. [Detailed Description of Files and Functionality](#detailed-description-of-files-and-functionality)
-10. [To Do or Not To Do](#to-do-or-not-to-do)
-11. [Development and Contribution](#development-and-contribution)
-12. [Acknowledgments](#acknowledgments)
-13. [License](#license)
-14. [Contact](#contact)
-15. [Support](#support)
-16. [Disclaimer](#disclaimer)
+1. [Overview](#1-overview)
+2. [Visual Demo](#2-visual-demo)
+3. [Features](#3-features)
+4. [Installation](#4-installation)
+5. [Creating Your Telegram Bot and Adding to a Group](#5-creating-your-telegram-bot-and-adding-to-a-group)
+6. [Usage](#6-usage)
+7. [How It Works](#7-how-it-works)
+8. [Adding Your Own Quizzes](#8-adding-your-own-quizzes)
+9. [Customization](#9-customization)
+10. [Advanced Configuration](#10-advanced-configuration)
+11. [Detailed Description of Files and Functionality](#11-detailed-description-of-files-and-functionality)
+12. [To Do or Not To Do](#12-to-do-or-not-to-do)
+13. [Development and Contribution](#13-development-and-contribution)
+14. [Acknowledgments](#14-acknowledgments)
+15. [License](#15-license)
+16. [Contact](#16-contact)
+17. [Support](#17-support)
+18. [Disclaimer](#18-disclaimer)
 
-## Visual Demo
+## 2. Visual Demo
 | ![img1](img/main_menu.png) | ![img2](img/settings.png) | ![img3](img/question_pool.png) |
 |------------------------|------------------------|------------------------|
 | ![img4](img/language.png) | ![img5](img/tests.png) | ![img6](img/test_exmp.png) |
 
-## Features
+## 3. Features
 - **Quiz Timer Functionality:**
   - Enable or disable a timer for quizzes.
   - Customizable timer limits (in minutes).
@@ -62,7 +67,7 @@ QuizBoutiqueBot is a versatile Telegram bot designed for conducting quizzes with
 
 - **Localization Support:**
   - Multi-language interface with easy language switching.
-  - Currently supports four languages: [🇺🇸 English](locales/en.yml), [🇪🇸 Spanish](locales/es.yml), [🇷🇺 Russian](locales/ru.yml), and [🇺🇦 Ukrainian](locales/ua.yml).
+  - Currently supports languages: [🇺🇸 English](locales/en.yml), [🇪🇸 Spanish](locales/es.yml), [🇷🇺 Russian](locales/ru.yml), and [🇺🇦 Ukrainian](locales/ua.yml).
   - Easy to add additional languages via localization files.
 
 - **Persistent Data Handling:**
@@ -80,41 +85,146 @@ QuizBoutiqueBot is a versatile Telegram bot designed for conducting quizzes with
 - **Proxy Support:**
   - Configure and use proxy settings for secure and anonymous connections.
 
-## Installation
-To run this bot, you need to have Python installed on your system along with the necessary packages.
+## 4. Installation
 
-Ensure you have **Python 3.8** or higher installed on your system.
+**[Docker Deployment Guide](docker/DOCKER.md)** - Complete guide for containerized deployment
 
-1. **Clone the Repository:**
+Get your computer ready to run the bot. Simple step-by-step instructions for Windows, macOS, and Linux.
 
-   ```bash
-   git clone https://github.com/skysoulkeeper/QuizBoutiqueBot.git
-   cd QuizBoutiqueBot
-   ```
+1) Install Python (version 3.8 or later)
+- Windows:
+  - Go to https://www.python.org/downloads/windows/ and download the latest Python 3.x (Download Python 3.x).
+  - In the installer, check "Add Python to PATH", then click Install Now.
+  - How to open a terminal: press Win and type "Command Prompt" (or "PowerShell"), then open it.
+  - Verify installation: run `python --version` or `py --version`.
 
-2. **Install Dependencies:**
-   ```bash
-    pip install -r requirements.txt
-   ```
+- macOS:
+  - Go to https://www.python.org/downloads/macos/ and download the pkg installer for Python 3.x. Install it.
+  - Alternative for advanced users: Homebrew - `brew install python`.
+  - How to open a terminal: open Spotlight (Cmd+Space), type "Terminal", then open the Terminal app.
+  - Verify: `python3 --version`.
 
-## Usage
-1. **Prepare the Configuration File:**
+- Linux:
+  - How to open a terminal: usually Ctrl+Alt+T or find "Terminal" in the menu.
+  - Install Python and pip (choose your distro):
+    - Ubuntu/Debian: `sudo apt update && sudo apt install -y python3 python3-pip`
+    - Fedora: `sudo dnf install -y python3 python3-pip`
+    - Arch: `sudo pacman -S python python-pip`
+  - Verify: `python3 --version`, `pip3 --version`.
 
-   • Modify the [`config.yml`](configs/config.yml) file in the `configs` directory to set up your desired settings, including the Telegram bot token, proxy settings, and localization.
+2) Get the project
+
+Install Git (only if you choose Option A):
+- Windows: download and install Git for Windows from https://git-scm.com/download/win. During setup, choose "Use Git from the command line and also from 3rd-party software". Open Git Bash or Command Prompt.
+- macOS: install Xcode Command Line Tools: `xcode-select --install`, or use Homebrew: `brew install git`.
+- Linux:
+  - Ubuntu/Debian: `sudo apt update && sudo apt install -y git`
+  - Fedora: `sudo dnf install -y git`
+  - Arch: `sudo pacman -S git`
+Verify: `git --version` should print a version number.
 
 
-2. **Run the Bot:**
+- Option A (git):
+```bash
+git clone https://github.com/skysoulkeeper/QuizBoutiqueBot.git
+cd QuizBoutiqueBot
+```
+- Option B (ZIP): click "Code" -> "Download ZIP" on the repository page, unzip it and open the unzipped folder in your terminal.
+- Important: from now on, run all commands in the project folder that contains `app.py` and `requirements.txt`.
 
-   • Execute the `app.py` script to start the bot:
-    ```bash
-        python app.py
-    ```
+3) (Optional but recommended) Create a virtual environment
+- Windows:
+  ```bash
+  py -3 -m venv .venv
+  .venv\Scripts\activate
+  ```
+- macOS/Linux:
+  ```bash
+  python3 -m venv .venv
+  source .venv/bin/activate
+  ```
+If you see `(.venv)` at the start of your terminal line, it's active.
 
-3. **Interact with the Bot:**
+4) Install dependencies
+- Run one of these (depending on your system):
+  ```bash
+  pip install -r requirements.txt
+  # if pip is not found:
+  python -m pip install -r requirements.txt
+  # or on Linux/macOS:
+  pip3 install -r requirements.txt
+  ```
+If you see permission errors - add `--user` (Linux/macOS) or make sure the virtual environment is activated.
 
-    • Use Telegram to interact with the bot by sending commands like /start to begin.
+## 5. Creating Your Telegram Bot and Adding to a Group
+Step-by-step guide to create your Telegram bot and use it in DMs or groups.
 
-## How It Works
+1) Create a bot with BotFather
+- Open Telegram and find the official @BotFather.
+- Send `/newbot` and follow the prompts:
+  - Choose a display name.
+  - Choose a unique username ending in `bot` (e.g., `MyQuizBoutiqueBot`).
+- BotFather will give you a token like `123456789:ABC...`. Save it and put it into `configs/config.yml` as `telegram.token`.
+
+2) (Optional) Turn off "Group Privacy" for group usage
+- In @BotFather open `/mybots` -> choose your bot -> Bot Settings -> Group Privacy -> Turn Off.
+- Why: with privacy off, the bot can see commands and button presses in groups, which is useful for quizzes.
+
+3) Add the bot to your group
+- Open your group -> Add member -> search your bot by username -> add.
+- Grant admin rights only if you know you need them. The quiz UI works with inline buttons and /start.
+
+4) Find your group chat_id (optional)
+- If you want to save the group chat_id in config, the easiest way is to add @getidsbot or @RawDataBot to the group. They will show the chat ID.
+- Optionally set `telegram.chat_id` in `configs/config.yml`. It is optional. The bot works without it.
+
+5) Paste the token in config and run
+- Open `configs/config.yml`, set `telegram.token` and, if needed, configure `proxy_settings`.
+- Start the bot and send `/start` in DM or in the group. See Usage below.
+
+
+## 6. Usage
+Step-by-step instructions to run and use the bot, even if you've never run programs before.
+
+
+
+1) Configure the bot (configs/config.yml)
+- Open `configs/config.yml` with any text editor (e.g., Notepad on Windows, TextEdit on macOS, nano/gedit on Linux).
+- Find the `telegram` section and set:
+  - `token`: paste your bot token from BotFather (see "Creating Your Telegram Bot" below).
+  - `language`: interface language - `en`, `es`, `ru`, `ua` (you can also switch inside the bot).
+  - `proxy_settings`: if Telegram is restricted in your region, enable and configure a proxy (see example below and "Advanced Configuration").
+  - You can keep the rest at defaults (you can always change them later in "Settings").
+
+2) Start the bot
+- Windows:
+  ```bash
+  py app.py
+  # if that doesn't work, try:
+  python app.py
+  ```
+- macOS/Linux:
+  ```bash
+  python3 app.py
+  # with an active virtual environment this also works:
+  python app.py
+  ```
+If it worked, the terminal will show a startup message and your bot will be online in Telegram.
+
+3) Open Telegram and try it
+- Find your bot by its username (set in BotFather) and press "Start" (/start).
+- Main menu:
+  - "Tests" - choose a category and a quiz (questions are read from `data/questions`).
+  - "Settings" - adjust the number of questions, timer, time limit, random order, and language.
+  - "Help" - quick help.
+- For groups: add the bot to a group, optionally turn off "Group Privacy" in BotFather (see next section), send /start in the group - members can take quizzes right there.
+
+4) Stop the bot
+- Go back to the terminal where the bot is running and press Ctrl+C.
+
+
+
+## 7. How It Works
 - **Configuration Loading:**
   - On startup, the bot loads configurations from [config.yml](configs/config.yml), including settings for logging, proxies, directories, and Telegram.
 
@@ -133,17 +243,19 @@ Ensure you have **Python 3.8** or higher installed on your system.
 - **Question Pools:**
   - The question pools are located in the data/questions directory.
 
-## Adding Your Own Quizzes
-### Creating Quiz Files
-**Format:**
-- Quizzes are stored in JSON format.
-- Each quiz file contains a list of question objects with the following keys:
-  - question: The quiz question.
-  - answers: A list of possible answers.
-  - correct_answer: The correct answer to the question.
-  - explanation (optional): An explanation for the correct answer.
+## 8. Adding Your Own Quizzes
+It's easy: the bot reads files from `data/questions` and automatically shows them under "Tests".
 
-**Example:**
+1) Structure and format
+- Each quiz is a JSON file (UTF-8) placed inside a category subfolder, e.g., `data/questions/Boat Exams/NJ Boat Exam Answers EN.json`.
+- Each file is a list of question objects with fields:
+  - `question` - the question text.
+  - `answers` - list of answer options (strings). Recommended to start each option with a short key and a separator, e.g., `A. ...`, `B. ...` or `A: ...`, `B: ...`. Numbers like `1. ...` also work.
+  - `correct_answer` - the exact string from `answers` that is correct (the key and text must match exactly).
+  - `explanation` (optional) - an explanation that is shown after answering.
+- Telegram button labels have a length limit. In code `MAX_BUTTON_LENGTH` is 64. Keep a short key at the start (`A.`, `B.` etc.) and the long text after it.
+
+Example:
 ```json
 [
   {
@@ -161,23 +273,17 @@ Ensure you have **Python 3.8** or higher installed on your system.
 ]
 ```
 
-**Organizing Quizzes**
-- Categories:
-  - Organize quizzes into categories by creating subdirectories within the data/questions directory.
-  - Each category should contain quiz files related to that topic.
-- Naming Conventions:
-  - Use clear and descriptive names for quiz files and categories.
-  - Quiz file names should end with .json.
+Tips
+- Categories are subfolders in `data/questions` (e.g., `CDL`, `Boat Exams`, `BSIS`). Folder names appear in the menu.
+- Use clear filenames ending with `.json`.
+- You can mix languages in one file (see `NJ Boat Exam Answers RU+EN.json`). The structure must remain valid.
+- Validate your JSON in any online validator if the bot reports a format error.
 
-**Updating the Questions Directory**
+Add/update quizzes
+- Copy your JSON file into the appropriate subfolder inside `data/questions`.
+- Restart is not required - the list is read dynamically. If you don't see the new quiz immediately, open "Tests" again.
 
-- Adding Quizzes:
-  - Place your quiz JSON files into the appropriate category directory.
-  - No need to restart the bot; it dynamically reads the quiz files.
-- Refreshing Quizzes:
-  - Ensure that the JSON files are correctly formatted to avoid errors.
-
-## Customization
+## 9. Customization
 **Emojis and Icons**
 - The bot uses emojis and icons for a better user experience.
 - Emojis can be customized in the [config.yml](configs/config.yml) file under the emoji section.
@@ -204,7 +310,7 @@ emoji:
   - Provide translations for each key present in other localization files.
   - Ensure that all required keys are included to prevent missing text in the bot.
 
-## Advanced Configuration
+## 10. Advanced Configuration
 - Proxy Support
 
   - If you need to use a proxy:
@@ -223,7 +329,7 @@ emoji:
     2.	Supported Proxy Types:
     - HTTP, HTTPS, SOCKS4, and SOCKS5 proxies are supported.
 
-## Detailed Description of Files and Functionality
+## 11. Detailed Description of Files and Functionality
 ### 1. [app.py](app.py)
 - Entry point of the application.
 - Initializes the bot by loading configurations, setting up logging, proxies, and starting the Telegram bot.
@@ -258,19 +364,18 @@ emoji:
 ### 11. [locales/en.yml](locales/en.yml)
 - Localization file for English, containing translated strings for bot interactions.
 
-## To Do or Not To Do
+## 12. To Do or Not To Do
 - Implement cflags functionality.
 - Process lists from CSV, XLS, DOC.
 - Add tests.
 - Code and project structure optimization.
-- Docker support.
 - Implement asynchronous processing for faster results.
 - Develop a WebUI.
 - Database support with import and export.
 
 However, these enhancements might be considered in the future or perhaps in another lifetime.
 
-## Development and Contribution
+## 13. Development and Contribution
 ### Development
 - **Testing Environments:**
   - Tested on Windows and macOS with Python version 3.11.
@@ -278,7 +383,7 @@ However, these enhancements might be considered in the future or perhaps in anot
   - Created in free time to make studying tests more convenient.
 
 ### Contributing
-We welcome contributions! Here’s how you can help:
+We welcome contributions! Here's how you can help:
 
 - **Reporting Issues:**
   - Open an issue on GitHub if you find bugs or have feature requests.
@@ -288,7 +393,7 @@ We welcome contributions! Here’s how you can help:
 - **Adding Quizzes:**
   - You can contribute by adding new quiz files in the appropriate category.
 
-## Acknowledgments
+## 14. Acknowledgments
 - **Libraries Used:**
   - **python-telegram-bot** for interacting with the Telegram Bot API.
   - **requests** for making HTTP requests.
@@ -300,14 +405,14 @@ We welcome contributions! Here’s how you can help:
 - **Special Thanks:**
   - Thanks to the [python-telegram-bot](https://python-telegram-bot.org/) community for their support.
 
-## License
+## 15. License
 This project is licensed under the [MIT License](LICENSE). See the `LICENSE` file for details.
 
-## Contact
+## 16. Contact
 For any questions or support, please contact:
 - **Email:** [skysoulkeeper@gmail.com](mailto:skysoulkeeper@gmail.com)
 
-## Support
+## 17. Support
 If you like this project and want to support its development, consider buying me a coffee:
 
 [![Buy Me a Coffee](https://img.shields.io/badge/Donate-Buy%20Me%20a%20Coffee-yellow.svg)](https://www.buymeacoffee.com/skysoulkeeper)
@@ -321,7 +426,7 @@ You can also support via:
 - **ETH Ξ:** `0xE157B1Ae65ee66B0c98D87829dC03f84DcfDed2d`
 - **DOGE 🐕:** `D5bsqM2dCSJpvS5XWy8RLHCmymwBYFZcan`
 
-## Disclaimer
+## 18. Disclaimer
 This bot is provided as-is. Feel free to download, modify, and use it as you see fit.
 
 ---

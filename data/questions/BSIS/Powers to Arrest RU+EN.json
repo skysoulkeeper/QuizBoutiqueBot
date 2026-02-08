@@ -1,0 +1,542 @@
+[
+    {
+        "question": "The primary role of a security officer is to:\nОсновная роль сотрудника службы безопасности заключается в том, чтобы:",
+        "answers": [
+            "A. Enforce the law\nОбеспечивать соблюдение закона",
+            "B. Protect people and property\nЗащищать людей и имущество",
+            "C. Act like a peace officer\nДействовать как сотрудник полиции (peace officer)",
+            "D. Arrest law breakers\nАрестовывать нарушителей закона"
+        ],
+        "correct_answer": "B",
+        "explanation": "Security officers primarily protect people and property, not enforce laws like peace officers.\nСотрудники службы безопасности в первую очередь защищают людей и имущество, а не исполняют функции правоохранительных органов, как сотрудники полиции."
+    },
+    {
+        "question": "What is the responsibility of security personnel before an incident or offense has occurred?\nКакова обязанность сотрудников службы безопасности до того, как произошёл инцидент или правонарушение?",
+        "answers": [
+            "A. Detain and punish\nЗадерживать и наказывать",
+            "B. Stay out of sight\nОставаться вне поля зрения",
+            "C. Prevent\nПредотвращать",
+            "D. Search and seize\nПроводить обыски и изымать"
+        ],
+        "correct_answer": "C",
+        "explanation": "Prevention is the key responsibility before incidents occur.\nКлючевая обязанность до возникновения инцидентов - профилактика (предотвращение)."
+    },
+    {
+        "question": "It is against the law for security personnel to:\nСотрудникам службы безопасности запрещено законом:",
+        "answers": [
+            "A. Arrest someone\nАрестовывать кого-либо",
+            "B. Protect property\nЗащищать имущество",
+            "C. Observe and report\nНаблюдать и сообщать",
+            "D. Make someone think they are a police officer\nСоздавать у кого-либо впечатление, что они являются полицейским"
+        ],
+        "correct_answer": "D",
+        "explanation": "Impersonating a police officer is illegal. Security personnel must not mislead people about their authority.\nВыдавать себя за сотрудника полиции незаконно. Сотрудники службы безопасности не должны вводить людей в заблуждение относительно своих полномочий."
+    },
+    {
+        "question": "During an emergency on the employer's property, a peace officer instructs security personnel to stand out of the way behind a police line. The security personnel must:\nВо время чрезвычайной ситуации на территории работодателя сотрудник полиции (peace officer) инструктирует службу безопасности стоять в стороне за полицейской линией. Сотрудники службы безопасности должны:",
+        "answers": [
+            "A. Refuse, as the security employee's duties are different from those of the peace officer\nОтказаться, поскольку обязанности сотрудника службы безопасности отличаются от обязанностей сотрудника полиции",
+            "B. Cooperate and follow the lawful orders of the police officer\nСотрудничать и выполнять законные распоряжения сотрудника полиции",
+            "C. Apprehend the persons violating the law on the employer's property, since the security employee's duty is to protect the property of the employer\nЗадерживать лиц, нарушающих закон на территории работодателя, поскольку обязанность службы безопасности - защищать имущество работодателя"
+        ],
+        "correct_answer": "B",
+        "explanation": "Security personnel must cooperate with and follow lawful orders from peace officers.\nСотрудники службы безопасности обязаны сотрудничать с сотрудниками полиции и выполнять их законные распоряжения."
+    },
+    {
+        "question": "The general public judges a security employee by:\nОбщественность в целом оценивает сотрудника службы безопасности по:",
+        "answers": [
+            "A. Appearance\nВнешнему виду",
+            "B. Speech\nРечи",
+            "C. Attitude\nОтношению (манере поведения)",
+            "D. All of the above\nВсему перечисленному"
+        ],
+        "correct_answer": "D",
+        "explanation": "Professional appearance, speech, and attitude all contribute to public perception of security personnel.\nПрофессиональный внешний вид, речь и отношение/манера поведения формируют восприятие сотрудника службы безопасности."
+    },
+    {
+        "question": "According to the law, which of the following conditions must exist before you can make a misdemeanor arrest?\nСогласно закону, какое из следующих условий должно существовать, прежде чем вы сможете произвести арест за проступок (misdemeanor)?",
+        "answers": [
+            "A. The suspect must admit to the crime\nПодозреваемый должен признаться в преступлении",
+            "B. The crime must have been committed or attempted in your presence\nПроступок должен быть совершен или предпринята попытка его совершения в вашем присутствии",
+            "C. Someone told you the suspect did it\nКто-то сообщил вам, что это сделал подозреваемый"
+        ],
+        "correct_answer": "B",
+        "explanation": "For misdemeanor arrests, the crime must be committed or attempted in your presence.\nДля ареста за проступок требуется, чтобы преступление было совершено или предпринята попытка его совершения в вашем присутствии."
+    },
+    {
+        "question": "What should you say to a person you are arresting for burglary?\nЧто следует сказать человеку, которого вы арестовываете по подозрению в краже со взломом (burglary)?",
+        "answers": [
+            "A. State your intent to arrest\nСообщить о своём намерении произвести арест",
+            "B. State the charge, which is suspicion of burglary\nСообщить обвинение (основание) - подозрение в burglary",
+            "C. State your authority to make the arrest\nСообщить свои полномочия на осуществление ареста",
+            "D. All of the above\nВсё перечисленное"
+        ],
+        "correct_answer": "D",
+        "explanation": "When making an arrest, you must state your intent, the charge, and your authority.\nПри аресте необходимо сообщить о намерении арестовать, назвать основание (обвинение) и указать свои полномочия на арест."
+    },
+    {
+        "question": "f you are struggling to get a suspect under control and there are a number of bystanders, what does the law say you can do?\nf you are struggling to get a suspect under control and there are a number of bystanders, what does the law say you can do?",
+        "answers": [
+            "A. Ask the bystanders to help you\nПопросить свидетелей (посторонних) помочь вам",
+            "B. Demand that the bystanders help you\nПотребовать, чтобы свидетели помогли вам",
+            "C. Demand the bystanders call the police\nПотребовать, чтобы свидетели вызвали полицию",
+            "D. None of the above\nНичего из перечисленного"
+        ],
+        "correct_answer": "D",
+        "explanation": "The law does not authorize security personnel to demand assistance from bystanders.\nЗакон не даёт сотрудникам службы безопасности права требовать помощи от посторонних лиц."
+    },
+    {
+        "question": "According to the text, you should:\nСогласно тексту, вам следует:",
+        "answers": [
+            "A. Search all suspects immediately\nНемедленно обыскивать всех подозреваемых",
+            "B. Not search a suspect unless you have reason to believe they have a weapons\nНе обыскивать подозреваемого, если у вас нет оснований полагать, что у него есть оружие",
+            "C. Only search persons suspected of major crimes\nОбыскивать только лиц, подозреваемых в тяжких преступлениях",
+            "D. Only search persons with a police record\nОбыскивать только лиц с полицейским досье"
+        ],
+        "correct_answer": "B",
+        "explanation": "Searches should only be conducted when there is reasonable belief the suspect has weapons.\nОбыск следует проводить только при наличии разумных оснований полагать, что у подозреваемого может быть оружие."
+    },
+    {
+        "question": "It would be lawful to hold a suspect for two hours so your supervisor could question them before you called the police.\nБыло бы законно удерживать подозреваемого два часа, чтобы ваш руководитель мог его допросить, прежде чем вы вызовете полицию.",
+        "answers": [
+            "A. True\nВерно",
+            "B. False\nНеверно"
+        ],
+        "correct_answer": "B",
+        "explanation": "It is unlawful to delay unnecessarily in turning suspects over to law enforcement.\nНезаконно без необходимости затягивать передачу подозреваемых сотрудникам правоохранительных органов."
+    },
+    {
+        "question": "If a security guard is charged with making a false arrest, what type of liability is incurred?\nЕсли охранник обвиняется в незаконном (ложном) аресте, какая ответственность наступает?",
+        "answers": [
+            "A. Civil liability\nГражданско-правовая ответственность",
+            "B. Criminal Liability\nУголовная ответственность",
+            "C. Both\nОбе"
+        ],
+        "correct_answer": "C",
+        "explanation": "False arrest can result in both civil and criminal liability.\nЛожный арест может повлечь как гражданско-правовую, так и уголовную ответственность."
+    },
+    {
+        "question": "What type of liability refers to the right a party has to initiate a lawsuit for financial damages?\nКакой вид ответственности означает право стороны подать иск о взыскании денежного ущерба?",
+        "answers": [
+            "A. Civil liability\nГражданско-правовая ответственность",
+            "B. Criminal liability\nУголовная ответственность"
+        ],
+        "correct_answer": "A",
+        "explanation": "Civil liability involves lawsuits for financial damages.\nГражданско-правовая ответственность связана с исками о возмещении финансового ущерба."
+    },
+    {
+        "question": "The standard to determine 'reasonable force' is based on:\nКритерий для определения «разумной силы» (reasonable force) основан на:",
+        "answers": [
+            "A. How many people at the scene agree with your version of events.\nСкольких людей на месте событий согласны с вашей версией произошедшего",
+            "B. All facts confronting the individual at the time the incident occurred.\nСовокупности всех фактов, с которыми столкнулось лицо в момент инцидента",
+            "C. Video footage captured on surveillance cameras.\nВидеозаписи с камер наблюдения",
+            "D. The threat of something happening in the future.\nОпасности того, что что-то может произойти в будущем"
+        ],
+        "correct_answer": "B",
+        "explanation": "Reasonable force is determined by all facts present at the time of the incident.\nРазумность силы определяется совокупностью фактов, существовавших на момент инцидента."
+    },
+    {
+        "question": "An imminent threat is defined as:\nНепосредственная (imminent) угроза определяется как:",
+        "answers": [
+            "A. The suspicion that an individual is capable of harm.\nПодозрение, что человек способен причинить вред",
+            "B. Fear that something dangerous may happen tomorrow if you do not contain the threat.\nОпасение, что завтра может произойти что-то опасное, если вы не нейтрализуете угрозу",
+            "C. Fear that dangerous actions may occur at any instant.\nОпасение, что опасные действия могут произойти в любой момент",
+            "D. The assumption that the subject will continue to escalate violence.\nПредположение, что субъект будет продолжать усиливать насилие"
+        ],
+        "correct_answer": "C",
+        "explanation": "An imminent threat means danger could occur at any instant, not just a suspicion or future possibility.\nНепосредственная угроза означает, что опасность может реализоваться в любой момент, а не просто подозрение или вероятность в будущем."
+    },
+    {
+        "question": "Which circumstances should be taken into consideration when determining whether to use force?\nКакие обстоятельства следует учитывать при принятии решения о применении силы?",
+        "answers": [
+            "A. The size and physical strength of the subject.\nРазмер и физическая сила субъекта",
+            "B. The availability of support or back-up from other security personnel.\nНаличие поддержки/подстраховки со стороны других сотрудников службы безопасности",
+            "C. The number of subjects.\nКоличество субъектов",
+            "D. Whether the subject is intoxicated or showing symptoms of mental illness.\nНаходится ли субъект в состоянии опьянения или демонстрирует симптомы психического заболевания",
+            "E. All of the above.\nВсё перечисленное"
+        ],
+        "correct_answer": "E",
+        "explanation": "All listed factors must be considered when determining whether to use force.\nПри решении о применении силы необходимо учитывать все перечисленные факторы."
+    },
+    {
+        "question": "The professional presence, appearance, and verbal commands used by uniformed security personnel are considered a force option.\nПрофессиональное присутствие, внешний вид и словесные команды, используемые сотрудниками службы безопасности в форме, считаются вариантом применения силы.",
+        "answers": [
+            "A. True\nВерно",
+            "B. False\nНеверно"
+        ],
+        "correct_answer": "A",
+        "explanation": "Professional presence and verbal commands are the lowest level of force options.\nПрофессиональное присутствие и словесные команды относятся к самому низкому уровню вариантов применения силы."
+    },
+    {
+        "question": "What would be an appropriate force option for a subject who is passive but non-compliant (does not listen to verbal commands but is not physically resistant)?\nКакой вариант применения силы будет уместен в отношении субъекта, который пассивен, но не подчиняется (не реагирует на словесные команды, но физически не сопротивляется)?",
+        "answers": [
+            "A. Use of a taser or pepper spray.\nПрименение электрошокера (taser) или перцового спрея",
+            "B. Use of additional commands and communication techniques.\nДополнительные команды и техники коммуникации",
+            "C. Utilization of control holds, takedowns, and/or movement directing techniques.\nУдержания, броски и/или техники направления движения",
+            "D. Use of a firearm.\nПрименение огнестрельного оружия",
+            "E. All of the above.\nВсё перечисленное"
+        ],
+        "correct_answer": "B",
+        "explanation": "Passive non-compliance should be addressed with additional verbal commands and communication, not physical force.\nПассивное неповиновение следует решать с помощью дополнительных словесных команд и коммуникации, а не физической силы."
+    },
+    {
+        "question": "Use of force is always justified to protect property and persons.\nПрименение силы всегда оправдано для защиты имущества и людей.",
+        "answers": [
+            "A. True\nВерно",
+            "B. False\nНеверно"
+        ],
+        "correct_answer": "B",
+        "explanation": "Use of force must be reasonable and appropriate; it is not always justified.\nПрименение силы должно быть разумным и соразмерным; оно не всегда оправдано."
+    },
+    {
+        "question": "A security guard must break up a fight if it occurs across the street from a property that they are guarding.\nОхранник обязан разнять драку, если она происходит через дорогу от объекта, который он охраняет.",
+        "answers": [
+            "A. True\nВерно",
+            "B. False\nНеверно"
+        ],
+        "correct_answer": "B",
+        "explanation": "Security guards are only responsible for incidents on the property they are assigned to guard.\nОхранники несут ответственность только за инциденты на территории объекта, который им поручено охранять."
+    },
+    {
+        "question": "If you cannot prevent an incident, you should:\nЕсли вы не можете предотвратить инцидент, вам следует:",
+        "answers": [
+            "A. Observe it carefully.\nВнимательно наблюдать за происходящим",
+            "B. Pretend you do not see it.\nСделать вид, что вы ничего не видите",
+            "C. Report it immediately to law enforcement and/or your supervisor.\nНемедленно сообщить об этом в правоохранительные органы и/или своему руководителю",
+            "D. Both A and C.\nВарианты A и C"
+        ],
+        "correct_answer": "D",
+        "explanation": "Security personnel should observe incidents carefully and report them to proper authorities.\nСотрудники службы безопасности должны внимательно наблюдать за инцидентами и сообщать о них соответствующим органам."
+    },
+    {
+        "question": "Actions based on poor judgment will have zero consequences for you and your employer.\nДействия, основанные на плохом суждении, не будут иметь никаких последствий для вас и вашего работодателя.",
+        "answers": [
+            "A. True\nВерно",
+            "B. False\nНеверно"
+        ],
+        "correct_answer": "B",
+        "explanation": "Poor judgment can result in serious consequences for both the security guard and employer.\nПлохое суждение может привести к серьёзным последствиям как для сотрудника службы безопасности, так и для работодателя."
+    },
+    {
+        "question": "Security personnel may be held liable for failure to intercede.\nСотрудники службы безопасности могут нести ответственность за бездействие (failure to intercede).",
+        "answers": [
+            "A. True\nВерно",
+            "B. False\nНеверно"
+        ],
+        "correct_answer": "A",
+        "explanation": "Security personnel have a duty to intercede when appropriate and can be liable if they fail to do so.\nУ сотрудников службы безопасности есть обязанность вмешаться, когда это уместно, и они могут нести ответственность, если этого не сделают."
+    },
+    {
+        "question": "A security guard is involved in an incident that results in physical contact with a subject, but no injury occurs, they do not need to report the incident to their supervisor.\nЕсли охранник участвует в инциденте, который включает физический контакт с лицом, но травм нет, он не обязан сообщать об инциденте своему руководителю.",
+        "answers": [
+            "A. True\nВерно",
+            "B. False\nНеверно"
+        ],
+        "correct_answer": "B",
+        "explanation": "All incidents involving physical contact must be reported, regardless of whether injury occurred.\nО любых инцидентах с физическим контактом необходимо сообщать, независимо от того, была ли травма."
+    },
+    {
+        "question": "What is a possible penalty for failing to report a physical altercation to the Bureau in a timely fashion?\nКакое возможное наказание предусмотрено за несвоевременное сообщение в Bureau о физической потасовке (physical altercation)?",
+        "answers": [
+            "A. License suspension\nПриостановление лицензии",
+            "B. License revocation\nАннулирование (лишение) лицензии",
+            "C. A fine up to $5000\nШтраф до $5000",
+            "D. All of the above\nВсё перечисленное"
+        ],
+        "correct_answer": "D",
+        "explanation": "Failure to report can result in suspension, revocation, or fines up to $5000.\nНесообщение может привести к приостановлению или аннулированию лицензии, либо к штрафу до $5000."
+    },
+    {
+        "question": "How many days does a security service have to submit a written report to the Bureau after a physical altercation?\nСколько дней есть у службы безопасности, чтобы подать письменный отчёт в Bureau после физической потасовки?",
+        "answers": [
+            "A. 7\n7",
+            "B. 14\n14",
+            "C. 21\n21",
+            "D. 30\n30"
+        ],
+        "correct_answer": "A",
+        "explanation": "Written reports must be submitted to the Bureau within 7 days of a physical altercation.\nПисьменный отчёт в Bureau должен быть подан в течение 7 дней после физической потасовки."
+    },
+    {
+        "question": "The written report to the Bureau after a physical altercation must include the following:\nПисьменный отчёт в Bureau после физической потасовки должен включать:",
+        "answers": [
+            "A. A description of any injuries or damages.\nОписание любых травм или повреждений",
+            "B. The identity of all participants.\nЛичности всех участников",
+            "C. Whether a police report was filed.\nБыл ли подан полицейский отчёт (police report)",
+            "D. All of the above.\nВсё перечисленное"
+        ],
+        "correct_answer": "D",
+        "explanation": "All listed information must be included in the written report to the Bureau.\nВ письменный отчёт в Bureau должна входить вся перечисленная информация."
+    },
+    {
+        "question": "When considering an appropriate force option, what must you consider?\nПри выборе подходящего варианта применения силы что необходимо учитывать?",
+        "answers": [
+            "A. Just the size of the individual.\nТолько размер человека",
+            "B. Whether or not there are witnesses present.\nЕсть ли свидетели",
+            "C. The totality of the circumstances involved.\nСовокупность обстоятельств (totality of the circumstances)",
+            "D. How far away the individual is from you.\nНа каком расстоянии находится человек от вас"
+        ],
+        "correct_answer": "C",
+        "explanation": "Force decisions must be based on the totality of circumstances, not just one factor.\nРешения о применении силы должны основываться на совокупности обстоятельств, а не на одном факторе."
+    },
+    {
+        "question": "Reasonable force is what?\nЧто такое разумная сила (reasonable force)?",
+        "answers": [
+            "A. The amount of force necessary to get the job done.\nКоличество силы, необходимое, чтобы выполнить задачу",
+            "B. Not excessive and appropriate in protecting oneself or one's property.\nНесверхмерная (не избыточная) и уместная для защиты себя или своего имущества",
+            "C. Whatever your boss and client authorize.\nВсё, что разрешают ваш начальник и клиент",
+            "D. None of the above.\nНичего из перечисленного"
+        ],
+        "correct_answer": "B",
+        "explanation": "Reasonable force is force that is not excessive and appropriate to the situation.\nРазумная сила - это сила, которая не является чрезмерной и соответствует ситуации."
+    },
+    {
+        "question": "All of the following are benefits of practicing de-escalation except:\nВсе перечисленное является преимуществами практики деэскалации, кроме:",
+        "answers": [
+            "A. Positive impact on public trust.\nПоложительное влияние на доверие общественности",
+            "B. Reduced danger to security personnel.\nСнижение опасности для сотрудников службы безопасности",
+            "C. Positive impact on individual wellness.\nПоложительное влияние на личное благополучие",
+            "D. Is used by those who lack courage.\nИспользуется теми, кому не хватает смелости"
+        ],
+        "correct_answer": "D",
+        "explanation": "De-escalation is a professional skill, not a sign of lacking courage.\nДеэскалация - это профессиональный навык, а не признак недостатка смелости."
+    },
+    {
+        "question": "What is not part of assessing a situation?\nЧто НЕ относится к оценке ситуации?",
+        "answers": [
+            "A. Determining if the situation poses a threat or risk to others.\nОпределение, представляет ли ситуация угрозу или риск для других",
+            "B. Determining if the company is going to lose money.\nОпределение, потеряет ли компания деньги",
+            "C. Determining if the threat requires an immediate response.\nОпределение, требует ли угроза немедленной реакции",
+            "D. Determining if there is an imminent threat that requires action.\nОпределение, существует ли непосредственная угроза, требующая действий"
+        ],
+        "correct_answer": "B",
+        "explanation": "Financial considerations are not part of threat assessment; focus is on safety.\nФинансовые соображения не относятся к оценке угрозы; приоритет - безопасность."
+    },
+    {
+        "question": "De-escalation techniques attempted or utilized should be documented in appropriate incident reports.\nПопытки или применение техник деэскалации должны быть задокументированы в соответствующих отчётах об инциденте.",
+        "answers": [
+            "A. True\nВерно",
+            "B. False\nНеверно"
+        ],
+        "correct_answer": "A",
+        "explanation": "All de-escalation efforts must be documented in incident reports.\nВсе действия по деэскалации необходимо фиксировать в отчётах об инцидентах."
+    },
+    {
+        "question": "The four concepts of de-escalation are self-control, effective communication, scene assessment and management, and force options.\nЧетыре концепции деэскалации - это самоконтроль, эффективная коммуникация, оценка и управление обстановкой, а также варианты применения силы.",
+        "answers": [
+            "A. True\nВерно",
+            "B. False\nНеверно"
+        ],
+        "correct_answer": "A",
+        "explanation": "These are the four core concepts of effective de-escalation.\nЭто четыре основных концепции эффективной деэскалации."
+    },
+    {
+        "question": "Unconscious thoughts and feelings are an example of:\nБессознательные мысли и чувства являются примером:",
+        "answers": [
+            "A. Perceptions\nВосприятий (perceptions)",
+            "B. Implicit bias\nНеявной предвзятости (implicit bias)",
+            "C. Explicit bias\nЯвной предвзятости (explicit bias)",
+            "D. Discrimination\nДискриминации"
+        ],
+        "correct_answer": "B",
+        "explanation": "Implicit bias refers to unconscious thoughts and feelings that affect behavior.\nНеявная предвзятость - это бессознательные мысли и чувства, которые влияют на поведение."
+    },
+    {
+        "question": "When communicating with an individual who speaks limited English, a good technique is to:\nПри общении с человеком, который слабо говорит по-английски, хорошая техника - это:",
+        "answers": [
+            "A. Allow enough time for a response\nДать достаточно времени для ответа",
+            "B. Speak loudly\nГоворить громко",
+            "C. Use technical terms\nИспользовать технические термины",
+            "D. Address the translator only\nОбращаться только к переводчику"
+        ],
+        "correct_answer": "A",
+        "explanation": "Allowing time for response shows respect and improves communication with limited English speakers.\nЕсли дать время на ответ, это демонстрирует уважение и улучшает коммуникацию с людьми с ограниченным знанием английского."
+    },
+    {
+        "question": "Which nonverbal actions may impact communication between people of different cultures?\nКакие невербальные действия могут влиять на общение между людьми разных культур?",
+        "answers": [
+            "A. Facial expressions\nМимика",
+            "B. Eye contact\nЗрительный контакт",
+            "C. Gestures\nЖесты",
+            "D. All of the above\nВсё перечисленное"
+        ],
+        "correct_answer": "D",
+        "explanation": "All forms of nonverbal communication can have different meanings across cultures.\nВсе формы невербальной коммуникации могут иметь разные значения в разных культурах."
+    },
+    {
+        "question": "Which of the following is not an aspect of active listening?\nЧто из перечисленного НЕ является аспектом активного слушания?",
+        "answers": [
+            "A. Considering context\nУчет контекста",
+            "B. Assuming you heard everything right the first time\nПредположение, что вы всё правильно поняли с первого раза",
+            "C. Rephrasing what was said\nПерефразирование сказанного",
+            "D. Open-mindedness\nОткрытость (непредвзятость)"
+        ],
+        "correct_answer": "B",
+        "explanation": "Active listening requires verification, not assumptions about understanding.\nАктивное слушание требует проверки понимания, а не предположений."
+    },
+    {
+        "question": "It is up to security personnel to determine whether an individual is protected under the Americans with Disabilities Act (ADA).\nСотрудники службы безопасности сами должны определять, подпадает ли человек под защиту Закона США об американцах с инвалидностью (ADA).",
+        "answers": [
+            "A. True\nВерно",
+            "B. False\nНеверно"
+        ],
+        "correct_answer": "B",
+        "explanation": "Security personnel should treat all individuals respectfully; ADA determination is not their role.\nСотрудники службы безопасности должны относиться ко всем людям уважительно; определение статуса по ADA не входит в их обязанности."
+    },
+    {
+        "question": "When interacting with a person using a mobility device, security personnel should:\nПри взаимодействии с человеком, использующим средство передвижения (mobility device), сотрудники службы безопасности должны:",
+        "answers": [
+            "A. Forcefully remove the device out of the way.\nСилой убрать устройство с дороги",
+            "B. Consider the device an extension of the person when establishing a safety zone or conducting a frisk.\nРассматривать устройство как продолжение личности при установлении безопасной дистанции или при досмотре",
+            "C. Determine whether the device is absolutely necessary to accommodate the individual's disability.\nОпределять, действительно ли устройство абсолютно необходимо для компенсации инвалидности",
+            "D. None of the above.\nНичего из перечисленного"
+        ],
+        "correct_answer": "B",
+        "explanation": "Mobility devices are extensions of the person and should be treated with respect.\nСредства передвижения являются продолжением человека и должны восприниматься с уважением."
+    },
+    {
+        "question": "When communicating with a person who is deaf or hard of hearing, security personnel can help the process by:\nПри общении с человеком, который глухой или плохо слышит, сотрудники службы безопасности могут помочь процессу, если:",
+        "answers": [
+            "A. Providing pen and paper\nПредоставят ручку и бумагу",
+            "B. Assuming the individual can read lips.\nБудут предполагать, что человек умеет читать по губам",
+            "C. Speaking loudly into their ear.\nБудут говорить громко прямо в ухо",
+            "D. All of the above.\nВсё перечисленное"
+        ],
+        "correct_answer": "A",
+        "explanation": "Providing pen and paper facilitates communication; don't assume lip reading or that volume helps.\nРучка и бумага облегчают коммуникацию; не следует предполагать чтение по губам или что громкость поможет."
+    },
+    {
+        "question": "Hallucinations can be a symptom of which of the following?\nГаллюцинации могут быть симптомом чего из перечисленного?",
+        "answers": [
+            "A. Mental illness\nПсихического заболевания",
+            "B. Substance abuse\nЗлоупотребления веществами",
+            "C. Both A and B\nИ A, и B"
+        ],
+        "correct_answer": "C",
+        "explanation": "Hallucinations can result from both mental illness and substance abuse.\nГаллюцинации могут возникать как при психических заболеваниях, так и при злоупотреблении веществами."
+    },
+    {
+        "question": "Self-control is one of a security personnel's greatest _____ in dealing with a person or a situation.\nСамоконтроль - одно из главных _____ сотрудника службы безопасности при работе с человеком или ситуацией.",
+        "answers": [
+            "A. Weaknesses\nСлабых мест",
+            "B. Assets\nСильных сторон (ресурсов)",
+            "C. Protection\nСредств защиты",
+            "D. Awareness level\nУровня осознанности"
+        ],
+        "correct_answer": "B",
+        "explanation": "Self-control is a critical asset for professional security personnel.\nСамоконтроль - критически важный ресурс (сильная сторона) для профессионального сотрудника службы безопасности."
+    },
+    {
+        "question": "Two major emotional factors that security personnel need to focus on to maintain self-control are:\nДва основных эмоциональных фактора, на которых сотрудникам службы безопасности нужно сосредоточиться для сохранения самоконтроля, это:",
+        "answers": [
+            "A. Fear and Anger\nСтрах и гнев",
+            "B. Fear and Self-Control\nСтрах и самоконтроль",
+            "C. Anger and Anxiety\nГнев и тревога",
+            "D. Distress and Excitement\nДистресс и возбуждение"
+        ],
+        "correct_answer": "A",
+        "explanation": "Fear and anger are the two primary emotions that can compromise self-control.\nСтрах и гнев - две основные эмоции, которые могут подорвать самоконтроль."
+    },
+    {
+        "question": "Whenever possible, security personnel should attempt to generate voluntary compliance without resorting to _____.\nПо возможности сотрудники службы безопасности должны стремиться добиться добровольного соблюдения требований, не прибегая к _____.",
+        "answers": [
+            "A. Anger\nГневу",
+            "B. Arrest\nАресту",
+            "C. Physical Force\nФизической силе",
+            "D. Confrontation\nКонфронтации"
+        ],
+        "correct_answer": "C",
+        "explanation": "The goal is to achieve compliance through communication rather than physical force.\nЦель - добиться соблюдения требований через коммуникацию, а не через физическую силу."
+    },
+    {
+        "question": "A key principle in maintaining public trust and respect is ensuring that any use of force is _____.\nКлючевой принцип поддержания доверия и уважения общества - обеспечить, чтобы любое применение силы было _____.",
+        "answers": [
+            "A. Reasonable\nРазумным",
+            "B. Unreasonable\nНеразумным",
+            "C. Accurate\nТочным",
+            "D. Justifiable\nОбоснованным"
+        ],
+        "correct_answer": "A",
+        "explanation": "Force must be reasonable to maintain public trust and legal standing.\nДля сохранения общественного доверия и правовой защищенности применение силы должно быть разумным."
+    },
+    {
+        "question": "The basic philosophy of any security officer should be to respond in a manner that is humane, compassionate, and _____.\nБазовая философия любого сотрудника службы безопасности должна заключаться в том, чтобы реагировать гуманно, с состраданием и _____.",
+        "answers": [
+            "A. Aggressive\nАгрессивно",
+            "B. Supportive\nПоддерживающе",
+            "C. Kind\nДобро",
+            "D. Admirable\nДостойно восхищения"
+        ],
+        "correct_answer": "B",
+        "explanation": "Security officers should respond with support while maintaining professionalism.\nСотрудники службы безопасности должны действовать поддерживающе, сохраняя профессионализм."
+    },
+    {
+        "question": "Persons managing a mental illness can have a substantially diminished capacity for coping with the ordinary demands of life.\nУ людей, которые живут с психическим заболеванием, может быть существенно снижена способность справляться с обычными жизненными требованиями.",
+        "answers": [
+            "A. True\nВерно",
+            "B. False\nНеверно"
+        ],
+        "correct_answer": "A",
+        "explanation": "Mental illness can significantly affect a person's ability to cope with daily situations.\nПсихическое заболевание может существенно влиять на способность человека справляться с повседневными ситуациями."
+    },
+    {
+        "question": "Security personnel should attempt to diagnose mental illness.\nСотрудники службы безопасности должны пытаться диагностировать психические заболевания.",
+        "answers": [
+            "A. True\nВерно",
+            "B. False\nНеверно"
+        ],
+        "correct_answer": "B",
+        "explanation": "Security personnel are not qualified to diagnose mental illness; that's for medical professionals.\nСотрудники службы безопасности не квалифицированы для постановки диагнозов; это задача медицинских специалистов."
+    },
+    {
+        "question": "Some individuals with a mental illness may be capable of going very quickly from a state of calm to being extremely _____.\nНекоторые люди с психическим заболеванием могут очень быстро перейти из спокойного состояния в крайне _____.",
+        "answers": [
+            "A. Excited\nВозбужденное",
+            "B. Quiet\nТихое",
+            "C. Anxious\nТревожное",
+            "D. Agitated\nАгрессивно-возбужденное (раздраженное)"
+        ],
+        "correct_answer": "D",
+        "explanation": "Rapid escalation from calm to agitated is a common pattern in some mental health conditions.\nБыстрая эскалация от спокойствия к сильному возбуждению/раздражению - распространённый сценарий при некоторых состояниях психического здоровья."
+    },
+    {
+        "question": "The first action you should take in an active shooter situation is to attempt to disarm the shooter.\nПервое действие, которое следует предпринять в ситуации с активным стрелком (active shooter), - попытаться обезоружить стрелка.",
+        "answers": [
+            "A. True\nВерно",
+            "B. False\nНеверно"
+        ],
+        "correct_answer": "B",
+        "explanation": "Your first priority is your own safety - run, hide, fight (in that order).\nВаш первый приоритет - собственная безопасность: бежать, спрятаться, сражаться (в таком порядке)."
+    },
+    {
+        "question": "If you are able to call 911, what information should you provide?\nЕсли вы можете позвонить по номеру 911, какую информацию следует сообщить?",
+        "answers": [
+            "A. The shooter's location\nМестонахождение стрелка",
+            "B. Driving directions to your location\nКак добраться до вашего местонахождения",
+            "C. A physical description of the shooter\nФизическое описание стрелка",
+            "D. Both A and C\nВарианты A и C"
+        ],
+        "correct_answer": "D",
+        "explanation": "Provide location and description of the shooter; 911 operators know how to find addresses.\nСообщите местонахождение и описание стрелка; операторы 911 знают, как определить ваш адрес/местоположение."
+    },
+    {
+        "question": "Security personnel are responsible for which of the following?\nЗа что из перечисленного несут ответственность сотрудники службы безопасности?",
+        "answers": [
+            "A. Evacuating all members of the public.\nЭвакуировать всех членов общественности",
+            "B. Taking down the active shooter.\nНейтрализовать активного стрелка",
+            "C. Protecting their own lives.\nЗащитить собственную жизнь"
+        ],
+        "correct_answer": "C",
+        "explanation": "Security personnel's first responsibility in an active shooter situation is their own safety.\nВ ситуации активного стрелка первая ответственность сотрудника службы безопасности - защита собственной жизни."
+    },
+    {
+        "question": "The appropriate order to consider your safety options are:\nПравильный порядок действий для обеспечения своей безопасности:",
+        "answers": [
+            "A. Confront, Fight, Run\nПротивостоять, сражаться, бежать",
+            "B. Run, Hide, Fight\nБежать, спрятаться, сражаться",
+            "C. Hide, Attack, Run\nСпрятаться, атаковать, бежать"
+        ],
+        "correct_answer": "B",
+        "explanation": "Run, Hide, Fight is the recommended active shooter response sequence.\nРекомендуемая последовательность действий при активном стрелке: «Бежать, спрятаться, сражаться» (Run, Hide, Fight)."
+    }
+]

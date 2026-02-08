@@ -61,6 +61,41 @@ QuizBoutiqueBot uses a **hybrid configuration approach** combining YAML configur
 - Docker Compose 2.0+
 - Telegram Bot Token (from [@BotFather](https://t.me/botfather))
 
+## Pre-built Images
+
+QuizBoutiqueBot provides pre-built multi-platform Docker images via GitHub Container Registry.
+
+### Supported Platforms
+- **linux/amd64** - Intel/AMD processors (standard PCs, servers, NAS)
+- **linux/arm64** - ARM processors (Apple Silicon M1/M2/M3, Raspberry Pi 4/5)
+
+### Pull from GHCR
+```bash
+# Pull latest stable version
+docker pull ghcr.io/skysoulkeeper/quizboutiquebot:latest
+
+# Run without building
+docker compose up -d
+```
+
+The `docker-compose.yml` already uses the pre-built image from GHCR, so you don't need to build locally for production deployments.
+
+### Building Multi-Platform Images
+
+For contributors and developers who want to build and push multi-platform images:
+```bash
+# First time setup (run once)
+make setup-builder
+
+# Login to GHCR
+make login
+
+# Build and push multi-platform image
+make build-push
+```
+
+See [Makefile](../Makefile) for available build targets.
+
 ### 1. Clone Repository
 ```bash
 git clone https://github.com/skysoulkeeper/QuizBoutiqueBot.git

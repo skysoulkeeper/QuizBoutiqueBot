@@ -1,0 +1,79 @@
+# Docker Compose file for QuizBoutiqueBot (Development)
+# Builds image locally with hot-reload support
+
+services:
+  quizboutiquebot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ghcr.io/skysoulkeeper/quizboutiquebot:dev
+    container_name: quizboutiquebot-dev
+
+    # Environment variables (development overrides)
+    environment:
+      # Required
+      TELEGRAM_BOT_TOKEN: ${TELEGRAM_BOT_TOKEN:?TELEGRAM_BOT_TOKEN is required}
+
+      # Optional with dev defaults
+      TELEGRAM_CHAT_ID: ${TELEGRAM_CHAT_ID:-}
+      QBB_ENV: dev
+      QBB_LANGUAGE: ${QBB_LANGUAGE:-en}
+      QBB_PARSE_MODE: ${QBB_PARSE_MODE:-HTML}
+      QBB_LOG_TO_FILE: ${QBB_LOG_TO_FILE:-true}
+      QBB_LOG_LEVEL: ${QBB_LOG_LEVEL:-DEBUG}
+      QBB_PARSE_DOCS_ON_START: ${QBB_PARSE_DOCS_ON_START:-false}
+
+      # Proxy settings
+      QBB_PROXY_ENABLED: ${QBB_PROXY_ENABLED:-false}
+      QBB_PROXY_HOST: ${QBB_PROXY_HOST:-}
+      QBB_PROXY_PORT: ${QBB_PROXY_PORT:-1080}
+      QBB_PROXY_PROTOCOL: ${QBB_PROXY_PROTOCOL:-socks}
+      QBB_PROXY_USERNAME: ${QBB_PROXY_USERNAME:-}
+      QBB_PROXY_PASSWORD: ${QBB_PROXY_PASSWORD:-}
+
+    # Volumes (mount source code for hot-reload)
+    volumes:
+      # Source code (read-only for safety)
+      - ./app.py:/app/app.py:ro
+      - ./modules:/app/modules:ro
+      - ./utils:/app/utils:ro
+      - ./locales:/app/locales:ro
+
+      # Configs (editable)
+      - ./configs:/app/configs
+
+      # Questions (editable for testing)
+      - ./data/questions:/app/data/questions
+
+      # Persist logs and DB on host for inspection
+      - ./data/logs:/app/data/logs
+      - ./data/db:/app/data/db
+      - ./data/user_data:/app/data/user_data
+
+    # Restart policy
+    restart: unless-stopped
+
+    # Health check
+    healthcheck:
+      test: ["CMD-SHELL", "pgrep -f python || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+    # Development: no strict resource limits
+    # deploy:
+    #   resources:
+    #     limits:
+    #       memory: 1G
+
+    # Security options
+    security_opt:
+      - no-new-privileges:true
+
+    # Verbose logging for development
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "50m"
+        max-file: "5"

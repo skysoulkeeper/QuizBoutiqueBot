@@ -1,12 +1,9 @@
 # Docker Compose file for QuizBoutiqueBot
-# Compose spec (no version needed since Docker Compose v2)
+# Pulls pre-built image from GitHub Container Registry
 
 services:
   quizboutiquebot:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    image: qbb:latest
+    image: ghcr.io/skysoulkeeper/quizboutiquebot:latest
     container_name: quizboutiquebot
 
     # Environment variables
@@ -31,15 +28,11 @@ services:
 
     # Volumes for persistence
     volumes:
-      # Persist logs and DB between restarts
       - logs-data:/app/data/logs
       - db-data:/app/data/db
 
       # Uncomment to override question pools from host
       # - ./data/questions:/app/data/questions:ro
-
-      # Uncomment to edit configs locally
-      # - ./configs:/app/configs:ro
 
     # Restart policy
     restart: unless-stopped
@@ -65,9 +58,6 @@ services:
     # Security options
     security_opt:
       - no-new-privileges:true
-
-    # Read-only root filesystem (if app doesn't write to /app)
-    # read_only: true
 
     # Logging configuration
     logging:

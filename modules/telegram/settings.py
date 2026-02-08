@@ -25,10 +25,16 @@ async def handle_questions_count_selection(update: Update, context: CallbackCont
         context (CallbackContext): The context containing bot and user data.
         questions_count (str): The selected number of questions as a string.
     """
-    localization = context.bot_data['localization']
-    context.bot_data['questions_count'] = int(questions_count)
-    message_text = localization.get("questions_count_set",
-                                    questions_count=questions_count)
+    localization = context.user_data.get('localization', context.bot_data['localization'])
+    user_id = context.user_data.get('user_id')
+    context.user_data['questions_count'] = int(questions_count)
+
+    # Persist to DB
+    db = context.application.bot_data.get('db')
+    if user_id:
+        await db.update_user_settings(user_id, questions_count=int(questions_count))
+
+    message_text = localization.get("questions_count_set", questions_count=questions_count)
     await update.callback_query.message.edit_text(message_text,
                                                   reply_markup=show_settings_menu(
                                                       context))
@@ -44,10 +50,17 @@ async def handle_timer_selection(update: Update, context: CallbackContext,
         context (CallbackContext): The context containing bot and user data.
         timer_status (str): The selected timer status ('enable' or 'disable').
     """
-    localization = context.bot_data['localization']
-    context.bot_data['timer_enabled'] = timer_status == "enable"
-    status = localization.get(
-        "enabled") if timer_status == "enable" else localization.get("disabled")
+    localization = context.user_data.get('localization', context.bot_data['localization'])
+    is_enabled = timer_status == "enable"
+    context.user_data['timer_enabled'] = is_enabled
+
+    # Persist to DB
+    db = context.application.bot_data.get('db')
+    user_id = context.user_data.get('user_id')
+    if user_id:
+        await db.update_user_settings(user_id, timer_enabled=int(is_enabled))
+
+    status = localization.get("enabled") if is_enabled else localization.get("disabled")
     message_text = localization.get("timer_status_set", status=status)
     await update.callback_query.message.edit_text(message_text,
                                                   reply_markup=show_settings_menu(
@@ -64,8 +77,15 @@ async def handle_timer_limit_selection(update: Update, context: CallbackContext,
         context (CallbackContext): The context containing bot and user data.
         timer_limit (str): The selected timer limit in minutes as a string.
     """
-    localization = context.bot_data['localization']
-    context.bot_data['timer_limit'] = int(timer_limit)
+    localization = context.user_data.get('localization', context.bot_data['localization'])
+    context.user_data['timer_limit'] = int(timer_limit)
+
+    # Persist to DB
+    db = context.application.bot_data.get('db')
+    user_id = context.user_data.get('user_id')
+    if user_id:
+        await db.update_user_settings(user_id, timer_limit=int(timer_limit))
+
     message_text = localization.get("timer_limit_set", timer_limit=timer_limit)
     await update.callback_query.message.edit_text(message_text,
                                                   reply_markup=show_settings_menu(
@@ -82,11 +102,17 @@ async def handle_questions_random_selection(update: Update, context: CallbackCon
         context (CallbackContext): The context containing bot and user data.
         questions_random_status (str): The selected randomization status ('enable' or 'disable').
     """
-    localization = context.bot_data['localization']
-    context.bot_data['questions_random_enabled'] = questions_random_status == "enable"
-    status = localization.get(
-        "enabled") if questions_random_status == "enable" else localization.get(
-        "disabled")
+    localization = context.user_data.get('localization', context.bot_data['localization'])
+    is_enabled = questions_random_status == "enable"
+    context.user_data['questions_random_enabled'] = is_enabled
+
+    # Persist to DB
+    db = context.application.bot_data.get('db')
+    user_id = context.user_data.get('user_id')
+    if user_id:
+        await db.update_user_settings(user_id, questions_random_enabled=int(is_enabled))
+
+    status = localization.get("enabled") if is_enabled else localization.get("disabled")
     message_text = localization.get("questions_random_set", status=status)
     await update.callback_query.message.edit_text(message_text,
                                                   reply_markup=show_settings_menu(
@@ -101,7 +127,7 @@ async def show_questions_random_menu(update: Update, context: CallbackContext):
         update (Update): The incoming update from Telegram.
         context (CallbackContext): The context containing bot and user data.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     config = context.bot_data['config']
     emoji = config['emoji']
     keyboard = [
@@ -129,22 +155,18 @@ def show_settings_menu(context: CallbackContext):
     Returns:
         InlineKeyboardMarkup: The reply markup for the settings menu.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     config = context.bot_data['config']
     emoji = config['emoji']
-    current_count = context.bot_data.get('questions_count',
-                                         config['base_settings']['questions_count'][0])
-    timer_status = localization.get("enabled") if context.bot_data.get('timer_enabled',
-                                                                       config[
-                                                                           'base_settings'][
-                                                                           'timer_enabled']) else localization.get(
-        "disabled")
-    current_timer = context.bot_data.get('timer_limit',
-                                         config['base_settings']['timer_limit'][0])
-    questions_random_status = localization.get("enabled") if context.bot_data.get(
+    current_count = context.user_data.get('questions_count',
+                                          config['base_settings']['questions_count'][0])
+    timer_status = localization.get("enabled") if context.user_data.get('timer_enabled',
+                                                                         config['base_settings']['timer_enabled']) else localization.get("disabled")
+    current_timer = context.user_data.get('timer_limit',
+                                          config['base_settings']['timer_limit'][0])
+    questions_random_status = localization.get("enabled") if context.user_data.get(
         'questions_random_enabled',
-        config['base_settings']['questions_random_enabled']) else localization.get(
-        "disabled")
+        config['base_settings']['questions_random_enabled']) else localization.get("disabled")
     keyboard = [
         [InlineKeyboardButton(
             f"{emoji['question_number']} {localization.get('questions_count_option', current_count=current_count)}",
@@ -176,7 +198,7 @@ async def show_questions_count_menu(update: Update, context: CallbackContext) ->
         update (Update): The incoming update from Telegram.
         context (CallbackContext): The context containing bot and user data.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     config = context.bot_data['config']
     questions_counts = config['base_settings']['questions_count']
     emoji = config['emoji']
@@ -199,7 +221,7 @@ async def show_timer_menu(update: Update, context: CallbackContext):
         update (Update): The incoming update from Telegram.
         context (CallbackContext): The context containing bot and user data.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     config = context.bot_data['config']
     emoji = config['emoji']
     keyboard = [
@@ -224,7 +246,7 @@ async def show_timer_limit_menu(update: Update, context: CallbackContext):
         update (Update): The incoming update from Telegram.
         context (CallbackContext): The context containing bot and user data.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     config = context.bot_data['config']
     timer_limits = config['base_settings']['timer_limit']
     emoji = config['emoji']

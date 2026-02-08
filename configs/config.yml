@@ -37,8 +37,8 @@ proxy_settings:
 
 # Database Settings
 database:
-  db_enabled: False                                 # Enable or disable database storage
-  db_source:                                        # Database source path or connection string (if database is enabled)
+  db_enabled: True                                  # Enable or disable database storage
+  db_source: "data/db/qbb.db"                      # SQLite file path
 
 # Telegram Settings
 telegram:

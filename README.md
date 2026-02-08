@@ -11,8 +11,7 @@ QuizBoutiqueBot is a versatile Telegram bot designed for conducting quizzes with
 - **Docker Images:** [GitHub Container Registry](https://github.com/skysoulkeeper/QuizBoutiqueBot/pkgs/container/quizboutiquebot)
 - **Test Question Pools:**
   - [Boating License EN (NJ)](data/questions/Boat%20Exams/NJ%20Boat%20Exam%20Answers%20EN.json)
-  - [Boating License RU+EN (NJ)](data/questions/Boat%20Exams/NJ%20Boat%20Exam%20Answers%20RU+EN.json)
-  - [BSIS EN (CA Powers to Arrest)](data/questions/BSIS/CA%20Powers%20to%20Arrest%20EN.json)
+  - [BSIS (Powers to Arrest)](data/questions/BSIS/Powers%20to%20Arrest%20EN.json)
   - [CDL RU (General Knowledge)](data/questions/CDL/General%20Knowledge%20RU.json)
 
 
@@ -122,7 +121,7 @@ docker compose up -d
 docker compose logs -f
 ```
 
-📘 **For detailed Docker documentation, see [Docker Deployment Guide](docker/DOCKER.md)**
+📘 **For detailed Docker documentation, see [Docker Deployment Guide](docs/docker.md)**
 
 ---
 
@@ -130,97 +129,48 @@ docker compose logs -f
 
 💻 **Run locally without Docker** - Best for development
 
-Get your computer ready to run the bot. Simple step-by-step instructions for Windows, macOS, and Linux.
+📘 **Detailed installation guide:** [Installation Guide](docs/installation.md)
 
-#### 1) Install Python (version 3.8 or later)
-- **Windows:**
-  - Go to https://www.python.org/downloads/windows/ and download the latest Python 3.x.
-  - In the installer, check "Add Python to PATH", then click Install Now.
-  - How to open a terminal: press Win and type "Command Prompt" (or "PowerShell"), then open it.
-  - Verify installation: run `python --version` or `py --version`.
+**Quick Start:**
 
-- **macOS:**
-  - Go to https://www.python.org/downloads/macos/ and download the pkg installer for Python 3.x. Install it.
-  - Alternative for advanced users: Homebrew - `brew install python`.
-  - How to open a terminal: open Spotlight (Cmd+Space), type "Terminal", then open the Terminal app.
-  - Verify: `python3 --version`.
-
-- **Linux:**
-  - How to open a terminal: usually Ctrl+Alt+T or find "Terminal" in the menu.
-  - Install Python and pip (choose your distro):
-    - Ubuntu/Debian: `sudo apt update && sudo apt install -y python3 python3-pip`
-    - Fedora: `sudo dnf install -y python3 python3-pip`
-    - Arch: `sudo pacman -S python python-pip`
-  - Verify: `python3 --version`, `pip3 --version`.
-
-#### 2) Get the project
-
-Install Git (only if you choose Option A):
-- **Windows:** download and install Git for Windows from https://git-scm.com/download/win. During setup, choose "Use Git from the command line and also from 3rd-party software". Open Git Bash or Command Prompt.
-- **macOS:** install Xcode Command Line Tools: `xcode-select --install`, or use Homebrew: `brew install git`.
-- **Linux:**
-  - Ubuntu/Debian: `sudo apt update && sudo apt install -y git`
-  - Fedora: `sudo dnf install -y git`
-  - Arch: `sudo pacman -S git`
-
-Verify: `git --version` should print a version number.
-
-- **Option A (git):**
 ```bash
+# 1. Clone repository
 git clone https://github.com/skysoulkeeper/QuizBoutiqueBot.git
 cd QuizBoutiqueBot
-```
-- **Option B (ZIP):** click "Code" -> "Download ZIP" on the repository page, unzip it and open the unzipped folder in your terminal.
-- **Important:** from now on, run all commands in the project folder that contains `app.py` and `requirements.txt`.
 
-#### 3) (Optional but recommended) Create a virtual environment
-- **Windows:**
-  ```bash
-  py -3 -m venv .venv
-  .venv\Scripts\activate
-  ```
-- **macOS/Linux:**
-  ```bash
-  python3 -m venv .venv
-  source .venv/bin/activate
-  ```
-If you see `(.venv)` at the start of your terminal line, it's active.
-
-#### 4) Install dependencies
-```bash
+# 2. Install dependencies (Python 3.8+ required)
 pip install -r requirements.txt
-# if pip is not found:
-python -m pip install -r requirements.txt
-# or on Linux/macOS:
-pip3 install -r requirements.txt
+
+# 3. Configure
+cp configs/config.yml.example configs/config.yml
+nano configs/config.yml  # Add your TELEGRAM_BOT_TOKEN
+
+# 4. Run
+python app.py
 ```
-If you see permission errors - add `--user` (Linux/macOS) or make sure the virtual environment is activated.
 
-## Creating Your Telegram Bot and Adding to a Group
-Step-by-step guide to create your Telegram bot and use it in DMs or groups.
+**Prerequisites:**
+- Python 3.8 or later (3.11+ recommended)
+- pip (Python package manager)
 
-#### 1) Create a bot with BotFather
-- Open Telegram and find the official @BotFather.
-- Send `/newbot` and follow the prompts:
-  - Choose a display name.
-  - Choose a unique username ending in `bot` (e.g., `MyQuizBoutiqueBot`).
-- BotFather will give you a token like `123456789:ABC...`. Save it.
+## Bot Setup
 
-**For Docker:** Add token to `.env` file as `TELEGRAM_BOT_TOKEN=your_token`
-**For Manual:** Add token to `configs/config.yml` as `telegram.token: 'your_token'`
+📘 **Detailed bot setup guide:** [Bot Setup Guide](docs/bot-setup.md)
 
-#### 2) (Optional) Turn off "Group Privacy" for group usage
-- In @BotFather open `/mybots` -> choose your bot -> Bot Settings -> Group Privacy -> Turn Off.
-- Why: with privacy off, the bot can see commands and button presses in groups, which is useful for quizzes.
+### Quick Setup
 
-#### 3) Add the bot to your group
-- Open your group -> Add member -> search your bot by username -> add.
-- Grant admin rights only if you know you need them. The quiz UI works with inline buttons and /start.
+1. **Create bot via [@BotFather](https://t.me/BotFather)**
+   - Send `/newbot`
+   - Choose display name and username (must end with 'bot')
+   - Save the token: `123456789:ABC...`
 
-#### 4) Find your group chat_id (optional)
-- If you want to save the group chat_id in config, the easiest way is to add @getidsbot or @RawDataBot to the group. They will show the chat ID.
-- **For Docker:** Optionally set `TELEGRAM_CHAT_ID` in `.env`.
-- **For Manual:** Optionally set `telegram.chat_id` in `configs/config.yml`.
+2. **Configure bot**
+   - **Docker:** Add to `.env` → `TELEGRAM_BOT_TOKEN=your_token`
+   - **Manual:** Add to `configs/config.yml` → `telegram.token: 'your_token'`
+
+3. **Optional: Group usage**
+   - @BotFather → `/mybots` → Your bot → Bot Settings → Group Privacy → Turn Off
+   - Add bot to your group
 
 ## Usage
 
@@ -406,31 +356,26 @@ proxy_settings:
 
 Supported proxy types: HTTP, HTTPS, SOCKS4, and SOCKS5.
 
-## Detailed Description of Files and Functionality
+## Project Structure
+
+📘 **Complete architecture documentation:** [Architecture Guide](docs/architecture.md)
 
 ### Core Files
-- **[app.py](app.py)** - Entry point of the application
-- **[docker/entrypoint.py](docker/entrypoint.py)** - Docker container entrypoint, merges ENV with config
-- **[utils/initializer.py](utils/initializer.py)** - Application initialization
-- **[utils/logger.py](utils/logger.py)** - Logging configuration (loguru/default)
-- **[utils/proxy.py](utils/proxy.py)** - Proxy settings management
-- **[utils/localization.py](utils/localization.py)** - Multi-language support
-- **[modules/telegram/handlers.py](modules/telegram/handlers.py)** - Bot command handlers
-- **[modules/telegram/settings.py](modules/telegram/settings.py)** - Settings management
-- **[modules/telegram/menus.py](modules/telegram/menus.py)** - Menu displays
-- **[modules/telegram/quizzes.py](modules/telegram/quizzes.py)** - Quiz operations
 
-### Configuration Files
-- **[configs/config.yml](configs/config.yml)** - Main configuration file
-- **[.env.example](.env.example)** - Environment variables template (for Docker)
+- **[app.py](app.py)** - Application entry point
+- **[entrypoint.py](entrypoint.py)** - Docker container entrypoint
+- **[utils/database.py](utils/database.py)** - SQLite database layer
+- **[modules/telegram/](modules/telegram/)** - Bot handlers, menus, quizzes, settings
+- **[configs/config.yml](configs/config.yml)** - Configuration file
 - **[locales/*.yml](locales/)** - Language files (en, es, ru, ua)
 
-### Docker Files
-- **[Dockerfile](Dockerfile)** - Multi-stage Docker build configuration
-- **[docker-compose.yml](docker-compose.yml)** - Production deployment
-- **[docker-compose.dev.yml](docker-compose.dev.yml)** - Development deployment
-- **[.dockerignore](.dockerignore)** - Docker build exclusions
-- **[Makefile](Makefile)** - Build automation for multi-platform images
+### Documentation
+
+- 📘 [Installation Guide](docs/installation.md) - Installation instructions
+- 📘 [Bot Setup Guide](docs/bot-setup.md) - Bot configuration
+- 📘 [Database Documentation](docs/database.md) - Database schema
+- 📘 [Docker Guide](docs/docker.md) - Container deployment
+- 📘 [Architecture Guide](docs/architecture.md) - Project structure
 
 ## Building and Publishing (For Contributors)
 
@@ -463,12 +408,9 @@ make build-push
 
 ## To Do or Not To Do
 - Implement cflags functionality.
-- Process lists from CSV, XLS, DOC.
 - Add tests.
 - Code and project structure optimization.
-- Implement asynchronous processing for faster results.
 - Develop a WebUI.
-- Database support with import and export.
 
 However, these enhancements might be considered in the future or perhaps in another lifetime.
 

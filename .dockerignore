@@ -31,6 +31,11 @@ Dockerfile*
 docker-compose*.yml
 .docker
 
+# SQLite database files
+data/db/*.db
+data/db/*.db-wal
+data/db/*.db-shm
+
 # IDE
 .vscode
 .idea

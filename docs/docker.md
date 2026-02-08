@@ -506,6 +506,8 @@ pip list
 exit
 ```
 
+## Documentation
 - [Main README](../README.md) - General project documentation
+- [Database Guide](docs/database.md)
 - [Telegram Bot API](https://core.telegram.org/bots/api) - Official API documentation
 - [Docker Documentation](https://docs.docker.com/) - Docker reference

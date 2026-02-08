@@ -16,6 +16,7 @@ import os
 import json
 import random
 import asyncio
+import datetime as dt
 from typing import Optional, Dict, Any
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import CallbackContext
@@ -100,7 +101,7 @@ async def send_question(update: Update, context: CallbackContext,
         context (CallbackContext): The context object from Telegram.
         config (Dict[str, Any]): The bot's configuration dictionary.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     emoji = config['emoji']
     parse_mode = context.bot_data['parse_mode']
     current_index = context.user_data.get('current_index', 0)
@@ -108,12 +109,18 @@ async def send_question(update: Update, context: CallbackContext,
     current_question = context.user_data['quiz_data'][current_index]
     query = update.callback_query
 
-    remaining_seconds = context.user_data.get('remaining_time', 0)
-    remaining_minutes = remaining_seconds // 60
-    remaining_seconds %= 60
-    remaining_time_text = f"{emoji['timer_limit']} " + localization.get("time_remaining",
-                                                                        minutes=remaining_minutes,
-                                                                        seconds=remaining_seconds) + "\n\n"
+    timer_enabled = context.user_data.get('timer_enabled',
+                                          config['base_settings']['timer_enabled'])
+    remaining_time_text = ""
+
+    if timer_enabled:
+        remaining_seconds = context.user_data.get('remaining_time', 0)
+        remaining_minutes = remaining_seconds // 60
+        remaining_seconds %= 60
+        remaining_time_text = f"{emoji['timer_limit']} " + localization.get(
+            "time_remaining",
+            minutes=remaining_minutes,
+            seconds=remaining_seconds) + "\n\n"
 
     question_text = f"{emoji['test']} Q{current_index + 1}. {current_question['question']}\n\n"
     options = current_question['answers']
@@ -147,11 +154,14 @@ async def send_question(update: Update, context: CallbackContext,
     except Exception as e:
         logger = context.bot_data['logger']
         logger.error(f"Error sending question message: {e}")
-        sent_message = await context.bot.send_message(chat_id=update.effective_chat.id,
-                                                      text=message_text,
-                                                      reply_markup=reply_markup,
-                                                      parse_mode=parse_mode)
-        context.user_data['last_message'] = sent_message
+        try:
+            sent_message = await context.bot.send_message(chat_id=update.effective_chat.id,
+                                                          text=message_text,
+                                                          reply_markup=reply_markup,
+                                                          parse_mode=parse_mode)
+            context.user_data['last_message'] = sent_message
+        except Exception:
+            pass
 
 
 async def send_results(update, context, config):
@@ -162,7 +172,7 @@ async def send_results(update, context, config):
         context (CallbackContext): The context object from Telegram.
         config (Dict[str, Any]): The bot's configuration dictionary.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     emoji = config['emoji']
     correct_count = context.user_data.get('correct_count', 0)
     total_questions = len(context.user_data['quiz_data'])
@@ -178,6 +188,23 @@ async def send_results(update, context, config):
         result_text += localization.get("quiz_passed")
     else:
         result_text += f"{emoji['failed']} " + localization.get("quiz_failed")
+
+    # Persist attempt in DB
+    db = context.application.bot_data.get('db')
+    user_id = context.user_data.get('user_id')
+    if db and user_id:
+        try:
+            await db.save_quiz_attempt(
+                user_id=user_id,
+                category=context.user_data.get('last_category'),
+                quiz_name=context.user_data.get('last_quiz'),
+                total_questions=total_questions,
+                correct_count=correct_count,
+                started_at=context.user_data.get('quiz_started_at'),
+                finished_at=dt.datetime.utcnow().replace(microsecond=0).isoformat() + 'Z'
+            )
+        except Exception as e:
+            context.bot_data['logger'].error(f"Failed to save quiz attempt: {e}")
 
     keyboard = [
         [InlineKeyboardButton(
@@ -209,7 +236,7 @@ async def handle_category_selection(update: Update, context: CallbackContext, qu
         questions_directory (str): Path to the questions directory.
         logger (Logger): Logger for logging errors and info messages.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     config = context.bot_data['config']
     emoji = config['emoji']
     category = query.data.split('_', 1)[1]
@@ -243,12 +270,12 @@ async def handle_quiz_selection(update: Update, context: CallbackContext, query,
         questions_directory (str): Path to the questions directory.
         logger (Logger): Logger for logging errors and info messages.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     await delete_last_message(context)  # Deleting the last message
-    questions_count = context.bot_data.get('questions_count',
+    questions_count = context.user_data.get('questions_count',
                                            context.bot_data['config']['base_settings'][
                                                'questions_count'][0])
-    questions_random_enabled = context.bot_data.get('questions_random_enabled',
+    questions_random_enabled = context.user_data.get('questions_random_enabled',
                                                     context.bot_data['config'][
                                                         'base_settings'][
                                                         'questions_random_enabled'])
@@ -268,16 +295,20 @@ async def handle_quiz_selection(update: Update, context: CallbackContext, query,
         context.user_data['correct_count'] = 0
         context.user_data['last_quiz'] = quiz_name
         context.user_data['last_category'] = category  # Saving the last category
+        context.user_data['quiz_started_at'] = dt.datetime.utcnow().replace(microsecond=0).isoformat() + 'Z'
         context.user_data['query'] = query
 
-        # Start the timer if enabled
-        if config['base_settings']['timer_enabled']:
-            timer_limit = context.bot_data.get('timer_limit',
-                                               config['base_settings']['timer_limit'][0])
-            context.user_data[
-                'remaining_time'] = timer_limit * 60  # Convert minutes to seconds
-            context.user_data['timer_task'] = asyncio.create_task(
-                start_timer(update, context, timer_limit))
+        # Persist last quiz/category in DB
+        db = context.application.bot_data.get('db')
+        user_id = context.user_data.get('user_id')
+        if db and user_id:
+            await db.update_user_settings(user_id, last_quiz=quiz_name, last_category=category)
+
+        # Start the timer if enabled (use per-user setting)
+        if context.user_data.get('timer_enabled', config['base_settings']['timer_enabled']):
+            timer_limit = context.user_data.get('timer_limit', config['base_settings']['timer_limit'][0])
+            context.user_data['remaining_time'] = timer_limit * 60  # Convert minutes to seconds
+            context.user_data['timer_task'] = asyncio.create_task(start_timer(update, context, timer_limit))
 
         await send_question(update, context, config)
     else:
@@ -294,7 +325,7 @@ async def handle_quiz_response(update: Update, context: CallbackContext, answer:
         context (CallbackContext): The context object from Telegram.
         answer (str): The user's selected answer.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     emoji = context.bot_data['config']['emoji']
     try:
         config = context.bot_data['config']
@@ -375,7 +406,7 @@ async def end_quiz_due_to_time_limit(update: Update, context: CallbackContext):
         update (Update): The update object from Telegram.
         context (CallbackContext): The context object from Telegram.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     config = context.bot_data['config']
     emoji = config['emoji']
     correct_count = context.user_data.get('correct_count', 0)
@@ -391,6 +422,23 @@ async def end_quiz_due_to_time_limit(update: Update, context: CallbackContext):
         result_text += localization.get("quiz_passed")
     else:
         result_text += f"{emoji['failed']} " + localization.get("quiz_failed")
+
+    # Persist attempt in DB
+    db = context.application.bot_data.get('db')
+    user_id = context.user_data.get('user_id')
+    if db and user_id:
+        try:
+            await db.save_quiz_attempt(
+                user_id=user_id,
+                category=context.user_data.get('last_category'),
+                quiz_name=context.user_data.get('last_quiz'),
+                total_questions=total_questions,
+                correct_count=correct_count,
+                started_at=context.user_data.get('quiz_started_at'),
+                finished_at=dt.datetime.utcnow().replace(microsecond=0).isoformat() + 'Z'
+            )
+        except Exception as e:
+            context.bot_data['logger'].error(f"Failed to save quiz attempt: {e}")
 
     keyboard = [
         [InlineKeyboardButton(

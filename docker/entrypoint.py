@@ -67,6 +67,15 @@ def build_config_from_env(base_cfg: dict) -> dict:
         if v:
             cfg.setdefault("proxy_settings", {})[k_cfg] = int(v) if k_cfg == "proxy_port" else v
 
+    # Database
+    db_enabled = os.getenv("QBB_DB_ENABLED")
+    if db_enabled is not None:
+        cfg.setdefault("database", {})["db_enabled"] = _as_bool(db_enabled) or False
+
+    db_path = os.getenv("QBB_DB_PATH")
+    if db_path:
+        cfg.setdefault("database", {})["db_source"] = db_path
+
     return cfg
 
 

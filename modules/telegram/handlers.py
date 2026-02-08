@@ -54,6 +54,44 @@ class BotHandler:
         self.category_handler = CategoryHandler(self.questions_directory, logger)
         self.parse_mode = config['telegram'].get('parse_mode', 'HTML')  # Default to HTML if not specified
 
+    async def ensure_user_context(self, update: Update, context: CallbackContext) -> None:
+        """
+        Ensure per-user context is initialized from database.
+        """
+        # Initialize global bot_data if needed
+        self.initialize_context(context)
+
+        db = context.application.bot_data.get('db')
+        config = context.bot_data['config']
+        default_language = config['telegram']['language']
+
+        # Create or get DB user and settings
+        user_db_id = await db.get_or_create_user(update.effective_user, default_language)
+        language = await db.get_user_language(user_db_id)
+
+        from utils.localization import Localization
+        user_loc = Localization(language)
+
+        # Load settings
+        settings = await db.get_user_settings(user_db_id)
+        questions_count = settings.get('questions_count', config['base_settings']['questions_count'][0])
+        timer_enabled = settings.get('timer_enabled', config['base_settings']['timer_enabled'])
+        timer_limit = settings.get('timer_limit', config['base_settings']['timer_limit'][0])
+        questions_random_enabled = settings.get('questions_random_enabled', config['base_settings']['questions_random_enabled'])
+        last_quiz = settings.get('last_quiz')
+        last_category = settings.get('last_category')
+
+        context.user_data.update({
+            'user_id': user_db_id,
+            'localization': user_loc,
+            'questions_count': questions_count,
+            'timer_enabled': timer_enabled,
+            'timer_limit': timer_limit,
+            'questions_random_enabled': questions_random_enabled,
+            'last_quiz': last_quiz,
+            'last_category': last_category,
+        })
+
     async def start(self, update: Update, context: CallbackContext) -> None:
         """
         Handles the /start command.
@@ -63,7 +101,7 @@ class BotHandler:
             context (CallbackContext): The context object from Telegram.
         """
         try:
-            self.initialize_context(context)
+            await self.ensure_user_context(update, context)
             await show_main_menu(update, context)
             self.log_user_action(update.effective_user.id, "started bot")
         except KeyError as e:
@@ -73,18 +111,13 @@ class BotHandler:
 
     def initialize_context(self, context: CallbackContext) -> None:
         """
-        Initializes the context with default values.
+        Initializes bot-level context values that are global.
 
         Args:
             context (CallbackContext): The context object from Telegram.
         """
         context.bot_data.update({
             'config': self.config,
-            'questions_count': self.config['base_settings']['questions_count'][0],
-            'timer_enabled': self.config['base_settings']['timer_enabled'],
-            'timer_limit': self.config['base_settings']['timer_limit'][0],
-            'questions_random_enabled': self.config['base_settings']['questions_random_enabled'],
-            'localization': self.localization,
             'questions_directory': self.questions_directory,
             'logger': self.logger,
             'parse_mode': self.parse_mode
@@ -117,6 +150,9 @@ class BotHandler:
         }
 
         try:
+            # Ensure per-user context is initialized for every callback
+            await self.ensure_user_context(update, context)
+
             handler = handlers.get(query.data)
             if handler:
                 await handler(update, context)
@@ -147,7 +183,7 @@ class BotHandler:
             update (Update): The update object from Telegram.
             context (CallbackContext): The context object from Telegram.
         """
-        localization = context.bot_data['localization']
+        localization = context.user_data.get('localization', context.bot_data['localization'])
         parse_mode = context.bot_data['parse_mode']
         if update.callback_query and update.callback_query.message:
             await update.callback_query.message.edit_text(localization.get("help_section"), parse_mode=parse_mode)
@@ -208,7 +244,7 @@ class BotHandler:
         """
         last_quiz = context.user_data.get('last_quiz')
         last_category = context.user_data.get('last_category')
-        localization = context.bot_data['localization']
+        localization = context.user_data.get('localization', context.bot_data['localization'])
         parse_mode = context.bot_data['parse_mode']
         if last_quiz and last_category and update.callback_query:
             query_data = f"quiz_{last_quiz}_{last_category}"
@@ -219,18 +255,25 @@ class BotHandler:
 
     async def set_language(self, update: Update, context: CallbackContext, language: str) -> None:
         """
-        Sets the language for the bot's messages.
-
-        Args:
-            update (Update): The update object from Telegram.
-            context (CallbackContext): The context object from Telegram.
-            language (str): The language code selected by the user.
+        Sets the language for the bot's messages for the current user only.
         """
-        self.localization = Localization(language)
-        context.bot_data['localization'] = self.localization
+        # Normalize language code
+        lang = language.lower()
+        if lang == 'uk':
+            lang = 'ua'
+
+        # Update DB and user context
+        db = context.application.bot_data.get('db')
+        user_id = context.user_data.get('user_id')
+        if user_id:
+            await db.update_user_language(user_id, lang)
+
+        from utils.localization import Localization
+        context.user_data['localization'] = Localization(lang)
+
         parse_mode = context.bot_data['parse_mode']
         if update.callback_query and update.callback_query.message:
-            await update.callback_query.message.edit_text(self.localization.get("language_changed"), parse_mode=parse_mode)
+            await update.callback_query.message.edit_text(context.user_data['localization'].get("language_changed"), parse_mode=parse_mode)
         await show_main_menu(update, context)
 
     @staticmethod

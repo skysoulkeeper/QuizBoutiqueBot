@@ -45,7 +45,7 @@ async def show_language_menu(update: Update, context: CallbackContext) -> None:
         update (Update): The incoming update from Telegram.
         context (CallbackContext): The context containing bot and user data.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     config = context.bot_data['config']
     parse_mode = context.bot_data['parse_mode']
     languages = get_available_languages(config)
@@ -76,7 +76,7 @@ async def show_main_menu(update: Update, context: CallbackContext) -> None:
         update (Update): The incoming update from Telegram.
         context (CallbackContext): The context containing bot and user data.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     config = context.bot_data['config']
     emoji = config['emoji']
     parse_mode = context.bot_data['parse_mode']
@@ -115,7 +115,7 @@ async def show_tests_menu(update: Update, context: CallbackContext,
         questions_directory (Path): Path to the directory containing quiz questions.
         logger: Logger for logging information and errors.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     config = context.bot_data['config']
     parse_mode = context.bot_data['parse_mode']
     category_handler = CategoryHandler(questions_directory, logger)
@@ -145,24 +145,20 @@ async def show_settings_menu(update: Update, context: CallbackContext) -> None:
         update (Update): The incoming update from Telegram.
         context (CallbackContext): The context containing bot and user data.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     config = context.bot_data['config']
     emoji = config['emoji']
     parse_mode = context.bot_data['parse_mode']
 
-    current_count = context.bot_data.get('questions_count',
-                                         config['base_settings']['questions_count'][0])
-    timer_status = localization.get("enabled") if context.bot_data.get('timer_enabled',
-                                                                       config[
-                                                                           'base_settings'][
-                                                                           'timer_enabled']) else localization.get(
-        "disabled")
-    current_timer = context.bot_data.get('timer_limit',
-                                         config['base_settings']['timer_limit'][0])
-    questions_random_status = localization.get("enabled") if context.bot_data.get(
+    current_count = context.user_data.get('questions_count',
+                                          config['base_settings']['questions_count'][0])
+    timer_status = localization.get("enabled") if context.user_data.get('timer_enabled',
+                                                                         config['base_settings']['timer_enabled']) else localization.get("disabled")
+    current_timer = context.user_data.get('timer_limit',
+                                          config['base_settings']['timer_limit'][0])
+    questions_random_status = localization.get("enabled") if context.user_data.get(
         'questions_random_enabled',
-        config['base_settings']['questions_random_enabled']) else localization.get(
-        "disabled")
+        config['base_settings']['questions_random_enabled']) else localization.get("disabled")
 
     keyboard = [
         [InlineKeyboardButton(
@@ -199,7 +195,7 @@ async def show_questions_count_menu(update: Update, context: CallbackContext) ->
         update (Update): The incoming update from Telegram.
         context (CallbackContext): The context containing bot and user data.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     config = context.bot_data['config']
     parse_mode = context.bot_data['parse_mode']
     questions_counts = config['base_settings']['questions_count']
@@ -225,7 +221,7 @@ async def show_timer_menu(update: Update, context: CallbackContext) -> None:
         update (Update): The incoming update from Telegram.
         context (CallbackContext): The context containing bot and user data.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     config = context.bot_data['config']
     parse_mode = context.bot_data['parse_mode']
     emoji = config['emoji']
@@ -253,7 +249,7 @@ async def show_timer_limit_menu(update: Update, context: CallbackContext) -> Non
         update (Update): The incoming update from Telegram.
         context (CallbackContext): The context containing bot and user data.
     """
-    localization = context.bot_data['localization']
+    localization = context.user_data.get('localization', context.bot_data['localization'])
     config = context.bot_data['config']
     parse_mode = context.bot_data['parse_mode']
     timer_limits = config['base_settings']['timer_limit']

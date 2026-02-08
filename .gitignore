@@ -9,6 +9,11 @@ reports/
 # Development configuration
 config.dev.yml
 
+# SQLite database files
+data/db/*.db
+data/db/*.db-wal
+data/db/*.db-shm
+
 # Editors
 .vscode/
 .idea/

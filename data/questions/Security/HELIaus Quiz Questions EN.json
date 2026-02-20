@@ -1,0 +1,103 @@
+[
+  {
+    "question": "What is a Zone?",
+    "answers": [
+      "A. HELIAUS® uses zones to tell Security Professionals how to fill out reports",
+      "B. HELIAUS® uses zones to Alert Security Professionals of a Task",
+      "C. HELIAUS® uses zones to direct Security Professionals where to go",
+      "D. None of the above"
+    ],
+    "correct_answer": "C",
+    "explanation": "Zones are used to route/direct Security Professionals to specific locations."
+  },
+  {
+    "question": "Workflows give the Security Professional direction on what to do while at a zone and may have followup actions such as photos or completing a report",
+    "answers": [
+      "A. True",
+      "B. False"
+    ],
+    "correct_answer": "A",
+    "explanation": "The statement defines workflows as instructions at a zone plus follow-up actions."
+  },
+  {
+    "question": "Tasks and messages assigned by my supervisor from Mercury will appear on my HELIAUS® device tasks and messages app",
+    "answers": [
+      "A. True",
+      "B. False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Supervisor-assigned tasks/messages in Mercury show up in the HELIAUS tasks/messages app."
+  },
+  {
+    "question": "HELIAUS® compares your last six digits of your social security number and date of birth to verify your identity against the Allied Universal Employee Database (WinTeam). What happens to this information after the comparison is completed?",
+    "answers": [
+      "A. It is securely shredded and not retained by HELIAUS. It is only used during the HELIAUS® Log In registration process."
+    ],
+    "correct_answer": "A",
+    "explanation": "The quiz states the data is used only for login/registration verification and not retained."
+  },
+  {
+    "question": "When completing an activity or event report I must always",
+    "answers": [
+      "A. Enter a phone number of a victim",
+      "B. Scan a Tag",
+      "C. Select the zone closest to where the activity occurred",
+      "D. Find a witness and document their information"
+    ],
+    "correct_answer": "C",
+    "explanation": "Activity/event reporting requires associating the report with the nearest/appropriate zone."
+  },
+  {
+    "question": "Incident Reporting is different from Activity or Event Reporting because",
+    "answers": [
+      "A. It requires less information than an event or activity report",
+      "B. It requires more information than an event or activity report",
+      "C. It requires capturing the who, what, where, when and sometimes why the incident happened",
+      "D. Both B & C"
+    ],
+    "correct_answer": "D",
+    "explanation": "Incident reports require more detail, including key facts (who/what/where/when/why)."
+  },
+  {
+    "question": "To scan an NFC tag:",
+    "answers": [
+      "A. Place the back of the HELIAUS® device within 4 cm of the front of the NFC tag",
+      "B. Open the camera and scan the dots on the front of the tag",
+      "C. Stand back and and point the top of the HELIAUS® device at the NFC tag",
+      "D. Wave the HELIAUS® device in a circle a distance of 10 feet from the NFC tag"
+    ],
+    "correct_answer": "A",
+    "explanation": "NFC requires close proximity; the quiz specifies the back of the device within 4 cm."
+  },
+  {
+    "question": "Triggering beacons requires the Security Professional to go to the designated zone and walk into the area",
+    "answers": [
+      "A. True",
+      "B. False"
+    ],
+    "correct_answer": "A",
+    "explanation": "Beacons trigger based on entering the zone/area."
+  },
+  {
+    "question": "If a Dynamic tour routes you to a zone with an NFC tag, do you need to scan the NFC tag?",
+    "answers": [
+      "A. No, HELIAUS® will automatically detect I am at the zone",
+      "B. No, you don’t need to scan anything for a dynamic tour",
+      "C. Yes, zones with a Location Identifier should be scanned for both Static and Dynamic Tours",
+      "D. No, there is no need to visit this zone anyway"
+    ],
+    "correct_answer": "C",
+    "explanation": "Zones with a Location Identifier (NFC) must be scanned on both static and dynamic tours."
+  },
+  {
+    "question": "The Security Professional Leaderboard shows me",
+    "answers": [
+      "A. How effective I am using HELIAUS® to perform site activities",
+      "B. Shows my point total for the work I do at my site",
+      "C. Shows how I compare to the other Security Professionals at my site",
+      "D. All of the above"
+    ],
+    "correct_answer": "D",
+    "explanation": "Leaderboard includes effectiveness, point totals, and comparison to others."
+  }
+]
